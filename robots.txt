@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# This site is private and should not be indexed by search engines
