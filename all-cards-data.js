@@ -497,3 +497,4 @@ const allMasonCards = [
     { number: "483", player: "Ty Madden", team: "Detroit Tigers", value: 1.39, imageUrl: "https://storage.googleapis.com/collx-user-cards/2550762-647405227-front.jpg" },
     { number: "650", player: "Adley Rutschman", team: "Baltimore Orioles", value: 1.25, imageUrl: "https://storage.googleapis.com/collx-user-cards/2550762-647404559-front.jpg" },
     { number: "SS-47", player: "Gerrit Cole", team: "New York Yankees", value: 1.39, imageUrl: "https://storage.googleapis.com/collx-user-cards/2550762-647403863-front.jpg" },
+];
