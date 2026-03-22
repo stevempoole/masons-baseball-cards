@@ -82,7 +82,7 @@
             const totalValue = cardsData.reduce((sum, card) => sum + card.value, 0);
             
             document.getElementById('totalCards').textContent = totalCards.toLocaleString();
-            document.getElementById('totalValue').textContent = `$${totalValue.toLocaleString()}`;
+            document.getElementById('totalValue').textContent = `$${totalValue.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
         }
 
         function populateTeamFilter() {
@@ -153,7 +153,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="card-number">#${card.number}</div>
-                        <div class="card-value">$${card.value.toLocaleString()}</div>
+                        <div class="card-value">$${card.value.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</div>
                     </div>
                     <div class="player-name">${card.player}</div>
                     <div class="team-name">${card.team}</div>
