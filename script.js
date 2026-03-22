@@ -203,22 +203,22 @@ function renderCards() {
     }
     
     cardGrid.innerHTML = filteredCards.map(card => `
-        <div class="card" onclick="viewCardImage('${card.imageUrl}', '${card.player}')">
+        <div class="card">
             <div class="card-header">
                 <div class="card-number">#${card.number}</div>
                 <div class="card-value">$${card.value.toLocaleString()}</div>
             </div>
             <div class="player-name">${card.player}</div>
             <div class="team-name">${card.team}</div>
-            <div class="card-image-container">
+            <div class="card-image-container" onclick="viewCardImage('${card.imageUrl}', '${card.player}')">
                 ${card.imageUrl ? 
                     `<img src="${card.imageUrl}" alt="${card.player}" class="card-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                      <div class="image-placeholder" style="display: none;">🃏</div>` :
                     `<div class="image-placeholder">🃏</div>`
                 }
             </div>
-            <button class="view-image-btn" onclick="event.stopPropagation(); viewCardImage('${card.imageUrl}', '${card.player}')">
-                View Card Image
+            <button class="view-image-btn" onclick="viewCardImage('${card.imageUrl}', '${card.player}')">
+                View Full Size
             </button>
         </div>
     `).join('');
