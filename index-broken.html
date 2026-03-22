@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Mason's Baseball Card Collection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Password Protection Screen -->
+    <div id="passwordScreen" class="password-screen">
+        <div class="password-container">
+            <div class="baseball-icon">⚾</div>
+            <h1>Mason's Baseball Card Collection</h1>
+            <p>Enter the password to view the collection</p>
+            <form onsubmit="checkPassword(); return false;">
+                <div class="password-input-group">
+                    <input type="password" id="passwordInput" placeholder="Password" maxlength="50" required>
+                    <button type="submit">Enter</button>
+                </div>
+            </form>
+            <div id="passwordError" class="error-message" style="display: none;">
+                Incorrect password. Try again!
+            </div>
+            <div style="margin-top: 20px; font-size: 12px; color: rgba(255,255,255,0.6);">
+                Password: mason
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Collection Site -->
+    <div id="mainSite" class="main-site" style="display: none;">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>⚾ Mason's Baseball Card Collection</h1>
+                <div class="collection-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="totalCards">0</span>
+                        <span class="stat-label">Cards</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="totalValue">$0</span>
+                        <span class="stat-label">Total Value</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="uniqueTeams">0</span>
+                        <span class="stat-label">Teams</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search and Filters -->
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search by player name or team..." onkeyup="filterCards()">
+            </div>
+            <div class="filter-container">
+                <select id="teamFilter" onchange="filterCards()">
+                    <option value="">All Teams</option>
+                </select>
+                <select id="sortSelect" onchange="sortCards()">
+                    <option value="name">Sort by Name</option>
+                    <option value="value">Sort by Value</option>
+                    <option value="team">Sort by Team</option>
+                    <option value="number">Sort by Number</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Card Grid -->
+        <div id="cardGrid" class="card-grid">
+            <!-- Cards will be populated by JavaScript -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 Mason's Baseball Card Collection | Private Collection</p>
+        </footer>
+    </div>
+
+    <!-- Backup: Simple redirect if JavaScript fails -->
+    <noscript>
+        <div style="background: #1a4c3a; color: white; padding: 20px; text-align: center;">
+            <p>JavaScript is required to view this collection.</p>
+            <p>Please enable JavaScript and refresh the page.</p>
+        </div>
+    </noscript>
+
+    <script>
+        // Test if JavaScript is working
+        console.log('🔧 Testing JavaScript...');
+        
+        // Simple backup password check
+        window.testLogin = function() {
+            const pwd = prompt('Enter password:');
+            if (pwd === 'mason') {
+                document.getElementById('passwordScreen').style.display = 'none';
+                document.getElementById('mainSite').style.display = 'block';
+                location.reload();
+            } else {
+                alert('Incorrect password');
+            }
+        };
+    </script>
+    
+    <script src="all-cards-data.js"></script>
+    <script src="script.js"></script>
+    
+    <!-- Add backup login button if main one fails -->
+    <script>
+        setTimeout(function() {
+            if (document.getElementById('passwordInput')) {
+                const backup = document.createElement('button');
+                backup.innerHTML = 'Backup Login';
+                backup.onclick = testLogin;
+                backup.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#DF4601;color:white;padding:10px;border:none;border-radius:5px;cursor:pointer;';
+                document.body.appendChild(backup);
+            }
+        }, 2000);
+    </script>
+</body>
+</html>
