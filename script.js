@@ -3,6 +3,9 @@ const SITE_PASSWORD = 'mason'; // Simple password for Mason's collection
 let cardsData = [];
 let filteredCards = [];
 
+// Debug: Log when script loads
+console.log('🍌 Mason\'s Baseball Card Collection - Script Loaded!');
+
 // Password Protection
 function checkPassword() {
     const input = document.getElementById('passwordInput');

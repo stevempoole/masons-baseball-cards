@@ -15,12 +15,17 @@
             <div class="baseball-icon">⚾</div>
             <h1>Mason's Baseball Card Collection</h1>
             <p>Enter the password to view the collection</p>
-            <div class="password-input-group">
-                <input type="password" id="passwordInput" placeholder="Password" maxlength="50">
-                <button onclick="checkPassword()">Enter</button>
-            </div>
+            <form onsubmit="checkPassword(); return false;">
+                <div class="password-input-group">
+                    <input type="password" id="passwordInput" placeholder="Password" maxlength="50" required>
+                    <button type="submit">Enter</button>
+                </div>
+            </form>
             <div id="passwordError" class="error-message" style="display: none;">
                 Incorrect password. Try again!
+            </div>
+            <div style="margin-top: 20px; font-size: 12px; color: rgba(255,255,255,0.6);">
+                Password: mason
             </div>
         </div>
     </div>
@@ -77,7 +82,45 @@
         </footer>
     </div>
 
+    <!-- Backup: Simple redirect if JavaScript fails -->
+    <noscript>
+        <div style="background: #1a4c3a; color: white; padding: 20px; text-align: center;">
+            <p>JavaScript is required to view this collection.</p>
+            <p>Please enable JavaScript and refresh the page.</p>
+        </div>
+    </noscript>
+
+    <script>
+        // Test if JavaScript is working
+        console.log('🔧 Testing JavaScript...');
+        
+        // Simple backup password check
+        window.testLogin = function() {
+            const pwd = prompt('Enter password:');
+            if (pwd === 'mason') {
+                document.getElementById('passwordScreen').style.display = 'none';
+                document.getElementById('mainSite').style.display = 'block';
+                location.reload();
+            } else {
+                alert('Incorrect password');
+            }
+        };
+    </script>
+    
     <script src="all-cards-data.js"></script>
     <script src="script.js"></script>
+    
+    <!-- Add backup login button if main one fails -->
+    <script>
+        setTimeout(function() {
+            if (document.getElementById('passwordInput')) {
+                const backup = document.createElement('button');
+                backup.innerHTML = 'Backup Login';
+                backup.onclick = testLogin;
+                backup.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#DF4601;color:white;padding:10px;border:none;border-radius:5px;cursor:pointer;';
+                document.body.appendChild(backup);
+            }
+        }, 2000);
+    </script>
 </body>
 </html>
