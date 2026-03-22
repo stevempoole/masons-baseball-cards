@@ -1,5 +1,5 @@
 // Configuration
-const SITE_PASSWORD = 'mason613'; // Password based on total number of cards in collection
+const SITE_PASSWORD = 'mason'; // Simple password for Mason's collection
 let cardsData = [];
 let filteredCards = [];
 
@@ -9,6 +9,9 @@ function checkPassword() {
     const password = input.value.trim();
     const errorDiv = document.getElementById('passwordError');
     
+    console.log('Password entered:', password);
+    console.log('Expected password:', SITE_PASSWORD);
+    
     if (password === SITE_PASSWORD) {
         document.getElementById('passwordScreen').style.display = 'none';
         document.getElementById('mainSite').style.display = 'block';
@@ -17,6 +20,7 @@ function checkPassword() {
         sessionStorage.setItem('authenticated', 'true');
     } else {
         errorDiv.style.display = 'block';
+        errorDiv.innerHTML = `Incorrect password. Try again! (Entered: "${password}")`;
         input.value = '';
         input.focus();
         setTimeout(() => {

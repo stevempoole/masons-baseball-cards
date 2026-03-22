@@ -49,13 +49,13 @@ If you get authentication errors, you may need to set up a GitHub personal acces
 
 ## Step 5: Customize (Optional)
 
-- **Change Password**: Edit `SITE_PASSWORD` in `script.js` (currently 'mason613')
+- **Change Password**: Edit `SITE_PASSWORD` in `script.js` (currently 'mason')
 - **Update Colors**: Modify colors in `styles.css`
 - **Add More Cards**: Update the data array in `script.js`
 
 ## 🔐 Current Settings
 
-- **Password**: `mason613` (represents the 613 cards in Mason's collection!)
+- **Password**: `mason` (simple and easy to remember!)
 - **Search Engine Blocking**: ✅ Enabled (robots.txt + noindex)
 - **Mobile Responsive**: ✅ Enabled
 - **Password Protection**: ✅ Session-based

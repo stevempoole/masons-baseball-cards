@@ -29,7 +29,7 @@ A private, password-protected website to showcase Mason's baseball card collecti
 
 ## Password
 
-Current password: `mason613` (total number of cards in the collection!)
+Current password: `mason` (simple and easy to remember!)
 
 ## Security Features
 
