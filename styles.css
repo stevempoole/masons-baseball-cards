@@ -144,12 +144,7 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.baseball-header-icon {
-    display: inline-block;
-    margin-right: 0.5rem;
-    vertical-align: middle;
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
-}
+
 
 .collection-stats {
     display: flex;
