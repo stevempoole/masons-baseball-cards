@@ -156,6 +156,40 @@ body {
     -webkit-text-fill-color: unset !important;
     background-clip: unset !important;
     color: #fff;
+    /* Fallback for emoji rendering issues */
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+    vertical-align: middle;
+}
+
+.baseball-css-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: radial-gradient(circle at 30% 30%, #fff 60%, #f0f0f0 70%);
+    border-radius: 50%;
+    position: relative;
+    margin-right: 0.5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.baseball-css-icon::before,
+.baseball-css-icon::after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 70%;
+    height: 2px;
+    background: #cc0000;
+    border-radius: 2px;
+}
+
+.baseball-css-icon::before {
+    transform: rotate(-20deg);
+}
+
+.baseball-css-icon::after {
+    transform: rotate(20deg) translateY(15px);
 }
 
 .collection-stats {
