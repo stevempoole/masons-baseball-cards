@@ -24,10 +24,6 @@
                         <span class="stat-number" id="totalValue">$0</span>
                         <span class="stat-label">Total Value</span>
                     </div>
-                    <div class="stat">
-                        <span class="stat-number" id="uniqueTeams">0</span>
-                        <span class="stat-label">Teams</span>
-                    </div>
                 </div>
             </div>
         </header>
@@ -84,11 +80,9 @@
         function updateStats() {
             const totalCards = cardsData.length;
             const totalValue = cardsData.reduce((sum, card) => sum + card.value, 0);
-            const uniqueTeams = [...new Set(cardsData.map(card => card.team))].length;
             
             document.getElementById('totalCards').textContent = totalCards.toLocaleString();
             document.getElementById('totalValue').textContent = `$${totalValue.toLocaleString()}`;
-            document.getElementById('uniqueTeams').textContent = uniqueTeams;
         }
 
         function populateTeamFilter() {
