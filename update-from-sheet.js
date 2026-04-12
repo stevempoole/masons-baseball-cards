@@ -7,7 +7,7 @@ const { execSync } = require('child_process');
 console.log('🍌 Mason\'s Baseball Card Collection - Sheet Update');
 console.log('================================================');
 
-const EXCEL_FILE = require('path').join(require('os').homedir(), 'Desktop', 'masons-cards-updated.xlsx');
+const EXCEL_FILE = require('path').join(require('os').homedir(), 'Desktop', 'masons-cards-FIXED.xlsx');
 const OUTPUT_FILE = 'all-cards-data.js';
 
 // Check if Excel file exists
