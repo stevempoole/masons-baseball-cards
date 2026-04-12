@@ -51,6 +51,8 @@ document.addEventListener('keyup', function(event) {
 });
 
 // Mason's Complete Baseball Card Collection - ALL 613 Cards!
+// Data now loaded from all-cards-data.js external file
+/*
 const allMasonCards = [
     { number: "US180", player: "Jacob Wilson", team: "Oakland Athletics", value: 8.75, imageUrl: "https://storage.googleapis.com/collx-product-images/1028436547747192832-1-I3nn.jpg" },
     { number: "SMLB-64", player: "Chandler Simpson", team: "Tampa Bay Rays", value: 0.99, imageUrl: "https://storage.googleapis.com/collx-product-images/1028436353534140416-1-5dC7.jpg" },
@@ -120,11 +122,12 @@ const allMasonCards = [
     { number: "90ASC-43", player: "Mickey Mantle", team: "New York Yankees", value: 13.0, imageUrl: "https://storage.googleapis.com/collx-user-cards/2550762-653193903-front.jpg" },
     { number: "2", player: "Sandy Koufax", team: "Los Angeles Dodgers", value: 15.0, imageUrl: "https://storage.googleapis.com/collx-product-images/964891365711768576-1-QaTb.jpg" }
 ];
+*/
 
 // Load and process cards data
 function loadCardsData() {
-    // Load Mason's complete 613-card collection
-    cardsData = allMasonCards;
+    // Load Mason's complete card collection from cardsDatabase
+    cardsData = cardsDatabase;
     filteredCards = [...cardsData];
     
     updateStats();
