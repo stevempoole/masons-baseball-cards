@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Mason's Baseball Card Collection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main Collection Site - No Password Required -->
+    <div id="mainSite" class="main-site">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-title">
+                    <span class="baseball-emoji">⚾</span>
+                    <h1>Mason's Baseball Card Collection</h1>
+                </div>
+                <div class="collection-stats">
+                    <div class="stat">
+                        <span class="stat-number" id="totalCards">0</span>
+                        <span class="stat-label">Cards</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="totalValue">$0</span>
+                        <span class="stat-label">Total Value</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="uniqueTeams">0</span>
+                        <span class="stat-label">Teams</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="control-group">
+                <input type="text" id="searchInput" placeholder="Search players, teams, or card numbers..." onkeyup="filterCards()">
+            </div>
+            <div class="control-group">
+                <select id="teamFilter" onchange="filterCards()">
+                    <option value="">All Teams</option>
+                </select>
+                <select id="sortSelect" onchange="sortCards()">
+                    <option value="name">Sort by Name</option>
+                    <option value="value">Sort by Value (High to Low)</option>
+                    <option value="team">Sort by Team</option>
+                    <option value="number">Sort by Card Number</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Card Grid -->
+        <div id="cardGrid" class="card-grid">
+            <div class="loading">
+                Loading cards...
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Mason's Baseball Card Collection | Last updated: April 12, 2026</p>
+        </footer>
+    </div>
+
+    <script src="all-cards-data.js"></script>
+    <script>
+        // Fixed script - uses cardsDatabase directly
+        let cardsData = [];
+        let filteredCards = [];
+
+        // Load cards immediately when page loads
+        window.addEventListener('load', function() {
+            console.log('🍌 Page loaded, initializing cards...');
+            loadCardsData();
+        });
+
+        function loadCardsData() {
+            console.log('🔍 Loading cards data...');
+            
+            // Use cardsDatabase from all-cards-data.js
+            if (typeof cardsDatabase !== 'undefined') {
+                cardsData = cardsDatabase;
+                filteredCards = [...cardsData];
+                
+                console.log('✅ Loaded', cardsData.length, 'cards');
+                
+                updateStats();
+                populateTeamFilter();
+                renderCards();
+            } else {
+                console.error('❌ cardsDatabase not found!');
+                document.getElementById('cardGrid').innerHTML = '<div class="loading">Error: Card data not found</div>';
+            }
+        }
+
+        // Update collection statistics
+        function updateStats() {
+            const totalCards = cardsData.length;
+            const totalValue = cardsData.reduce((sum, card) => sum + card.value, 0);
+            const uniqueTeams = [...new Set(cardsData.map(card => card.team))].length;
+
+            document.getElementById('totalCards').textContent = totalCards.toLocaleString();
+            document.getElementById('totalValue').textContent = `$${totalValue.toLocaleString()}`;
+            document.getElementById('uniqueTeams').textContent = uniqueTeams;
+            
+            console.log('📊 Stats updated:', totalCards, 'cards, $' + totalValue.toFixed(2));
+        }
+
+        // Populate team filter dropdown
+        function populateTeamFilter() {
+            const teamFilter = document.getElementById('teamFilter');
+            const teams = [...new Set(cardsData.map(card => card.team))].sort();
+
+            // Clear existing options except "All Teams"
+            teamFilter.innerHTML = '<option value="">All Teams</option>';
+
+            teams.forEach(team => {
+                const option = document.createElement('option');
+                option.value = team;
+                option.textContent = team;
+                teamFilter.appendChild(option);
+            });
+        }
+
+        // Filter cards based on search and team filter
+        function filterCards() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const selectedTeam = document.getElementById('teamFilter').value;
+
+            filteredCards = cardsData.filter(card => {
+                const matchesSearch = card.player.toLowerCase().includes(searchTerm) ||
+                                    card.team.toLowerCase().includes(searchTerm) ||
+                                    card.number.toLowerCase().includes(searchTerm);
+                const matchesTeam = !selectedTeam || card.team === selectedTeam;
+
+                return matchesSearch && matchesTeam;
+            });
+
+            renderCards();
+        }
+
+        // Sort cards
+        function sortCards() {
+            const sortBy = document.getElementById('sortSelect').value;
+
+            filteredCards.sort((a, b) => {
+                switch (sortBy) {
+                    case 'name':
+                        return a.player.localeCompare(b.player);
+                    case 'value':
+                        return b.value - a.value; // Descending order for value
+                    case 'team':
+                        return a.team.localeCompare(b.team);
+                    case 'number':
+                        return a.number.localeCompare(b.number);
+                    default:
+                        return 0;
+                }
+            });
+
+            renderCards();
+        }
+
+        // Render cards to the grid
+        function renderCards() {
+            const cardGrid = document.getElementById('cardGrid');
+            
+            if (filteredCards.length === 0) {
+                cardGrid.innerHTML = `
+                    <div class="loading" style="grid-column: 1 / -1;">
+                        <div>No cards found matching your criteria</div>
+                    </div>
+                `;
+                return;
+            }
+
+            cardGrid.innerHTML = filteredCards.map(card => `
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-number">#${card.number}</div>
+                        <div class="card-value">$${card.value.toLocaleString()}</div>
+                    </div>
+                    <div class="player-name">${card.player}</div>
+                    <div class="team-name">${card.team}</div>
+                    <div class="card-image-container" onclick="viewCardImage('${card.imageUrl}', '${card.player}')">
+                        ${card.imageUrl ? 
+                            `<img src="${card.imageUrl}" alt="${card.player}" class="card-image" 
+                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                             <div class="image-placeholder" style="display: none;">🃏</div>` :
+                            `<div class="image-placeholder">🃏</div>`
+                        }
+                    </div>
+                    <button class="view-image-btn" onclick="viewCardImage('${card.imageUrl}', '${card.player}')">
+                        View Full Size
+                    </button>
+                </div>
+            `).join('');
+            
+            console.log('🎨 Rendered', filteredCards.length, 'cards to grid');
+        }
+
+        // View card image in new tab
+        function viewCardImage(imageUrl, playerName) {
+            if (imageUrl && imageUrl !== 'undefined') {
+                window.open(imageUrl, '_blank');
+            } else {
+                alert(`No image available for ${playerName}`);
+            }
+        }
+    </script>
+</body>
+</html>
