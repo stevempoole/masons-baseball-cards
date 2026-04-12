@@ -278,4 +278,4 @@ document.addEventListener('DOMContentLoaded', function() {
     if (passwordInput) {
         passwordInput.focus();
     }
-});
+});/* Force GitHub Pages refresh Sun Apr 12 13:34:54 EDT 2026 */
