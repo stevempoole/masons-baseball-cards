@@ -1,6 +1,6 @@
 // Mason's Baseball Card Collection Data
 // Auto-generated from ./masons-cards-updated.xlsx
-// Last updated: 2026-05-01T18:36:15.123Z
+// Last updated: 2026-05-01T18:28:31.867Z
 // Total cards: 924
 
 const cardsDatabase = [
@@ -41,7 +41,7 @@ const cardsDatabase = [
   },
   {
     "number": "ATT-4",
-    "player": "José Ramírez",
+    "player": "Jos√© Ram√≠rez",
     "team": "Cleveland Guardians",
     "value": 1.34,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1056531836643837952-1-ejYE.jpg"
@@ -55,7 +55,7 @@ const cardsDatabase = [
   },
   {
     "number": "U90-3",
-    "player": "Julio Rodríguez",
+    "player": "Julio Rodr√≠guez",
     "team": "Seattle Mariners",
     "value": 1.42,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1056531477653358592-1-e7pt.jpg"
@@ -132,7 +132,7 @@ const cardsDatabase = [
   },
   {
     "number": "240",
-    "player": "Julio Rodríguez",
+    "player": "Julio Rodr√≠guez",
     "team": "Seattle Mariners",
     "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053203429718237184-1-unMH.jpg"
@@ -223,7 +223,7 @@ const cardsDatabase = [
   },
   {
     "number": "63",
-    "player": "Jesúss Luzardo",
+    "player": "Jes√∫s Luzardo",
     "team": "Philadelphia Phillies",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048882809272279040-1-w8oP.jpg"
@@ -363,7 +363,7 @@ const cardsDatabase = [
   },
   {
     "number": "BTP-7",
-    "player": "Ronald Acuña Jr.",
+    "player": "Ronald Acu√±a Jr.",
     "team": "Atlanta Braves",
     "value": 1.64,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048876747169210368-1-7oCR.jpg"
@@ -384,7 +384,7 @@ const cardsDatabase = [
   },
   {
     "number": "SMLB-4",
-    "player": "Julio Rodríguez",
+    "player": "Julio Rodr√≠guez",
     "team": "Seattle Mariners",
     "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048876082279751680-1-4RAl.jpg"
@@ -461,7 +461,7 @@ const cardsDatabase = [
   },
   {
     "number": "T91-69",
-    "player": "José Ramírez",
+    "player": "Jos√© Ram√≠rez",
     "team": "Cleveland Guardians",
     "value": 1.59,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048819678551477248-1-H0ke.jpg"
@@ -811,7 +811,7 @@ const cardsDatabase = [
   },
   {
     "number": "205",
-    "player": "Julio Rodríguez",
+    "player": "Julio Rodr√≠guez",
     "team": "Seattle Mariners",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046581592099916800-1-Q1eJ.jpg"
@@ -1476,7 +1476,7 @@ const cardsDatabase = [
   },
   {
     "number": "95C-19",
-    "player": "José Ramírez",
+    "player": "Jos√© Ram√≠rez",
     "team": "Cleveland Guardians",
     "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1039462060702051328-1-pJsX.jpg"
@@ -1700,7 +1700,7 @@ const cardsDatabase = [
   },
   {
     "number": "ROY-15",
-    "player": "Kevin Alcántara",
+    "player": "Kevin Alc√°ntara",
     "team": "Chicago Cubs",
     "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1034436486586485760-1-9D9D.jpg"
@@ -1721,7 +1721,7 @@ const cardsDatabase = [
   },
   {
     "number": "AFLS-6",
-    "player": "Kevin Alcántara",
+    "player": "Kevin Alc√°ntara",
     "team": "Chicago Cubs",
     "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1033719030868872192-1-uuT8.jpg"
@@ -1791,7 +1791,7 @@ const cardsDatabase = [
   },
   {
     "number": "32",
-    "player": "Luisangel Acuña",
+    "player": "Luisangel Acu√±a",
     "team": "New York Mets",
     "value": 0.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1032994504205370368-1-KvAC.jpg"
@@ -2120,7 +2120,7 @@ const cardsDatabase = [
   },
   {
     "number": "US12",
-    "player": "Andrés Muñoz",
+    "player": "Andr√©s Mu√±oz",
     "team": "Seattle Mariners",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028433023265153024-1-hwe7.jpg"
@@ -2540,7 +2540,7 @@ const cardsDatabase = [
   },
   {
     "number": "505",
-    "player": "José Miranda",
+    "player": "Jos√© Miranda",
     "team": "Minnesota Twins",
     "value": 0.73,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022735437762430976-1-rn8K.jpg"
@@ -2701,7 +2701,7 @@ const cardsDatabase = [
   },
   {
     "number": "CT-8",
-    "player": "José Ramírez",
+    "player": "Jos√© Ram√≠rez",
     "team": "Cleveland Guardians",
     "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022723497493301248-1-Sfzd.jpg"
@@ -2918,14 +2918,14 @@ const cardsDatabase = [
   },
   {
     "number": "4",
-    "player": "Ronald Acuña Jr.",
+    "player": "Ronald Acu√±a Jr.",
     "team": "Atlanta Braves",
     "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022127409167869952-1-8EYb.jpg"
   },
   {
     "number": "115",
-    "player": "Luisangel Acuña",
+    "player": "Luisangel Acu√±a",
     "team": "New York Mets",
     "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022127216733202432-1-Ga81.jpg"
@@ -3282,7 +3282,7 @@ const cardsDatabase = [
   },
   {
     "number": "185",
-    "player": "Julio Rodríguez",
+    "player": "Julio Rodr√≠guez",
     "team": "Seattle Mariners",
     "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022109098573047808-1-NjTO.jpg"
@@ -3359,7 +3359,7 @@ const cardsDatabase = [
   },
   {
     "number": "11",
-    "player": "José Ramírez",
+    "player": "Jos√© Ram√≠rez",
     "team": "Cleveland Guardians",
     "value": 1.36,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022105766500509696-1-NpO.jpg"
@@ -3534,7 +3534,7 @@ const cardsDatabase = [
   },
   {
     "number": "272",
-    "player": "José Berríos",
+    "player": "Jos√© Berr√≠os",
     "team": "Toronto Blue Jays",
     "value": 2.17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017448704745149440-1-KP4.jpg"
@@ -3716,7 +3716,7 @@ const cardsDatabase = [
   },
   {
     "number": "TP-9",
-    "player": "José Ramírez",
+    "player": "Jos√© Ram√≠rez",
     "team": "Cleveland Guardians",
     "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1006205917022409728-1-W8P7.jpg"
@@ -3730,7 +3730,7 @@ const cardsDatabase = [
   },
   {
     "number": "SMLB-4",
-    "player": "Julio Rodríguez",
+    "player": "Julio Rodr√≠guez",
     "team": "Seattle Mariners",
     "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1006204654336109568-1-Lppw.jpg"
@@ -3807,7 +3807,7 @@ const cardsDatabase = [
   },
   {
     "number": "PR-33",
-    "player": "José Ramírez",
+    "player": "Jos√© Ram√≠rez",
     "team": "Cleveland Guardians",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1005485844316293120-1-grIX.jpg"
@@ -3996,7 +3996,7 @@ const cardsDatabase = [
   },
   {
     "number": "50",
-    "player": "Jeremy Peña",
+    "player": "Jeremy Pe√±a",
     "team": "Houston Astros",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/974302780947109888-1-e54P.jpg"
@@ -4024,7 +4024,7 @@ const cardsDatabase = [
   },
   {
     "number": "83",
-    "player": "Kevin Alcántara",
+    "player": "Kevin Alc√°ntara",
     "team": "Chicago Cubs",
     "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/974300684222928896-1-p4cA.jpg"
@@ -4353,21 +4353,21 @@ const cardsDatabase = [
   },
   {
     "number": "380",
-    "player": "Ram√≥n Urías",
+    "player": "Ram√≥n Ur√≠as",
     "team": "Baltimore Orioles",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913210454348035072-1-3yCU.jpg"
   },
   {
     "number": "632",
-    "player": "Ram√≥n Urías",
+    "player": "Ram√≥n Ur√≠as",
     "team": "Baltimore Orioles",
     "value": 0.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913210208107891712-1-foL7.jpg"
   },
   {
     "number": "380",
-    "player": "Ram√≥n Urías",
+    "player": "Ram√≥n Ur√≠as",
     "team": "Baltimore Orioles",
     "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913209877621811200-1-GSKN.jpg"
@@ -4388,7 +4388,7 @@ const cardsDatabase = [
   },
   {
     "number": "460",
-    "player": "Gary Sánchez",
+    "player": "Gary S√°nchez",
     "team": "Baltimore Orioles",
     "value": 0.22,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913171866088535040-1-ANyg.jpg"
@@ -4654,7 +4654,7 @@ const cardsDatabase = [
   },
   {
     "number": "708",
-    "player": "Eloy Jiménez",
+    "player": "Eloy Jim√©nez",
     "team": "Baltimore Orioles",
     "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/912568867813225472-1-Hn4T.jpg"
@@ -4836,7 +4836,7 @@ const cardsDatabase = [
   },
   {
     "number": "510",
-    "player": "Félix Bautista",
+    "player": "F√©lix Bautista",
     "team": "Baltimore Orioles",
     "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/911771702605531136-1-zp49.jpg"
@@ -5109,7 +5109,7 @@ const cardsDatabase = [
   },
   {
     "number": "257",
-    "player": "Ronald Acuña Jr.",
+    "player": "Ronald Acu√±a Jr.",
     "team": "Atlanta Braves",
     "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680202949-front.jpg"
@@ -5130,14 +5130,14 @@ const cardsDatabase = [
   },
   {
     "number": "SS-4",
-    "player": "Ronald Acuña Jr.",
+    "player": "Ronald Acu√±a Jr.",
     "team": "Atlanta Braves",
     "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-665010647-front.jpg"
   },
   {
     "number": "90AS-29a",
-    "player": "Ronald Acuña Jr.",
+    "player": "Ronald Acu√±a Jr.",
     "team": "Atlanta Braves",
     "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-665010072-front.jpg"
@@ -5389,7 +5389,7 @@ const cardsDatabase = [
   },
   {
     "number": "590",
-    "player": "Jasson Domínguez",
+    "player": "Jasson Dom√≠nguez",
     "team": "New York Yankees",
     "value": 1.4,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-647407618-front.jpg"
@@ -5452,7 +5452,7 @@ const cardsDatabase = [
   },
   {
     "number": "OPS-12",
-    "player": "José Ramírez",
+    "player": "Jos√© Ram√≠rez",
     "team": "Cleveland Guardians",
     "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-646350420-front.jpg"
@@ -5487,7 +5487,7 @@ const cardsDatabase = [
   },
   {
     "number": "DD-10",
-    "player": "Corey Seager / Adrian Beltré",
+    "player": "Corey Seager / Adrian Beltr√©",
     "team": "Texas Rangers",
     "value": 1.35,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-646343335-front.jpg"
@@ -5795,7 +5795,7 @@ const cardsDatabase = [
   },
   {
     "number": "45",
-    "player": "Félix Bautista",
+    "player": "F√©lix Bautista",
     "team": "Baltimore Orioles",
     "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610387177-front.jpg"
@@ -6479,7 +6479,7 @@ const collectionInfo = {
     totalCards: 924,
     totalValue: 2900.29,
     uniqueTeams: 34,
-    lastUpdated: "2026-05-01T18:36:15.123Z",
+    lastUpdated: "2026-05-01T18:28:31.867Z",
     dataSource: "./masons-cards-updated.xlsx"
 };
 

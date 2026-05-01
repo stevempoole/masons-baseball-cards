@@ -34,11 +34,55 @@ const rawData = XLSX.utils.sheet_to_json(worksheet);
 
 console.log('✅ Found', rawData.length, 'cards in sheet:', sheetName);
 
+// Fix character encoding function
+function fixCharacterEncoding(text) {
+    if (!text) return text;
+    
+    return String(text)
+        // Fix new corruption patterns (√≠ instead of í, etc.)
+        .replace(/√≠/g, 'í')
+        .replace(/√°/g, 'á')
+        .replace(/√±/g, 'ñ')
+        .replace(/√©/g, 'é')
+        .replace(/√³/g, 'ó')
+        .replace(/√∫/g, 'ús')
+        .replace(/√∑/g, 'ú')
+        // Fix older corruption patterns
+        .replace(/Jos√©/g, 'José')
+        .replace(/Ram√≠rez/g, 'Ramírez')
+        .replace(/Rodr√≠guez/g, 'Rodríguez')
+        .replace(/Alc√°ntara/g, 'Alcántara')
+        .replace(/Acu√±a/g, 'Acuña')
+        .replace(/Andr√©s/g, 'Andrés')
+        .replace(/Mu√±oz/g, 'Muñoz')
+        .replace(/Fern√°ndez/g, 'Fernández')
+        .replace(/Jes√∫s/g, 'Jesús')
+        // General fixes
+        .replace(/JosÃ©/g, 'José')
+        .replace(/RamÃrez/g, 'Ramírez')
+        .replace(/AlcÃ¡ntara/g, 'Alcántara')
+        .replace(/AcuÃ±a/g, 'Acuña')
+        .replace(/AndrÃ©s/g, 'Andrés')
+        .replace(/MuÃ±oz/g, 'Muñoz')
+        .replace(/FernÃ¡ndez/g, 'Fernández')
+        .replace(/Ã©/g, 'é')
+        .replace(/Ã¡/g, 'á')
+        .replace(/Ã±/g, 'ñ')
+        .replace(/Ã­/g, 'í')
+        .replace(/Ã³/g, 'ó')
+        .replace(/Ãº/g, 'ú')
+        .replace(/Ã /g, 'à')
+        .replace(/Ã¨/g, 'è')
+        .replace(/Ã§/g, 'ç')
+        .replace(/Ã/g, '')
+        .trim();
+}
+
 // Transform data to website format
 const cardsData = rawData.map((row, index) => {
     return {
         number: String(row.number || row.Number || '').trim(),
-        player: String(row.name || row.Name || row.player || row.Player || '').trim(),
+        player: fixCharacterEncoding(String(row.name || row.Name || row.player || row.Player || '').trim()),
         team: String(row.team || row.Team || '').trim(),
         value: parseFloat(row.market_value || row[' market_value '] || row.Market_Value || row.value || row.Value || 0),
         imageUrl: String(row.front_image || row.Front_Image || row.image || row.Image || row.imageUrl || '').trim()
