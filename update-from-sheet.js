@@ -7,13 +7,13 @@ const { execSync } = require('child_process');
 console.log('🍌 Mason\'s Baseball Card Collection - Sheet Update');
 console.log('================================================');
 
-const EXCEL_FILE = require('path').join(require('os').homedir(), 'Desktop', 'masons-cards-ENCODING-FIXED.xlsx');
+const EXCEL_FILE = './masons-cards-updated.xlsx'; // Look in project directory
 const OUTPUT_FILE = 'all-cards-data.js';
 
 // Check if Excel file exists
 if (!fs.existsSync(EXCEL_FILE)) {
     console.error('❌ Excel file not found:', EXCEL_FILE);
-    console.log('📋 Expected location: ~/Desktop/masons-cards-updated.xlsx');
+    console.log('📋 Expected location: ./masons-cards-updated.xlsx (project directory)');
     console.log('📋 Available .xlsx files on Desktop:');
     const desktopPath = require('path').join(require('os').homedir(), 'Desktop');
     try {
