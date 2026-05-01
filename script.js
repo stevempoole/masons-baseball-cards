@@ -142,7 +142,7 @@ function updateStats() {
     const uniqueTeams = [...new Set(cardsData.map(card => card.team))].length;
     
     document.getElementById('totalCards').textContent = totalCards.toLocaleString();
-    document.getElementById('totalValue').textContent = `$${totalValue.toLocaleString()}`;
+    document.getElementById('totalValue').textContent = `$${totalValue.toFixed(2)}`;
     document.getElementById('uniqueTeams').textContent = uniqueTeams;
 }
 
@@ -219,7 +219,7 @@ function renderCards() {
         <div class="card">
             <div class="card-header">
                 <div class="card-number">#${card.number}</div>
-                <div class="card-value">$${card.value.toLocaleString()}</div>
+                <div class="card-value">$${card.value.toFixed(2)}</div>
             </div>
             <div class="player-name">${card.player}</div>
             <div class="team-name">${card.team}</div>
