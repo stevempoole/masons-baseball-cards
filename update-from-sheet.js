@@ -40,7 +40,7 @@ const cardsData = rawData.map((row, index) => {
         number: String(row.number || row.Number || '').trim(),
         player: String(row.name || row.Name || row.player || row.Player || '').trim(),
         team: String(row.team || row.Team || '').trim(),
-        value: parseFloat(row.market_value || row.Market_Value || row.value || row.Value || 0),
+        value: parseFloat(row.market_value || row[' market_value '] || row.Market_Value || row.value || row.Value || 0),
         imageUrl: String(row.front_image || row.Front_Image || row.image || row.Image || row.imageUrl || '').trim()
     };
 }).filter(card => card.player && card.team); // Remove invalid cards
