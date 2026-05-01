@@ -191,9 +191,13 @@ body {
 .controls {
     max-width: 1400px;
     margin: 2rem auto;
-    padding: 0 2rem;
+    padding: 1.5rem 2rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -211,6 +215,8 @@ body {
     border-radius: 10px;
     color: #fff;
     font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease;
 }
 
 .search-container input::placeholder {
@@ -222,6 +228,12 @@ body {
     border-color: #ffd700;
     background-color: rgba(0, 0, 0, 0.6);
     box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.3);
+    transform: translateY(-1px);
+}
+
+.search-container input:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .filter-container {
@@ -236,7 +248,10 @@ body {
     border-radius: 10px;
     color: #fff;
     font-size: 14px;
+    font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 180px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -251,6 +266,14 @@ body {
     outline: none;
     border-color: #ffd700;
     background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.3);
+    transform: translateY(-1px);
+}
+
+.filter-container select:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(-1px);
 }
 
 .filter-container select option {
