@@ -1,7 +1,7 @@
 // Mason's Baseball Card Collection Data
-// Auto-generated from /Users/stevenmpoole6/Desktop/masons-cards-updated.xlsx
-// Last updated: 2026-06-01T18:48:04.318Z
-// Total cards: 1132
+// Auto-generated from ./masons-cards-updated.xlsx
+// Last updated: 2026-06-01T18:44:46.284Z
+// Total cards: 1093
 
 const cardsDatabase = [
   {
@@ -208,69 +208,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1077671054162014208-1-5DV4.jpg"
   },
   {
-    "number": "5",
-    "player": "SHOHEI OHTANI",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1076749201406449664-1-qmUI.jpg"
-  },
-  {
-    "number": "BA-EC1",
-    "player": "Ethan Conrad",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1075697146458823680-1-Akbi.jpg"
-  },
-  {
-    "number": "50B-25",
-    "player": "Ethan Conrad",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1075696185845767168-1-JPm2.jpg"
-  },
-  {
-    "number": "50A-PF1",
-    "player": "Patrick Forbes",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1075695465146899456-1-20km.jpg"
-  },
-  {
-    "number": "BA-AL1",
-    "player": "Alex Lodise",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1075693196800187392-1-Kxqs.jpg"
-  },
-  {
-    "number": "AWB-18",
-    "player": "Dwight Gooden",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1075692704799939584-1-7u9J.jpg"
-  },
-  {
-    "number": "HB-29",
-    "player": "Keon Johnson",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1075692168977603584-1-oQHW.jpg"
-  },
-  {
-    "number": "ARB-12",
-    "player": "Chen-Wei Lin",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1075679257441885184-1-jaxs.jpg"
-  },
-  {
-    "number": "MX-TB1",
-    "player": "Travis Bazzana",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1075678904994520064-1-vgf4.jpg"
-  },
-  {
     "number": "7",
     "player": "Ketel Marte",
     "team": "Arizona Diamondbacks",
@@ -397,13 +334,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1072828278846528512-1-VRqt.jpg"
   },
   {
-    "number": "US132",
-    "player": "Bright Future (Mike Trout / Julio Rodríguez)",
-    "team": "",
-    "value": 2,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1072827928429206528-1-GNGL.jpg"
-  },
-  {
     "number": "88US-10",
     "player": "Mike Mussina",
     "team": "Baltimore Orioles",
@@ -467,13 +397,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071863503437976576-1-vhn2.jpg"
   },
   {
-    "number": "S-48",
-    "player": "Ted Simmons",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1071862751315383296-1-gWKb.jpg"
-  },
-  {
     "number": "YK-24",
     "player": "Juan Soto",
     "team": "New York Mets",
@@ -488,32 +411,11 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071862143023862784-1-oEWh.jpg"
   },
   {
-    "number": "9",
-    "player": "Dylan Crews",
-    "team": "",
-    "value": 1.22,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1071861595071599616-1-vxlh.jpg"
-  },
-  {
-    "number": "3",
-    "player": "Ethan Holliday",
-    "team": "",
-    "value": 1.99,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1071860737562924032-1-asgN.jpg"
-  },
-  {
     "number": "5",
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071860254949528576-1-AT2d.jpg"
-  },
-  {
-    "number": "84",
-    "player": "Samuel Basallo",
-    "team": "",
-    "value": 0.99,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1071859892804932608-1-CT3B.jpg"
   },
   {
     "number": "52",
@@ -955,13 +857,6 @@ const cardsDatabase = [
     "team": "Athletics",
     "value": 1.87,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1065486194160175104-1-2DKC.jpg"
-  },
-  {
-    "number": "USA02",
-    "player": "Cal Raleigh",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1064538322460013568-1-itUr.jpg"
   },
   {
     "number": "79",
@@ -1545,13 +1440,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048882034341060608-1-dXzw.jpg"
   },
   {
-    "number": "11",
-    "player": "National League Leaders RBI (Kyle Schwarber / Pete Alonso / Juan Soto)",
-    "team": "",
-    "value": 1,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1048881663195488256-1-6P17.jpg"
-  },
-  {
     "number": "265",
     "player": "Dodgers Duo",
     "team": "Los Angeles Dodgers",
@@ -1909,13 +1797,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046751349038147584-1-W3Ik.jpg"
   },
   {
-    "number": "38",
-    "player": "American League Leaders HRs (Cal Raleigh / Aaron Judge / Junior Caminero)",
-    "team": "",
-    "value": 0.25,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1046751018401163264-1-fmaD.jpg"
-  },
-  {
     "number": "8B-14",
     "player": "Derek Jeter",
     "team": "New York Yankees",
@@ -2005,20 +1886,6 @@ const cardsDatabase = [
     "team": "Seattle Mariners",
     "value": 1.59,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046745965531523072-1-RrX.jpg"
-  },
-  {
-    "number": "327",
-    "player": "American League Leaders ERA (Tarik Skubal / Hunter Brown / Garrett Crochet)",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1046745648324700160-1-jlU6.jpg"
-  },
-  {
-    "number": "211",
-    "player": "American League Leaders RBI (Cal Raleigh / Aaron Judge / Vinnie Pasquantino)",
-    "team": "",
-    "value": 0.5,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1046745159872833536-1-pD5A.jpg"
   },
   {
     "number": "200",
@@ -2572,13 +2439,6 @@ const cardsDatabase = [
     "team": "Kansas City Royals",
     "value": 1.61,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1041699066727625728-1-qnov.jpg"
-  },
-  {
-    "number": "29",
-    "player": "American League Leaders RBI (Aaron Judge / Jose Ramirez / Brent Rooker)",
-    "team": "",
-    "value": 0.75,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1041698112976450560-1-lPBw.jpg"
   },
   {
     "number": "22GH-4",
@@ -3323,13 +3183,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1031546457367089152-1-mB6N.jpg"
   },
   {
-    "number": "392",
-    "player": "2026 Rookie Outfielders (Petey Halpin / Yanquiel Fernández / Jakob Marsee / Zach Cole)",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1031545963328409600-1-3KEJ.jpg"
-  },
-  {
     "number": "359",
     "player": "Aroldis Chapman",
     "team": "Boston Red Sox",
@@ -3384,13 +3237,6 @@ const cardsDatabase = [
     "team": "Houston Astros",
     "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1030089152781094912-1-YajU.jpg"
-  },
-  {
-    "number": "II-10",
-    "player": "Ariel Castro / Brando Mayea",
-    "team": "",
-    "value": 1.25,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1029369123785674752-1-TMli.jpg"
   },
   {
     "number": "BCP-118",
@@ -3505,41 +3351,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028430924723575808-1-ziKS.jpg"
   },
   {
-    "number": "1",
-    "player": "2025 Batting Leaders (Aaron Judge / Trea Turner)",
-    "team": "",
-    "value": 1.25,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1027744412738289664-1-OZfi.jpg"
-  },
-  {
-    "number": "2",
-    "player": "2025 Home Run Leaders (Cal Raleigh / Kyle Schwarber)",
-    "team": "",
-    "value": 1.25,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1027744153287032832-1-XIJ3.jpg"
-  },
-  {
-    "number": "390",
-    "player": "2026 Rookie Shortstops (Colson Montgomery / Alex Freeland / Maximo Acosta / Denzer Guzman)",
-    "team": "",
-    "value": 1,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1027743914564026368-1-tSM.jpg"
-  },
-  {
-    "number": "4",
-    "player": "2025 Stolen Base Leaders (Jose Caballero / Oneil Cruz)",
-    "team": "",
-    "value": 0.72,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1027743543393288192-1-14xK.jpg"
-  },
-  {
-    "number": "6",
-    "player": "2025 Strikeout Leaders (Garrett Crochet / Logan Webb)",
-    "team": "",
-    "value": 0.99,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1027743259950612480-1-dRr7.jpg"
-  },
-  {
     "number": "269",
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
@@ -3652,25 +3463,11 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027736433393696768-1-h2UQ.jpg"
   },
   {
-    "number": "7",
-    "player": "2025 ERA Leaders (Tarik Skubal / Paul Skenes)",
-    "team": "",
-    "value": 0.94,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1027735808022970368-1-TKV1.jpg"
-  },
-  {
     "number": "338",
     "player": "Colton Cowser",
     "team": "Baltimore Orioles",
     "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027735467319656448-1-aV5h.jpg"
-  },
-  {
-    "number": "376",
-    "player": "2026 Rookie Catchers (Rafael Flores / Jimmy Crooks / C.J. Stubbs / Will Banfield)",
-    "team": "",
-    "value": 0.99,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1027734759237255168-1-bpmw.jpg"
   },
   {
     "number": "205",
@@ -4884,20 +4681,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017451613302035456-1-sUwX.jpg"
   },
   {
-    "number": "204",
-    "player": "American League Leaders Avg (Aaron Judge / Bo Bichette / Jacob Wilson)",
-    "team": "",
-    "value": 0.4,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1017451438005677056-1-tDU.jpg"
-  },
-  {
-    "number": "11",
-    "player": "National League Leaders RBI (Kyle Schwarber / Pete Alonso / Juan Soto)",
-    "team": "",
-    "value": 1,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1017451180349720576-1-q2iK.jpg"
-  },
-  {
     "number": "265",
     "player": "Dodgers Duo",
     "team": "Los Angeles Dodgers",
@@ -5409,13 +5192,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-product-images/974302780947109888-1-e54P.jpg"
   },
   {
-    "number": "FGW-3",
-    "player": "Marlin",
-    "team": "",
-    "value": 1.5,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/974302586071714816-1-Sb1B.jpg"
-  },
-  {
     "number": "21",
     "player": "Derek Jeter",
     "team": "New York Yankees",
@@ -5554,34 +5330,6 @@ const cardsDatabase = [
     "team": "Baltimore Orioles",
     "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/967064036566940672-1-hQRx.jpg"
-  },
-  {
-    "number": "291",
-    "player": "Alexis Ohanian",
-    "team": "",
-    "value": 1.55,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/967063055920531456-1-xMDE.jpg"
-  },
-  {
-    "number": "293",
-    "player": "Richard Kind",
-    "team": "",
-    "value": 1.86,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/967061955880421376-1-8s1a.jpg"
-  },
-  {
-    "number": "184",
-    "player": "Larry David",
-    "team": "",
-    "value": 1.79,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/967061330937918464-1-0uuT.jpg"
-  },
-  {
-    "number": "230",
-    "player": "Alex the Great",
-    "team": "",
-    "value": 0.99,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/967060386707412992-1-kL9I.jpg"
   },
   {
     "number": "BOA-AW",
@@ -6564,13 +6312,6 @@ const cardsDatabase = [
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680202078-front.jpg"
   },
   {
-    "number": "191",
-    "player": "NL Batting Leaders (Luis Arraez / Marcell Ozuna / Shohei Ohtani)",
-    "team": "",
-    "value": 0.5,
-    "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-678281419-front.jpg"
-  },
-  {
     "number": "CAE-20",
     "player": "Jose Ramirez",
     "team": "Cleveland Guardians",
@@ -7136,20 +6877,6 @@ const cardsDatabase = [
     "team": "Atlanta Braves",
     "value": 2.75,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-627715170-front.jpg"
-  },
-  {
-    "number": "194",
-    "player": "AL Home Run Leaders (Juan Soto / Anthony Santander / Aaron Judge)",
-    "team": "",
-    "value": 0.57,
-    "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-624334031-front.jpg"
-  },
-  {
-    "number": "66",
-    "player": "Matt Holliday / Jackson Holliday",
-    "team": "",
-    "value": 1,
-    "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-624333954-front.jpg"
   },
   {
     "number": "GL-8",
@@ -7932,11 +7659,11 @@ const cardsDatabase = [
 
 // Collection metadata
 const collectionInfo = {
-    totalCards: 1132,
-    totalValue: 3703.79,
-    uniqueTeams: 36,
-    lastUpdated: "2026-06-01T18:48:04.318Z",
-    dataSource: "/Users/stevenmpoole6/Desktop/masons-cards-updated.xlsx"
+    totalCards: 1093,
+    totalValue: 3675.54,
+    uniqueTeams: 35,
+    lastUpdated: "2026-06-01T18:44:46.284Z",
+    dataSource: "./masons-cards-updated.xlsx"
 };
 
 // For browser compatibility

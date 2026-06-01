@@ -7,7 +7,7 @@ const { execSync } = require('child_process');
 console.log('🍌 Mason\'s Baseball Card Collection - Sheet Update');
 console.log('================================================');
 
-const EXCEL_FILE = './masons-cards-updated.xlsx'; // Look in project directory
+const EXCEL_FILE = require('path').join(require('os').homedir(), 'Desktop', 'masons-cards-updated.xlsx'); // Read from Desktop
 const OUTPUT_FILE = 'all-cards-data.js';
 
 // Check if Excel file exists
@@ -87,7 +87,7 @@ const cardsData = rawData.map((row, index) => {
         value: parseFloat(row.market_value || row[' market_value '] || row.Market_Value || row.value || row.Value || 0),
         imageUrl: String(row.front_image || row.Front_Image || row.image || row.Image || row.imageUrl || '').trim()
     };
-}).filter(card => card.player && card.team); // Remove invalid cards
+}).filter(card => card.player); // Remove invalid cards (team not required)
 
 console.log('✅ Processed', cardsData.length, 'valid cards');
 
