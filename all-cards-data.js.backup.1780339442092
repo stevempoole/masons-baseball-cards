@@ -1,6 +1,6 @@
 // Mason's Baseball Card Collection Data
 // Auto-generated from ./masons-cards-updated.xlsx
-// Last updated: 2026-06-01T18:44:02.091Z
+// Last updated: 2026-05-24T13:05:30.604Z
 // Total cards: 1058
 
 const cardsDatabase = [
@@ -7417,7 +7417,7 @@ const collectionInfo = {
     totalCards: 1058,
     totalValue: 3386.12,
     uniqueTeams: 35,
-    lastUpdated: "2026-06-01T18:44:02.092Z",
+    lastUpdated: "2026-05-24T13:05:30.605Z",
     dataSource: "./masons-cards-updated.xlsx"
 };
 
