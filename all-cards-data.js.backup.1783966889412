@@ -1,6 +1,6 @@
 // Mason's Baseball Card Collection Data
 // Auto-generated from /Users/stevenmpoole6/Desktop/masons-cards-updated.xlsx
-// Last updated: 2026-07-13T18:21:29.411Z
+// Last updated: 2026-07-12T13:07:43.566Z
 // Total cards: 1386
 
 const cardsDatabase = [
@@ -27,7 +27,7 @@ const cardsDatabase = [
   },
   {
     "number": "414",
-    "player": "Tyler O’Neill",
+    "player": "Tyler O‚ÄôNeill",
     "team": "Baltimore Orioles",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1109091625060639744-1-ipAZ.jpg"
@@ -1553,7 +1553,7 @@ const cardsDatabase = [
   },
   {
     "number": "ES-20",
-    "player": "Jesús Made",
+    "player": "Jesúss Made",
     "team": "Milwaukee Brewers",
     "value": 3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084906179306133504-1-pk.jpg"
@@ -1644,7 +1644,7 @@ const cardsDatabase = [
   },
   {
     "number": "US117",
-    "player": "Pablo López",
+    "player": "Pablo L√≥pez",
     "team": "Minnesota Twins",
     "value": 2.54,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1082937721695327232-1-3Uv8.jpg"
@@ -3296,7 +3296,7 @@ const cardsDatabase = [
   },
   {
     "number": "63",
-    "player": "Jesús Luzardo",
+    "player": "Jesúss Luzardo",
     "team": "Philadelphia Phillies",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048882809272279040-1-w8oP.jpg"
@@ -5865,7 +5865,7 @@ const cardsDatabase = [
   },
   {
     "number": "644",
-    "player": "Francisco Álvarez",
+    "player": "Francisco √Ålvarez",
     "team": "New York Mets",
     "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022723650417625088-1-jLxY.jpg"
@@ -7573,21 +7573,21 @@ const cardsDatabase = [
   },
   {
     "number": "380",
-    "player": "Ramón Urías",
+    "player": "Ram√≥n Urías",
     "team": "Baltimore Orioles",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913210454348035072-1-3yCU.jpg"
   },
   {
     "number": "632",
-    "player": "Ramón Urías",
+    "player": "Ram√≥n Urías",
     "team": "Baltimore Orioles",
     "value": 0.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913210208107891712-1-foL7.jpg"
   },
   {
     "number": "380",
-    "player": "Ramón Urías",
+    "player": "Ram√≥n Urías",
     "team": "Baltimore Orioles",
     "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913209877621811200-1-GSKN.jpg"
@@ -7685,7 +7685,7 @@ const cardsDatabase = [
   },
   {
     "number": "290",
-    "player": "Tyler O’Neill",
+    "player": "Tyler O‚ÄôNeill",
     "team": "Baltimore Orioles",
     "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913165801192059904-1-kKgS.jpg"
@@ -9713,7 +9713,7 @@ const collectionInfo = {
     totalCards: 1386,
     totalValue: 5466.11,
     uniqueTeams: 38,
-    lastUpdated: "2026-07-13T18:21:29.412Z",
+    lastUpdated: "2026-07-12T13:07:43.567Z",
     dataSource: "/Users/stevenmpoole6/Desktop/masons-cards-updated.xlsx"
 };
 
