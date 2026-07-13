@@ -107,7 +107,7 @@ console.log('✅ Updated', OUTPUT_FILE);
 try {
     console.log('📝 Committing changes to git...');
     execSync('git add .');
-    execSync(`git commit -m "📊 Weekly card value update - ${cardsData.length} cards, $${totalValue.toFixed(2)} total value"`);
+    execSync(`git commit -m "📊 Weekly card value update - ${cardsData.length} cards, \${totalValue.toFixed(2)} total value"`);
     execSync('git push origin main');
     console.log('✅ Changes committed and pushed to GitHub');
     console.log('🌐 Website will update automatically via GitHub Pages');
