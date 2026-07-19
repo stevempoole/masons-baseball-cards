@@ -1,352 +1,9 @@
 // Mason's Baseball Card Collection Data
 // Auto-generated from /Users/stevenmpoole6/Desktop/masons-cards-updated.xlsx
-// Last updated: 2026-07-19T13:01:20.978Z
-// Total cards: 1434
+// Last updated: 2026-07-13T18:21:29.411Z
+// Total cards: 1386
 
 const cardsDatabase = [
-  {
-    "number": "64",
-    "player": "Pete Alonso",
-    "team": "Baltimore Orioles",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1113786702071650304-1-MJYO.jpg"
-  },
-  {
-    "number": "234",
-    "player": "Ezequiel Tovar",
-    "team": "Colorado Rockies",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1113786200936208384-1-HuYi.jpg"
-  },
-  {
-    "number": "64",
-    "player": "Pete Alonso",
-    "team": "Baltimore Orioles",
-    "value": 2,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1113785674827880448-1-dpzw.jpg"
-  },
-  {
-    "number": "ICE-4",
-    "player": "Jackson Merrill",
-    "team": "San Diego Padres",
-    "value": 1.35,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1113108220702414848-1-9iZD.jpg"
-  },
-  {
-    "number": "198",
-    "player": "Luis Arraez",
-    "team": "San Diego Padres",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1113107984386938880-1-sZDt.jpg"
-  },
-  {
-    "number": "89",
-    "player": "Zach Dezenzo",
-    "team": "Houston Astros",
-    "value": 1.99,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1113107254602638336-1-0Sd1.jpg"
-  },
-  {
-    "number": "239",
-    "player": "José Ramírez",
-    "team": "Cleveland Guardians",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112541431283586048-1-g8I.jpg"
-  },
-  {
-    "number": "TM-8",
-    "player": "Mike Trout",
-    "team": "Los Angeles Angels",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112541019176440832-1-bMqq.jpg"
-  },
-  {
-    "number": "196",
-    "player": "Ke'Bryan Hayes",
-    "team": "Pittsburgh Pirates",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112509655991219200-1-x5cJ.jpg"
-  },
-  {
-    "number": "5",
-    "player": "Cedric Mullins",
-    "team": "Baltimore Orioles",
-    "value": 0.99,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112509302797267968-1-RLgi.jpg"
-  },
-  {
-    "number": "90CB-9",
-    "player": "Jackson Chourio",
-    "team": "Milwaukee Brewers",
-    "value": 2,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112497656716620800-1-L6pk.jpg"
-  },
-  {
-    "number": "132",
-    "player": "James Wood",
-    "team": "Washington Nationals",
-    "value": 8,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112497195091522560-1-1M0m.jpg"
-  },
-  {
-    "number": "1",
-    "player": "Shohei Ohtani",
-    "team": "Los Angeles Dodgers",
-    "value": 400,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112495117359150080-1-EJZF.jpg"
-  },
-  {
-    "number": "TF-11",
-    "player": "Bobby Witt Jr.",
-    "team": "Kansas City Royals",
-    "value": 2.5,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112428639150699520-1-2ITC.jpg"
-  },
-  {
-    "number": "A-4",
-    "player": "Bryce Eldridge",
-    "team": "San Francisco Giants",
-    "value": 1.06,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112428222815695872-1-0MfL.jpg"
-  },
-  {
-    "number": "SS-5",
-    "player": "Sammy Sosa",
-    "team": "Chicago Cubs",
-    "value": 1.7,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112427883169346560-1-3D3h.jpg"
-  },
-  {
-    "number": "32",
-    "player": "Mike Trout",
-    "team": "Los Angeles Angels",
-    "value": 3.5,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112427658144936960-1-yZit.jpg"
-  },
-  {
-    "number": "285",
-    "player": "Austin Riley",
-    "team": "Atlanta Braves",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112427134712574976-1-QTEn.jpg"
-  },
-  {
-    "number": "104",
-    "player": "Jackson Holliday",
-    "team": "Baltimore Orioles",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112424821797188608-1-oCG.jpg"
-  },
-  {
-    "number": "12",
-    "player": "Max Fried",
-    "team": "New York Yankees",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112424314219295744-1-Edu3.jpg"
-  },
-  {
-    "number": "118",
-    "player": "Rafael Devers",
-    "team": "San Francisco Giants",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112423723065701376-1-bIFN.jpg"
-  },
-  {
-    "number": "TF-22",
-    "player": "Roman Anthony",
-    "team": "Boston Red Sox",
-    "value": 1.5,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112423370836440064-1-JNO.jpg"
-  },
-  {
-    "number": "YK-1",
-    "player": "James Wood",
-    "team": "Washington Nationals",
-    "value": 1.24,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1112423128883819520-1-B7so.jpg"
-  },
-  {
-    "number": "195",
-    "player": "Jose Corniell",
-    "team": "Texas Rangers",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1111006391535643648-1-T3l.jpg"
-  },
-  {
-    "number": "159",
-    "player": "Francisco Lindor",
-    "team": "New York Mets",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1111006018821401600-1-EFQk.jpg"
-  },
-  {
-    "number": "WF-25",
-    "player": "Seiya Suzuki",
-    "team": "Japan",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1111005440871476224-1-4VJs.jpg"
-  },
-  {
-    "number": "SCBA-LA",
-    "player": "Luisangel Acuña",
-    "team": "New York Mets",
-    "value": 27,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1111004906424871936-1-dLP.jpg"
-  },
-  {
-    "number": "BCP-68",
-    "player": "Ike Irish",
-    "team": "Baltimore Orioles",
-    "value": 1,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110324498955633664-1-YdTA.jpg"
-  },
-  {
-    "number": "BCP-92",
-    "player": "Konnor Griffin",
-    "team": "Pittsburgh Pirates",
-    "value": 2.39,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110324173897073664-1-G1mh.jpg"
-  },
-  {
-    "number": "58",
-    "player": "Mike Trout",
-    "team": "Los Angeles Angels",
-    "value": 2.49,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110323883508630528-1-re4S.jpg"
-  },
-  {
-    "number": "51",
-    "player": "Gunnar Henderson",
-    "team": "Baltimore Orioles",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110323539173049344-1-ZDxG.jpg"
-  },
-  {
-    "number": "16",
-    "player": "Samuel Basallo",
-    "team": "Baltimore Orioles",
-    "value": 1.65,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110323100952167424-1-ayej.jpg"
-  },
-  {
-    "number": "85",
-    "player": "Dylan Beavers",
-    "team": "Baltimore Orioles",
-    "value": 0.59,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110322740015531008-1-dOzp.jpg"
-  },
-  {
-    "number": "TF-25",
-    "player": "Samuel Basallo",
-    "team": "Baltimore Orioles",
-    "value": 1,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110322369834648576-1-HWOR.jpg"
-  },
-  {
-    "number": "WF-6",
-    "player": "Gunnar Henderson",
-    "team": "",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110321948953019392-1-elRd.jpg"
-  },
-  {
-    "number": "64",
-    "player": "Pete Alonso",
-    "team": "Baltimore Orioles",
-    "value": 1.95,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110321653464302592-1-4YH4.jpg"
-  },
-  {
-    "number": "A-20",
-    "player": "Dylan Beavers",
-    "team": "Baltimore Orioles",
-    "value": 1.8,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110321147530578944-1-prfK.jpg"
-  },
-  {
-    "number": "99",
-    "player": "Christian Moore",
-    "team": "Los Angeles Angels",
-    "value": 1,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110318152998849536-1-G0HI.jpg"
-  },
-  {
-    "number": "A-13",
-    "player": "Christian Moore",
-    "team": "Los Angeles Angels",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110317704594197504-1-XvDo.jpg"
-  },
-  {
-    "number": "217",
-    "player": "Yusei Kikuchi",
-    "team": "Los Angeles Angels",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110317064392412160-1-R9XD.jpg"
-  },
-  {
-    "number": "BMA-II",
-    "player": "Ike Irish",
-    "team": "Baltimore Orioles",
-    "value": 23.5,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110316186650414080-1-PD0T.jpg"
-  },
-  {
-    "number": "50",
-    "player": "Shohei Ohtani",
-    "team": "Los Angeles Dodgers",
-    "value": 3.15,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110275324303640576-1-kEV5.jpg"
-  },
-  {
-    "number": "5",
-    "player": "Munetaka Murakami",
-    "team": "Chicago White Sox",
-    "value": 2.99,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110274894882408448-1-5PFV.jpg"
-  },
-  {
-    "number": "174",
-    "player": "Masyn Winn",
-    "team": "St. Louis Cardinals",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110274193879992320-1-r2a5.jpg"
-  },
-  {
-    "number": "WF-22",
-    "player": "Shohei Ohtani",
-    "team": "Japan",
-    "value": 45,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1110273681344432128-1-ZQuJ.jpg"
-  },
-  {
-    "number": "FA-TE",
-    "player": "Tristin English",
-    "team": "Arizona Diamondbacks",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1109579496561342464-1-GEGk.jpg"
-  },
-  {
-    "number": "A-30",
-    "player": "Carson Benge",
-    "team": "New York Mets",
-    "value": 2.49,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1109579108244289536-1-M53z.jpg"
-  },
-  {
-    "number": "WF-22",
-    "player": "Shohei Ohtani",
-    "team": "Japan",
-    "value": 18.95,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1109578735488104448-1-NSuZ.jpg"
-  },
-  {
-    "number": "172",
-    "player": "Logan Webb",
-    "team": "San Francisco Giants",
-    "value": 0,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1109578338170075136-1-agoh.jpg"
-  },
   {
     "number": "394",
     "player": "Tomoyuki Sugano",
@@ -379,7 +36,7 @@ const cardsDatabase = [
     "number": "99",
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
-    "value": 7.03,
+    "value": 6.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1109090007292421120-1-MjD9.jpg"
   },
   {
@@ -414,7 +71,7 @@ const cardsDatabase = [
     "number": "A-25",
     "player": "Cam Schlittler",
     "team": "New York Yankees",
-    "value": 2.93,
+    "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1108803320196113408-1-bLbh.jpg"
   },
   {
@@ -428,7 +85,7 @@ const cardsDatabase = [
     "number": "10",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 1.33,
+    "value": 1.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1108802555616437248-1-Gi04.jpg"
   },
   {
@@ -442,7 +99,7 @@ const cardsDatabase = [
     "number": "FA-NC",
     "player": "Nathan Church",
     "team": "St. Louis Cardinals",
-    "value": 15.5,
+    "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1108801687152239616-1-4kxm.jpg"
   },
   {
@@ -463,7 +120,7 @@ const cardsDatabase = [
     "number": "242",
     "player": "Colton Cowser",
     "team": "Baltimore Orioles",
-    "value": 38,
+    "value": 39.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1108347489571833856-1-RdKL.jpg"
   },
   {
@@ -505,7 +162,7 @@ const cardsDatabase = [
     "number": "90CU-12",
     "player": "Corbin Carroll",
     "team": "Arizona Diamondbacks",
-    "value": 1.27,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1102574898630410240-1-RJUV.jpg"
   },
   {
@@ -519,14 +176,14 @@ const cardsDatabase = [
     "number": "CPA-ARU",
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
-    "value": 42,
+    "value": 55,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1102339265886557184-1-1q2b.jpg"
   },
   {
     "number": "10",
     "player": "Colton Cowser",
     "team": "Baltimore Orioles",
-    "value": 1.99,
+    "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1102334267568084992-1-NKJM.jpg"
   },
   {
@@ -554,7 +211,7 @@ const cardsDatabase = [
     "number": "GW-61",
     "player": "Jackie Robinson",
     "team": "Brooklyn Dodgers",
-    "value": 1.5,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100995963912458240-1-0E5r.jpg"
   },
   {
@@ -568,7 +225,7 @@ const cardsDatabase = [
     "number": "CN-22",
     "player": "Babe Ruth",
     "team": "New York Yankees",
-    "value": 2.27,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100995327393271808-1-Vlhk.jpg"
   },
   {
@@ -589,7 +246,7 @@ const cardsDatabase = [
     "number": "ATT-4",
     "player": "José Ramírez",
     "team": "Cleveland Guardians",
-    "value": 1.99,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100947635763870720-1-3TmL.jpg"
   },
   {
@@ -652,14 +309,14 @@ const cardsDatabase = [
     "number": "456",
     "player": "Justin Dean",
     "team": "Chicago Cubs",
-    "value": 18.99,
+    "value": 35,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100788904510108672-1-cWW.jpg"
   },
   {
     "number": "400",
     "player": "Pete Alonso",
     "team": "Baltimore Orioles",
-    "value": 1.99,
+    "value": 2.28,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100788617368056832-1-CpEb.jpg"
   },
   {
@@ -680,7 +337,7 @@ const cardsDatabase = [
     "number": "91AS-4",
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
-    "value": 1.62,
+    "value": 2.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100786204527571968-1-lVRv.jpg"
   },
   {
@@ -729,7 +386,7 @@ const cardsDatabase = [
     "number": "NT-25",
     "player": "James Wood",
     "team": "Washington Nationals",
-    "value": 1.79,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100038420530736128-1-C89C.jpg"
   },
   {
@@ -757,7 +414,7 @@ const cardsDatabase = [
     "number": "18",
     "player": "Kazuma Okamoto",
     "team": "Toronto Blue Jays",
-    "value": 1.67,
+    "value": 1.74,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1099632864620449792-1-NGZf.jpg"
   },
   {
@@ -848,7 +505,7 @@ const cardsDatabase = [
     "number": "499",
     "player": "Satchel Paige",
     "team": "Cleveland Indians",
-    "value": 6.75,
+    "value": 7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1097864509454821376-1-CySZ.jpg"
   },
   {
@@ -876,21 +533,21 @@ const cardsDatabase = [
     "number": "50",
     "player": "Rickey Henderson",
     "team": "Oakland Athletics",
-    "value": 1.99,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1097135780853201920-1-mJJX.jpg"
   },
   {
     "number": "193",
     "player": "Theo Gillen",
     "team": "Tampa Bay Rays",
-    "value": 7.49,
+    "value": 3.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1097135560895511552-1-uVpo.jpg"
   },
   {
     "number": "18",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 2,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1097135081000025088-1-BLoV.jpg"
   },
   {
@@ -946,7 +603,7 @@ const cardsDatabase = [
     "number": "MYS-10",
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
-    "value": 1.65,
+    "value": 1.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1096758081446770688-1-gM6p.jpg"
   },
   {
@@ -981,7 +638,7 @@ const cardsDatabase = [
     "number": "NT-1",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 1.8,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095875938574977024-1-74zE.jpg"
   },
   {
@@ -995,14 +652,14 @@ const cardsDatabase = [
     "number": "165",
     "player": "Colt Emerson",
     "team": "Seattle Mariners",
-    "value": 1.99,
+    "value": 2.02,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095875088439887872-1-ggpP.jpg"
   },
   {
     "number": "4",
     "player": "Ethan Holliday",
     "team": "Colorado Rockies",
-    "value": 1.5,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095874912379783168-1-JXMM.jpg"
   },
   {
@@ -1023,14 +680,14 @@ const cardsDatabase = [
     "number": "TOG-28",
     "player": "Munetaka Murakami",
     "team": "Chicago White Sox",
-    "value": 1.51,
+    "value": 1.17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095841833135909888-1-nl3d.jpg"
   },
   {
     "number": "372",
     "player": "Sal Stewart",
     "team": "Cincinnati Reds",
-    "value": 4.99,
+    "value": 6.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095841355438238720-1-xmFj.jpg"
   },
   {
@@ -1044,28 +701,28 @@ const cardsDatabase = [
     "number": "630",
     "player": "Corbin Burnes",
     "team": "Arizona Diamondbacks",
-    "value": 1.97,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095840794609462272-1-aC.jpg"
   },
   {
     "number": "CN-18",
     "player": "Mickey Mantle",
     "team": "New York Yankees",
-    "value": 1.99,
+    "value": 2.12,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095840354870242304-1-NYP.jpg"
   },
   {
     "number": "GW-24",
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
-    "value": 1.43,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095840127941618688-1-OQDV.jpg"
   },
   {
     "number": "SMLB-43",
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
-    "value": 1.1,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095839880496090112-1-Hb0u.jpg"
   },
   {
@@ -1079,7 +736,7 @@ const cardsDatabase = [
     "number": "91B2-50",
     "player": "Babe Ruth",
     "team": "New York Yankees",
-    "value": 1.9,
+    "value": 2.13,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095839237263758336-1-FM6x.jpg"
   },
   {
@@ -1100,7 +757,7 @@ const cardsDatabase = [
     "number": "155",
     "player": "Wehiwa Aloy",
     "team": "Baltimore Orioles",
-    "value": 21.25,
+    "value": 10.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095179178133451776-1-JKkG.jpg"
   },
   {
@@ -1177,7 +834,7 @@ const cardsDatabase = [
     "number": "55RS-10",
     "player": "Giancarlo Stanton",
     "team": "New York Yankees",
-    "value": 1.25,
+    "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095131865143314432-1-x85U.jpg"
   },
   {
@@ -1205,14 +862,14 @@ const cardsDatabase = [
     "number": "2",
     "player": "Andrew Painter",
     "team": "Philadelphia Phillies",
-    "value": 1.5,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1094462721420436480-1-7D0n.jpg"
   },
   {
     "number": "90CU-4",
     "player": "Juan Soto",
     "team": "New York Mets",
-    "value": 1.12,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1094462298978526208-1-tbi.jpg"
   },
   {
@@ -1317,28 +974,28 @@ const cardsDatabase = [
     "number": "SMLB-39",
     "player": "Chase DeLauter",
     "team": "Cleveland Guardians",
-    "value": 1.29,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092129876932939776-1-sWt.jpg"
   },
   {
     "number": "SMLB-50",
     "player": "Bubba Chandler",
     "team": "Pittsburgh Pirates",
-    "value": 1.08,
+    "value": 1.48,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092129663937794048-1-nQBo.jpg"
   },
   {
     "number": "503",
     "player": "Munetaka Murakami",
     "team": "Chicago White Sox",
-    "value": 1.19,
+    "value": 1.02,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092129461185138688-1-R0fS.jpg"
   },
   {
     "number": "TOG-34",
     "player": "Cam Schlittler",
     "team": "New York Yankees",
-    "value": 1.5,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092129280855232512-1-32ip.jpg"
   },
   {
@@ -1359,42 +1016,42 @@ const cardsDatabase = [
     "number": "BCP-29",
     "player": "Victor Arias",
     "team": "Toronto Blue Jays",
-    "value": 1.49,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092128278022311936-1-gmvv.jpg"
   },
   {
     "number": "52",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 7.99,
+    "value": 7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092127963097190400-1-myp.jpg"
   },
   {
     "number": "BCP-92",
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
-    "value": 1.25,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092127748290105344-1-5NGj.jpg"
   },
   {
     "number": "372",
     "player": "Sal Stewart",
     "team": "Cincinnati Reds",
-    "value": 3.59,
+    "value": 3.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092127347172037632-1-gUIW.jpg"
   },
   {
     "number": "91C2-7",
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
-    "value": 0.99,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1091584382445815808-1-1hEf.jpg"
   },
   {
     "number": "GW-14",
     "player": "Cal Ripken Jr.",
     "team": "Baltimore Orioles",
-    "value": 1.58,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1091584136466663424-1-DRaZ.jpg"
   },
   {
@@ -1450,7 +1107,7 @@ const cardsDatabase = [
     "number": "91B2-29",
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
-    "value": 1.29,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1090041815279864832-1-DioS.jpg"
   },
   {
@@ -1464,14 +1121,14 @@ const cardsDatabase = [
     "number": "91B2-32",
     "player": "Pete Alonso",
     "team": "Baltimore Orioles",
-    "value": 1.9,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1090041206233369600-1-PaEF.jpg"
   },
   {
     "number": "91AS-49",
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1090040885780155392-1-53Yf.jpg"
   },
   {
@@ -1492,7 +1149,7 @@ const cardsDatabase = [
     "number": "96",
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
-    "value": 2.49,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1089999342599932928-1-Okr8.jpg"
   },
   {
@@ -1513,14 +1170,14 @@ const cardsDatabase = [
     "number": "313",
     "player": "Mike Mussina",
     "team": "Baltimore Orioles",
-    "value": 0.99,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1089998172070349824-1-W95C.jpg"
   },
   {
     "number": "219",
     "player": "Coby Mayo",
     "team": "Baltimore Orioles",
-    "value": 1.05,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1089997901990726656-1-9RZJ.jpg"
   },
   {
@@ -1583,7 +1240,7 @@ const cardsDatabase = [
     "number": "37",
     "player": "Chase DeLauter",
     "team": "Cleveland Guardians",
-    "value": 1.25,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1089930442263506944-1-cXGk.jpg"
   },
   {
@@ -1618,7 +1275,7 @@ const cardsDatabase = [
     "number": "USC180",
     "player": "Nick Kurtz",
     "team": "Athletics",
-    "value": 1.64,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088443911940091904-1-Nibe.jpg"
   },
   {
@@ -1632,14 +1289,14 @@ const cardsDatabase = [
     "number": "USC95",
     "player": "James Wood",
     "team": "Washington Nationals",
-    "value": 1.65,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088442220486340608-1-z8J.jpg"
   },
   {
     "number": "BTP-18",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 1.75,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088441985159936000-1-tthm.jpg"
   },
   {
@@ -1653,7 +1310,7 @@ const cardsDatabase = [
     "number": "T91-86",
     "player": "Cam Schlittler",
     "team": "New York Yankees",
-    "value": 1.03,
+    "value": 1.48,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088441303107385344-1-aAmx.jpg"
   },
   {
@@ -1681,7 +1338,7 @@ const cardsDatabase = [
     "number": "55RS-12",
     "player": "Manny Ramirez",
     "team": "Boston Red Sox",
-    "value": 1,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087936438241904640-1-ENa6.jpg"
   },
   {
@@ -1702,7 +1359,7 @@ const cardsDatabase = [
     "number": "303",
     "player": "Greg Maddux",
     "team": "Chicago Cubs",
-    "value": 5.5,
+    "value": 4.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087934267404371968-1-cDQ9.jpg"
   },
   {
@@ -1723,14 +1380,14 @@ const cardsDatabase = [
     "number": "BTP-18",
     "player": "Aiva Arquette",
     "team": "Miami Marlins",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087933228466882560-1-cN97.jpg"
   },
   {
     "number": "55DH-11",
     "player": "Hank Aaron / Ronald Acuna Jr.",
     "team": "Atlanta Braves",
-    "value": 1.61,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087932552605124608-1-1HOA.jpg"
   },
   {
@@ -1744,28 +1401,28 @@ const cardsDatabase = [
     "number": "UR-15",
     "player": "Trey Yesavage",
     "team": "Toronto Blue Jays",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087932148148389888-1-ALu.jpg"
   },
   {
     "number": "41",
     "player": "Trey Yesavage",
     "team": "Toronto Blue Jays",
-    "value": 4.48,
+    "value": 4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087931839405672448-1-hiVF.jpg"
   },
   {
     "number": "131",
     "player": "Trey Yesavage",
     "team": "Toronto Blue Jays",
-    "value": 4.5,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087931642726369280-1-nUdF.jpg"
   },
   {
     "number": "F15-6",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 8,
+    "value": 10,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087243492587639808-1-xxwn.jpg"
   },
   {
@@ -1856,14 +1513,14 @@ const cardsDatabase = [
     "number": "ES-17",
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
-    "value": 1.25,
+    "value": 1.59,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084974526292822016-1-jjkO.jpg"
   },
   {
     "number": "BST-7",
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
-    "value": 1.8,
+    "value": 1.92,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084974314950232064-1-Ljhe.jpg"
   },
   {
@@ -1877,14 +1534,14 @@ const cardsDatabase = [
     "number": "BMA-YB",
     "player": "Yorger Bautista",
     "team": "Seattle Mariners",
-    "value": 11,
+    "value": 11.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084907901353184256-1-3KUE.jpg"
   },
   {
     "number": "37",
     "player": "Chase DeLauter",
     "team": "Cleveland Guardians",
-    "value": 19.99,
+    "value": 22.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084907455683218432-1-vAVy.jpg"
   },
   {
@@ -1905,21 +1562,21 @@ const cardsDatabase = [
     "number": "BST-7",
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
-    "value": 2.5,
+    "value": 2.63,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084905648097531904-1-pUnw.jpg"
   },
   {
     "number": "83",
     "player": "Bubba Chandler",
     "team": "Pittsburgh Pirates",
-    "value": 1.25,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084904631884781568-1-yqNY.jpg"
   },
   {
     "number": "BCP-115",
     "player": "JJ Wetherholt",
     "team": "St. Louis Cardinals",
-    "value": 2,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084903999685728256-1-IQdC.jpg"
   },
   {
@@ -1975,7 +1632,7 @@ const cardsDatabase = [
     "number": "T90C-15",
     "player": "Elly De La Cruz",
     "team": "Cincinnati Reds",
-    "value": 3,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1083499595996651520-1-C7u6.jpg"
   },
   {
@@ -2010,7 +1667,7 @@ const cardsDatabase = [
     "number": "ICE-15",
     "player": "Joey Votto",
     "team": "Cincinnati Reds",
-    "value": 1.66,
+    "value": 1.35,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1082083003776652288-1-g0Io.jpg"
   },
   {
@@ -2031,7 +1688,7 @@ const cardsDatabase = [
     "number": "BCP-17",
     "player": "Caden Scarborough",
     "team": "Texas Rangers",
-    "value": 1.25,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1081992787291328512-1-w0AQ.jpg"
   },
   {
@@ -2073,7 +1730,7 @@ const cardsDatabase = [
     "number": "PC-8",
     "player": "Walker Jenkins",
     "team": "Minnesota Twins",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1081959447867988992-1-CgEe.jpg"
   },
   {
@@ -2094,49 +1751,49 @@ const cardsDatabase = [
     "number": "BCP-143",
     "player": "Kaelen Culpepper",
     "team": "Minnesota Twins",
-    "value": 1.5,
+    "value": 1.52,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1080667266944885760-1-ZtH0.jpg"
   },
   {
     "number": "58",
     "player": "Bryce Eldridge",
     "team": "San Francisco Giants",
-    "value": 1.35,
+    "value": 2.01,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1080666665532023808-1-XkE.jpg"
   },
   {
     "number": "BCP-47",
     "player": "Handelfry Encarnacion",
     "team": "Milwaukee Brewers",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1080666001061995520-1-2kTa.jpg"
   },
   {
     "number": "BCP-135",
     "player": "Wehiwa Aloy",
     "team": "Baltimore Orioles",
-    "value": 1.99,
+    "value": 1.51,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1080665311929459712-1-IdiI.jpg"
   },
   {
     "number": "53",
     "player": "Cam Schlittler",
     "team": "New York Yankees",
-    "value": 40,
+    "value": 35,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1080664360317379584-1-L8jQ.jpg"
   },
   {
     "number": "ES-19",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 0.99,
+    "value": 1.17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1079761247771450368-1-LoFt.jpg"
   },
   {
     "number": "BCP-15",
     "player": "Gage Jump",
     "team": "Athletics",
-    "value": 0.99,
+    "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1079760944674266112-1-J6L4.jpg"
   },
   {
@@ -2157,14 +1814,14 @@ const cardsDatabase = [
     "number": "PC-13",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.95,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1079758826936622080-1-VnnG.jpg"
   },
   {
     "number": "ES-25",
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
-    "value": 1.19,
+    "value": 1.14,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1079758483481844736-1-U2UN.jpg"
   },
   {
@@ -2185,7 +1842,7 @@ const cardsDatabase = [
     "number": "US225",
     "player": "Michael Harris II",
     "team": "Atlanta Braves",
-    "value": 1.5,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1078647549413908480-1-Di70.jpg"
   },
   {
@@ -2206,21 +1863,21 @@ const cardsDatabase = [
     "number": "62",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 2,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1078253756143726592-1-z1Ew.jpg"
   },
   {
     "number": "1",
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
-    "value": 2.28,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1078253330254098432-1-DxG8.jpg"
   },
   {
     "number": "T91-15",
     "player": "David Ortiz",
     "team": "Boston Red Sox",
-    "value": 1.25,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1078253142886150144-1-tNdO.jpg"
   },
   {
@@ -2234,14 +1891,14 @@ const cardsDatabase = [
     "number": "MLM-DC",
     "player": "Dylan Crews",
     "team": "Washington Nationals",
-    "value": 2.84,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1078252242629128192-1-qtIa.jpg"
   },
   {
     "number": "ATT-5",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1078252051125596160-1-4Ti.jpg"
   },
   {
@@ -2283,14 +1940,14 @@ const cardsDatabase = [
     "number": "T91-100",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.89,
+    "value": 2.45,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1077696939218784256-1-m9VA.jpg"
   },
   {
     "number": "BCP-128",
     "player": "Hector Ramos",
     "team": "Boston Red Sox",
-    "value": 1,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1077695532918984704-1-DMJy.jpg"
   },
   {
@@ -2304,14 +1961,14 @@ const cardsDatabase = [
     "number": "BTP-84",
     "player": "Ike Irish",
     "team": "Baltimore Orioles",
-    "value": 1.15,
+    "value": 1.29,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1077694501405413376-1-Rwrt.jpg"
   },
   {
     "number": "T91-51",
     "player": "Bubba Chandler",
     "team": "Pittsburgh Pirates",
-    "value": 1.5,
+    "value": 1.59,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1077672966294876160-1-i2nH.jpg"
   },
   {
@@ -2327,6 +1984,13 @@ const cardsDatabase = [
     "team": "Tampa Bay Rays",
     "value": 0,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1077671054162014208-1-5DV4.jpg"
+  },
+  {
+    "number": "5",
+    "player": "SHOHEI OHTANI",
+    "team": "",
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1076749201406449664-1-qmUI.jpg"
   },
   {
     "number": "BA-EC1",
@@ -2409,7 +2073,7 @@ const cardsDatabase = [
     "number": "81",
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
-    "value": 1.75,
+    "value": 1.29,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1075378269186184192-1-IWib.jpg"
   },
   {
@@ -2423,42 +2087,42 @@ const cardsDatabase = [
     "number": "212",
     "player": "Troy Melton",
     "team": "Detroit Tigers",
-    "value": 13,
+    "value": 14,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1075377556473271296-1-h1vE.jpg"
   },
   {
     "number": "ATT-10",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 1.39,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1075377348284797952-1-ZLQm.jpg"
   },
   {
     "number": "BTP-57",
     "player": "Ryan Sloan",
     "team": "Seattle Mariners",
-    "value": 1.25,
+    "value": 1.59,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073316731214973952-1-qXva.jpg"
   },
   {
     "number": "BCP-66",
     "player": "Wyatt Sanford",
     "team": "Pittsburgh Pirates",
-    "value": 1.58,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073316261998185472-1-3PaU.jpg"
   },
   {
     "number": "93",
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
-    "value": 0.5,
+    "value": 0.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073315940454452224-1-M4JD.jpg"
   },
   {
     "number": "ES-10",
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073315634731633664-1-hF54.jpg"
   },
   {
@@ -2472,14 +2136,14 @@ const cardsDatabase = [
     "number": "52",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.25,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073314975999413248-1-4bbA.jpg"
   },
   {
     "number": "BST-6",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 5.84,
+    "value": 6.47,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073314407419563008-1-rUEx.jpg"
   },
   {
@@ -2493,7 +2157,7 @@ const cardsDatabase = [
     "number": "US244",
     "player": "Corbin Carroll",
     "team": "Arizona Diamondbacks",
-    "value": 1.35,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1072828988774423552-1-QqzT.jpg"
   },
   {
@@ -2535,7 +2199,7 @@ const cardsDatabase = [
     "number": "AS-1",
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1072826879173729280-1-BBuo.jpg"
   },
   {
@@ -2549,7 +2213,7 @@ const cardsDatabase = [
     "number": "BCP-48",
     "player": "Shotaro Morii",
     "team": "Athletics",
-    "value": 1.42,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071864888657204224-1-Rfoi.jpg"
   },
   {
@@ -2563,21 +2227,21 @@ const cardsDatabase = [
     "number": "BCP-76",
     "player": "Esmerlyn Valdez",
     "team": "Pittsburgh Pirates",
-    "value": 1.99,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071864266558034944-1-lNsJ.jpg"
   },
   {
     "number": "BCP-88",
     "player": "Dasan Hill",
     "team": "Minnesota Twins",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071863944947192832-1-rzoi.jpg"
   },
   {
     "number": "BCP-83",
     "player": "Josue De Paula",
     "team": "Los Angeles Dodgers",
-    "value": 1.34,
+    "value": 1.17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071863503437976576-1-vhn2.jpg"
   },
   {
@@ -2598,7 +2262,7 @@ const cardsDatabase = [
     "number": "135",
     "player": "Ken Griffey Jr.",
     "team": "Seattle Mariners",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071862143023862784-1-oEWh.jpg"
   },
   {
@@ -2640,14 +2304,14 @@ const cardsDatabase = [
     "number": "BCP-115",
     "player": "JJ Wetherholt",
     "team": "St. Louis Cardinals",
-    "value": 1.99,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071859114358887424-1-Ve84.jpg"
   },
   {
     "number": "CPA-HL",
     "player": "Henry Lalane",
     "team": "New York Yankees",
-    "value": 24,
+    "value": 45.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071858057931150336-1-JjNj.jpg"
   },
   {
@@ -2661,7 +2325,7 @@ const cardsDatabase = [
     "number": "BCP-43",
     "player": "Parks Harber",
     "team": "San Francisco Giants",
-    "value": 1.5,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071857233859466240-1-Fjlg.jpg"
   },
   {
@@ -2682,21 +2346,21 @@ const cardsDatabase = [
     "number": "ES-24",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 1,
+    "value": 1.27,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071856095089153024-1-udQ.jpg"
   },
   {
     "number": "BTP-90",
     "player": "Ching-Hsien Ko",
     "team": "Los Angeles Dodgers",
-    "value": 1.2,
+    "value": 1.42,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071855784458998784-1-Ihd9.jpg"
   },
   {
     "number": "BCP-141",
     "player": "Justin Gonzales",
     "team": "Boston Red Sox",
-    "value": 53,
+    "value": 51,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071853535733240832-1-pv9w.jpg"
   },
   {
@@ -2710,49 +2374,49 @@ const cardsDatabase = [
     "number": "BST-2",
     "player": "Freddie Freeman",
     "team": "Los Angeles Dodgers",
-    "value": 1.19,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071840244654953472-1-0AxC.jpg"
   },
   {
     "number": "BCP-59",
     "player": "Brendan Tunink",
     "team": "Los Angeles Dodgers",
-    "value": 1.08,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071839770019124224-1-ZpI.jpg"
   },
   {
     "number": "BCP-19",
     "player": "Kade Anderson",
     "team": "Seattle Mariners",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071839155352261632-1-GmzX.jpg"
   },
   {
     "number": "ES-12",
     "player": "JJ Wetherholt",
     "team": "St. Louis Cardinals",
-    "value": 1.53,
+    "value": 1.26,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071838835544970240-1-dwp.jpg"
   },
   {
     "number": "BCP-30",
     "player": "Alimber Santa",
     "team": "Houston Astros",
-    "value": 1.75,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071836374948140032-1-Lgia.jpg"
   },
   {
     "number": "BTP-80",
     "player": "Bo Davidson",
     "team": "San Francisco Giants",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071836076691182592-1-yWO.jpg"
   },
   {
     "number": "BTP-25",
     "player": "Edward Florentino",
     "team": "Pittsburgh Pirates",
-    "value": 0.99,
+    "value": 1.04,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071835704178267136-1-OC4S.jpg"
   },
   {
@@ -2822,14 +2486,14 @@ const cardsDatabase = [
     "number": "T91-34",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 1.7,
+    "value": 1.54,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067574988701722624-1-SG07.jpg"
   },
   {
     "number": "BCP-162",
     "player": "Junior Caminero",
     "team": "Tampa Bay Rays",
-    "value": 2.77,
+    "value": 2.11,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067425209921333248-1-kERf.jpg"
   },
   {
@@ -2843,7 +2507,7 @@ const cardsDatabase = [
     "number": "21",
     "player": "Josh Jung",
     "team": "Texas Rangers",
-    "value": 1.5,
+    "value": 1.59,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067424453914814464-1-d8sV.jpg"
   },
   {
@@ -2857,7 +2521,7 @@ const cardsDatabase = [
     "number": "31",
     "player": "Michael Harris II",
     "team": "Atlanta Braves",
-    "value": 1.55,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067422811140155392-1-G5FF.jpg"
   },
   {
@@ -2871,28 +2535,28 @@ const cardsDatabase = [
     "number": "UR-2",
     "player": "Cam Schlittler",
     "team": "New York Yankees",
-    "value": 1.75,
+    "value": 1.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067009295218648064-1-9Cjk.jpg"
   },
   {
     "number": "BCP-52",
     "player": "Ethan Dorchies",
     "team": "Milwaukee Brewers",
-    "value": 1.29,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067008800517268480-1-BQCi.jpg"
   },
   {
     "number": "BTP-13",
     "player": "Travis Bazzana",
     "team": "Cleveland Guardians",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067008515178767360-1-QMUe.jpg"
   },
   {
     "number": "BCP-39",
     "player": "Ryan Waldschmidt",
     "team": "Arizona Diamondbacks",
-    "value": 1.05,
+    "value": 1.12,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067007991738016768-1-h86N.jpg"
   },
   {
@@ -2906,35 +2570,35 @@ const cardsDatabase = [
     "number": "BST-4",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 1.5,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067007218224473088-1-4vhs.jpg"
   },
   {
     "number": "ES-18",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 5.99,
+    "value": 7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067006802317288448-1-cryg.jpg"
   },
   {
     "number": "BCP-117",
     "player": "Victor Figueroa",
     "team": "Baltimore Orioles",
-    "value": 1.5,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067006173834388480-1-LXN.jpg"
   },
   {
     "number": "BTP-2",
     "player": "Kevin McGonigle",
     "team": "Detroit Tigers",
-    "value": 1.79,
+    "value": 2.23,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067005867759248384-1-tQB.jpg"
   },
   {
     "number": "BST-5",
     "player": "Max Clark",
     "team": "Detroit Tigers",
-    "value": 1.16,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067005494952731648-1-QQA4.jpg"
   },
   {
@@ -2948,7 +2612,7 @@ const cardsDatabase = [
     "number": "BTP-30",
     "player": "Liam Doyle",
     "team": "St. Louis Cardinals",
-    "value": 1,
+    "value": 1.15,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067000348063572992-1-FuaW.jpg"
   },
   {
@@ -2976,14 +2640,14 @@ const cardsDatabase = [
     "number": "BST-8",
     "player": "Nolan McLean",
     "team": "New York Mets",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1066997609250169856-1-Wor.jpg"
   },
   {
     "number": "BCP-115",
     "player": "JJ Wetherholt",
     "team": "St. Louis Cardinals",
-    "value": 1.99,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1066996606022984704-1-vHTY.jpg"
   },
   {
@@ -3011,7 +2675,7 @@ const cardsDatabase = [
     "number": "PC-20",
     "player": "Ethan Holliday",
     "team": "Colorado Rockies",
-    "value": 2,
+    "value": 1.58,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1066994094490526720-1-t9oQ.jpg"
   },
   {
@@ -3046,42 +2710,42 @@ const cardsDatabase = [
     "number": "41",
     "player": "Roki Sasaki",
     "team": "Los Angeles Dodgers",
-    "value": 1.49,
+    "value": 1.66,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1065486810546702336-1-9DBM.jpg"
   },
   {
     "number": "72",
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
-    "value": 1.55,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1065486621677193216-1-79Dw.jpg"
   },
   {
     "number": "27",
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
-    "value": 1.99,
+    "value": 1.71,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1065486406819776512-1-fXkt.jpg"
   },
   {
     "number": "83",
     "player": "Nick Kurtz",
     "team": "Athletics",
-    "value": 1.79,
+    "value": 1.87,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1065486194160175104-1-2DKC.jpg"
   },
   {
     "number": "USA02",
     "player": "Cal Raleigh",
     "team": "",
-    "value": 8.99,
+    "value": 8,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064538322460013568-1-itUr.jpg"
   },
   {
     "number": "79",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.34,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064041374496219136-1-aqF.jpg"
   },
   {
@@ -3116,7 +2780,7 @@ const cardsDatabase = [
     "number": "50",
     "player": "Bryce Eldridge",
     "team": "San Francisco Giants",
-    "value": 4.99,
+    "value": 5.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064040074589134848-1-NePp.jpg"
   },
   {
@@ -3172,7 +2836,7 @@ const cardsDatabase = [
     "number": "6",
     "player": "Juan Soto",
     "team": "New York Mets",
-    "value": 1.22,
+    "value": 2.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064037440960487424-1-XAIr.jpg"
   },
   {
@@ -3214,7 +2878,7 @@ const cardsDatabase = [
     "number": "BI-8",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 3.75,
+    "value": 3.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064033853857488896-1-pQ2n.jpg"
   },
   {
@@ -3228,7 +2892,7 @@ const cardsDatabase = [
     "number": "BI-3",
     "player": "Fernando Tatis Jr.",
     "team": "Chicago White Sox",
-    "value": 1.21,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064032849766277120-1-F7GY.jpg"
   },
   {
@@ -3249,7 +2913,7 @@ const cardsDatabase = [
     "number": "CPA-SCO",
     "player": "Spence Coffman",
     "team": "San Diego Padres",
-    "value": 3.25,
+    "value": 5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064031755052933120-1-pEOn.jpg"
   },
   {
@@ -3298,7 +2962,7 @@ const cardsDatabase = [
     "number": "CBA-TM",
     "player": "Troy Melton",
     "team": "Detroit Tigers",
-    "value": 39,
+    "value": 40,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064022476975661056-1-Hf3x.jpg"
   },
   {
@@ -3333,7 +2997,7 @@ const cardsDatabase = [
     "number": "66",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 1.52,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1057662457988292608-1-RlrZ.jpg"
   },
   {
@@ -3368,7 +3032,7 @@ const cardsDatabase = [
     "number": "83",
     "player": "Nick Kurtz",
     "team": "Athletics",
-    "value": 1.79,
+    "value": 1.87,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1057660958935654400-1-34PS.jpg"
   },
   {
@@ -3382,14 +3046,14 @@ const cardsDatabase = [
     "number": "76",
     "player": "Cam Schlittler",
     "team": "New York Yankees",
-    "value": 11,
+    "value": 10.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1057660001124392960-1-AB0t.jpg"
   },
   {
     "number": "11",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.49,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1057659813857107968-1-z9sV.jpg"
   },
   {
@@ -3452,14 +3116,14 @@ const cardsDatabase = [
     "number": "ATT-4",
     "player": "José Ramírez",
     "team": "Cleveland Guardians",
-    "value": 1.99,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1056531836643837952-1-ejYE.jpg"
   },
   {
     "number": "GH-23",
     "player": "Nick Kurtz",
     "team": "Athletics",
-    "value": 0.87,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1056531664937420800-1-8rWm.jpg"
   },
   {
@@ -3515,14 +3179,14 @@ const cardsDatabase = [
     "number": "PPAR-LW",
     "player": "Larry Walker",
     "team": "Colorado Rockies",
-    "value": 17,
+    "value": 16.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053205011021176832-1-NmG.jpg"
   },
   {
     "number": "RA-MS",
     "player": "Mike Schmidt",
     "team": "Philadelphia Phillies",
-    "value": 1.43,
+    "value": 1.85,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053204453824667648-1-EBv.jpg"
   },
   {
@@ -3550,21 +3214,21 @@ const cardsDatabase = [
     "number": "72",
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
-    "value": 4.25,
+    "value": 1.16,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053203257038741504-1-OPnZ.jpg"
   },
   {
     "number": "235",
     "player": "Andy Pages",
     "team": "Los Angeles Dodgers",
-    "value": 1.03,
+    "value": 1.24,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053203047440982016-1-osPz.jpg"
   },
   {
     "number": "272",
     "player": "Jackson Chourio",
     "team": "Milwaukee Brewers",
-    "value": 4.99,
+    "value": 1.93,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053202841173499904-1-e1KV.jpg"
   },
   {
@@ -3578,35 +3242,35 @@ const cardsDatabase = [
     "number": "140",
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
-    "value": 1.19,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048885027614498816-1-JFMT.jpg"
   },
   {
     "number": "100",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 1.35,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048884796843892736-1-JGrQ.jpg"
   },
   {
     "number": "97",
     "player": "Nick Kurtz",
     "team": "Athletics",
-    "value": 1.49,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048884423290789888-1-73R.jpg"
   },
   {
     "number": "SMLB-5",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048884241132167168-1-VAvA.jpg"
   },
   {
     "number": "TOG-17",
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
-    "value": 1.25,
+    "value": 0.77,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048884060709986304-1-9acR.jpg"
   },
   {
@@ -3620,7 +3284,7 @@ const cardsDatabase = [
     "number": "SMLB-13",
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
-    "value": 0.89,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048883417370861568-1-rd8U.jpg"
   },
   {
@@ -3641,21 +3305,21 @@ const cardsDatabase = [
     "number": "SMLB-7",
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
-    "value": 0.83,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048882618473390080-1-awTA.jpg"
   },
   {
     "number": "350",
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
-    "value": 1.47,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048882395084759040-1-wJMT.jpg"
   },
   {
     "number": "104",
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
-    "value": 1.89,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048882034341060608-1-dXzw.jpg"
   },
   {
@@ -3669,7 +3333,7 @@ const cardsDatabase = [
     "number": "265",
     "player": "Dodgers Duo",
     "team": "Los Angeles Dodgers",
-    "value": 1.39,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048881372597329920-1-n0Ay.jpg"
   },
   {
@@ -3683,7 +3347,7 @@ const cardsDatabase = [
     "number": "92",
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
-    "value": 1,
+    "value": 4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048880848896532480-1-H6Nd.jpg"
   },
   {
@@ -3697,14 +3361,14 @@ const cardsDatabase = [
     "number": "86",
     "player": "Dylan Crews",
     "team": "Washington Nationals",
-    "value": 0.89,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048880355822542848-1-7ayj.jpg"
   },
   {
     "number": "SMLB-6",
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
-    "value": 0.99,
+    "value": 0.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048880147961225216-1-hCWL.jpg"
   },
   {
@@ -3767,35 +3431,35 @@ const cardsDatabase = [
     "number": "SMLB-16",
     "player": "Mookie Betts",
     "team": "Los Angeles Dodgers",
-    "value": 1.17,
+    "value": 1.07,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048877347583827968-1-99L.jpg"
   },
   {
     "number": "SMLB-30",
     "player": "Jacob Wilson",
     "team": "Athletics",
-    "value": 0.99,
+    "value": 0.96,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048877136207683584-1-tyXD.jpg"
   },
   {
     "number": "BTP-7",
     "player": "Ronald Acuña Jr.",
     "team": "Atlanta Braves",
-    "value": 1,
+    "value": 1.4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048876747169210368-1-7oCR.jpg"
   },
   {
     "number": "TOG-15",
     "player": "James Wood",
     "team": "Washington Nationals",
-    "value": 0.81,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048876544408166400-1-ugEN.jpg"
   },
   {
     "number": "TOG-3",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 0.99,
+    "value": 1.17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048876358877323264-1-tjfN.jpg"
   },
   {
@@ -3816,14 +3480,14 @@ const cardsDatabase = [
     "number": "SMLB-9",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 0.9,
+    "value": 0.73,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048825122128923648-1-pvKd.jpg"
   },
   {
     "number": "BTP-22",
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
-    "value": 0.99,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048824777550072832-1-Pqz.jpg"
   },
   {
@@ -3844,21 +3508,21 @@ const cardsDatabase = [
     "number": "SMLB-24",
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
-    "value": 0.99,
+    "value": 0.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048824158965730304-1-TcFt.jpg"
   },
   {
     "number": "TOG-1",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048823946146745344-1-9dMK.jpg"
   },
   {
     "number": "TP-13",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 1.45,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048821376766446592-1-PtJr.jpg"
   },
   {
@@ -3872,42 +3536,42 @@ const cardsDatabase = [
     "number": "GH-1",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 1.38,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048819890145725440-1-f5W1.jpg"
   },
   {
     "number": "T91-69",
     "player": "José Ramírez",
     "team": "Cleveland Guardians",
-    "value": 1.27,
+    "value": 1.42,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048819678551477248-1-H0ke.jpg"
   },
   {
     "number": "T91-68",
     "player": "Don Mattingly",
     "team": "New York Yankees",
-    "value": 1.2,
+    "value": 1.3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048819444677086208-1-MoMh.jpg"
   },
   {
     "number": "TOG-14",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 0.99,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048819235079326720-1-zypU.jpg"
   },
   {
     "number": "66",
     "player": "Roki Sasaki",
     "team": "Los Angeles Dodgers",
-    "value": 1.49,
+    "value": 1.47,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048818306426866688-1-GSbi.jpg"
   },
   {
     "number": "138",
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
-    "value": 7.99,
+    "value": 8,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048817294400031744-1-qhy.jpg"
   },
   {
@@ -3977,14 +3641,14 @@ const cardsDatabase = [
     "number": "M-13",
     "player": "Screech",
     "team": "Washington Nationals",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046753507770918912-1-LBYD.jpg"
   },
   {
     "number": "M-28",
     "player": "ACE",
     "team": "Toronto Blue Jays",
-    "value": 1.27,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046753224135305216-1-IXA.jpg"
   },
   {
@@ -3998,28 +3662,28 @@ const cardsDatabase = [
     "number": "M-19",
     "player": "Phillie Phanatic",
     "team": "Philadelphia Phillies",
-    "value": 1.2,
+    "value": 1.6,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046752584478779392-1-MjMP.jpg"
   },
   {
     "number": "M-20",
     "player": "Orbit",
     "team": "Houston Astros",
-    "value": 1.34,
+    "value": 1.42,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046752234573162496-1-4gQK.jpg"
   },
   {
     "number": "205",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.75,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046751879282059264-1-nnZM.jpg"
   },
   {
     "number": "92",
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
-    "value": 1,
+    "value": 4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046751349038147584-1-W3Ik.jpg"
   },
   {
@@ -4040,7 +3704,7 @@ const cardsDatabase = [
     "number": "97",
     "player": "Nick Kurtz",
     "team": "Athletics",
-    "value": 1.49,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046750392124467200-1-pJEB.jpg"
   },
   {
@@ -4054,7 +3718,7 @@ const cardsDatabase = [
     "number": "196",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 1.57,
+    "value": 3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046749712672385024-1-cxcc.jpg"
   },
   {
@@ -4068,7 +3732,7 @@ const cardsDatabase = [
     "number": "GD-18",
     "player": "Jose Ramirez",
     "team": "Cleveland Guardians",
-    "value": 0.99,
+    "value": 1.29,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046748817322698752-1-jfcP.jpg"
   },
   {
@@ -4089,35 +3753,35 @@ const cardsDatabase = [
     "number": "GD-1",
     "player": "Elly De La Cruz",
     "team": "Cincinnati Reds",
-    "value": 1.43,
+    "value": 1.28,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046747102036912128-1-u8GH.jpg"
   },
   {
     "number": "SMLB-1",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 1.25,
+    "value": 1.11,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046746834037663744-1-Uf3q.jpg"
   },
   {
     "number": "SMLB-21",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 1.5,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046746614608455680-1-qaml.jpg"
   },
   {
     "number": "SMLB-25",
     "player": "Roman Anthony",
     "team": "Boston Red Sox",
-    "value": 1.25,
+    "value": 1.46,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046746349780101120-1-lRae.jpg"
   },
   {
     "number": "8B-13",
     "player": "Ken Griffey Jr.",
     "team": "Seattle Mariners",
-    "value": 1.07,
+    "value": 1.4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046745965531523072-1-RrX.jpg"
   },
   {
@@ -4138,28 +3802,28 @@ const cardsDatabase = [
     "number": "200",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.25,
+    "value": 0.73,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046744849183959040-1-AWmF.jpg"
   },
   {
     "number": "8B-1",
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
-    "value": 1.41,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046744473810528256-1-8UAO.jpg"
   },
   {
     "number": "TOG-12",
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
-    "value": 1.01,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046744224383657984-1-N4H.jpg"
   },
   {
     "number": "8B-19",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046743899652253696-1-bWb7.jpg"
   },
   {
@@ -4173,7 +3837,7 @@ const cardsDatabase = [
     "number": "8B-9",
     "player": "Ronald Acuna Jr.",
     "team": "Atlanta Braves",
-    "value": 1.39,
+    "value": 1.33,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046743217792641024-1-SvpB.jpg"
   },
   {
@@ -4187,28 +3851,28 @@ const cardsDatabase = [
     "number": "TOG-9",
     "player": "Roman Anthony",
     "team": "Boston Red Sox",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046742669773268992-1-nHCM.jpg"
   },
   {
     "number": "PAS-21",
     "player": "Tarik Skubal",
     "team": "Detroit Tigers",
-    "value": 0.75,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046742271071119360-1-npl.jpg"
   },
   {
     "number": "100",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 1.35,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046741893097220096-1-qNbw.jpg"
   },
   {
     "number": "8B-16",
     "player": "Nolan Ryan",
     "team": "Houston Astros",
-    "value": 1.2,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046741424308250624-1-xDqj.jpg"
   },
   {
@@ -4264,7 +3928,7 @@ const cardsDatabase = [
     "number": "PAS-12",
     "player": "Juan Soto",
     "team": "New York Mets",
-    "value": 1,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045928581455420416-1-vQ3u.jpg"
   },
   {
@@ -4278,28 +3942,28 @@ const cardsDatabase = [
     "number": "PAS-9",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.5,
+    "value": 1.71,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045927935591324672-1-TuHX.jpg"
   },
   {
     "number": "M-24",
     "player": "Oriole Bird",
     "team": "Baltimore Orioles",
-    "value": 1.04,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045927493956279296-1-Qd58.jpg"
   },
   {
     "number": "PAS-8",
     "player": "Freddie Freeman",
     "team": "Los Angeles Dodgers",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045927097124789248-1-y4JS.jpg"
   },
   {
     "number": "GH-17",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.99,
+    "value": 1.68,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045926846271855616-1-h9JA.jpg"
   },
   {
@@ -4313,7 +3977,7 @@ const cardsDatabase = [
     "number": "M-15",
     "player": "Paws",
     "team": "Detroit Tigers",
-    "value": 1.43,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045926205524810752-1-FHJ.jpg"
   },
   {
@@ -4327,7 +3991,7 @@ const cardsDatabase = [
     "number": "M-30",
     "player": "Billy the Marlin",
     "team": "Miami Marlins",
-    "value": 1.15,
+    "value": 1.35,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045925349911960576-1-AzO.jpg"
   },
   {
@@ -4362,7 +4026,7 @@ const cardsDatabase = [
     "number": "SMLB-12",
     "player": "Elly De La Cruz",
     "team": "Cincinnati Reds",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045923741018889216-1-Vgrt.jpg"
   },
   {
@@ -4390,7 +4054,7 @@ const cardsDatabase = [
     "number": "FP-6",
     "player": "Tony Hawk",
     "team": "San Diego Padres",
-    "value": 1.61,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045921054072249344-1-MOy.jpg"
   },
   {
@@ -4404,7 +4068,7 @@ const cardsDatabase = [
     "number": "PPAR-JJ",
     "player": "Josh Jung",
     "team": "Texas Rangers",
-    "value": 15,
+    "value": 13.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045920311814659072-1-YTDb.jpg"
   },
   {
@@ -4460,7 +4124,7 @@ const cardsDatabase = [
     "number": "PP-2",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 2.99,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045195416656294912-1-EBt6.jpg"
   },
   {
@@ -4481,14 +4145,14 @@ const cardsDatabase = [
     "number": "P-16",
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
-    "value": 1.8,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045172667345024000-1-CosS.jpg"
   },
   {
     "number": "94",
     "player": "Nick Kurtz",
     "team": "Athletics",
-    "value": 7,
+    "value": 5.73,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045172333084161024-1-HQ1q.jpg"
   },
   {
@@ -4537,14 +4201,14 @@ const cardsDatabase = [
     "number": "86",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 1,
+    "value": 0.83,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042872878016236544-1-64Gt.jpg"
   },
   {
     "number": "6",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.35,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042872395092462592-1-htC.jpg"
   },
   {
@@ -4593,7 +4257,7 @@ const cardsDatabase = [
     "number": "275",
     "player": "Nick Kurtz",
     "team": "Athletics",
-    "value": 4,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042823894870526976-1-adeV.jpg"
   },
   {
@@ -4614,21 +4278,21 @@ const cardsDatabase = [
     "number": "380",
     "player": "Junior Caminero",
     "team": "Tampa Bay Rays",
-    "value": 1.35,
+    "value": 1.65,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042822361097440256-1-PVTT.jpg"
   },
   {
     "number": "117",
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
-    "value": 8.75,
+    "value": 8,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042419066614705152-1-oBEf.jpg"
   },
   {
     "number": "117",
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
-    "value": 294.84,
+    "value": 297.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042417110332599296-1-qrHn.jpg"
   },
   {
@@ -4649,14 +4313,14 @@ const cardsDatabase = [
     "number": "F15-13",
     "player": "Roki Sasaki",
     "team": "Los Angeles Dodgers",
-    "value": 1.06,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042413721955724288-1-qBAP.jpg"
   },
   {
     "number": "US123",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.19,
+    "value": 1.55,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1041703522923967488-1-9ZGI.jpg"
   },
   {
@@ -4684,7 +4348,7 @@ const cardsDatabase = [
     "number": "284",
     "player": "Salvador Perez",
     "team": "Kansas City Royals",
-    "value": 1.48,
+    "value": 1.61,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1041699066727625728-1-qnov.jpg"
   },
   {
@@ -4747,7 +4411,7 @@ const cardsDatabase = [
     "number": "USC83",
     "player": "Blaine Crim",
     "team": "Texas Rangers",
-    "value": 1.25,
+    "value": 1.13,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1040959244443345920-1-my.jpg"
   },
   {
@@ -4985,7 +4649,7 @@ const cardsDatabase = [
     "number": "40",
     "player": "Chase Meidroth",
     "team": "Chicago White Sox",
-    "value": 1.24,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1038794791278691328-1-d0n3.jpg"
   },
   {
@@ -4999,14 +4663,14 @@ const cardsDatabase = [
     "number": "90CU-4",
     "player": "Juan Soto",
     "team": "New York Mets",
-    "value": 1.12,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1038793982080009216-1-0y93.jpg"
   },
   {
     "number": "ASGC-18",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 8.9,
+    "value": 7.07,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1038793593855230976-1-yaRS.jpg"
   },
   {
@@ -5034,7 +4698,7 @@ const cardsDatabase = [
     "number": "135",
     "player": "Roberto Clemente",
     "team": "Pittsburgh Pirates",
-    "value": 1.99,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1038074397864500224-1-sZU6.jpg"
   },
   {
@@ -5118,14 +4782,14 @@ const cardsDatabase = [
     "number": "265",
     "player": "Bubba Chandler",
     "team": "Pittsburgh Pirates",
-    "value": 1.39,
+    "value": 1.08,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1036622380016086016-1-5uSg.jpg"
   },
   {
     "number": "BCP-163",
     "player": "Johan De Los Santos",
     "team": "Pittsburgh Pirates",
-    "value": 2.49,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1036621041773063168-1-ogYW.jpg"
   },
   {
@@ -5174,7 +4838,7 @@ const cardsDatabase = [
     "number": "45",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 2.3,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1033717338634980352-1-RGcb.jpg"
   },
   {
@@ -5188,7 +4852,7 @@ const cardsDatabase = [
     "number": "101",
     "player": "James Wood",
     "team": "Washington Nationals",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1033715431644335104-1-U44.jpg"
   },
   {
@@ -5286,7 +4950,7 @@ const cardsDatabase = [
     "number": "20",
     "player": "Jonathan Aranda",
     "team": "Tampa Bay Rays",
-    "value": 1.5,
+    "value": 1.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1031565885240610816-1-aPtH.jpg"
   },
   {
@@ -5300,7 +4964,7 @@ const cardsDatabase = [
     "number": "262",
     "player": "Adam Frazier",
     "team": "Kansas City Royals",
-    "value": 1.69,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1031565232439136256-1-RaQe.jpg"
   },
   {
@@ -5391,14 +5055,14 @@ const cardsDatabase = [
     "number": "329",
     "player": "Grant Taylor",
     "team": "Chicago White Sox",
-    "value": 1.52,
+    "value": 1.35,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1031555565558272000-1-URqC.jpg"
   },
   {
     "number": "99",
     "player": "George Brett",
     "team": "Kansas City Royals",
-    "value": 2.19,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1031554897170763776-1-Ywva.jpg"
   },
   {
@@ -5426,7 +5090,7 @@ const cardsDatabase = [
     "number": "263",
     "player": "Justin Martinez",
     "team": "Arizona Diamondbacks",
-    "value": 1,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1031546828336500736-1-Nti.jpg"
   },
   {
@@ -5454,7 +5118,7 @@ const cardsDatabase = [
     "number": "333",
     "player": "Miguel Cabrera",
     "team": "Detroit Tigers",
-    "value": 1.75,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1031544186889670656-1-nc1v.jpg"
   },
   {
@@ -5489,7 +5153,7 @@ const cardsDatabase = [
     "number": "VIP-2",
     "player": "Nick Kurtz",
     "team": "Athletics",
-    "value": 1.09,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1030090395393986560-1-ke6e.jpg"
   },
   {
@@ -5524,14 +5188,14 @@ const cardsDatabase = [
     "number": "SMLB-64",
     "player": "Chandler Simpson",
     "team": "Tampa Bay Rays",
-    "value": 0.8,
+    "value": 0.71,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028436353534140416-1-5dC7.jpg"
   },
   {
     "number": "SMLB-77",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028436108939108352-1-2BsF.jpg"
   },
   {
@@ -5559,7 +5223,7 @@ const cardsDatabase = [
     "number": "US86",
     "player": "Legends Unite",
     "team": "New York Yankees",
-    "value": 1.25,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028434131769368576-1-sAWj.jpg"
   },
   {
@@ -5587,7 +5251,7 @@ const cardsDatabase = [
     "number": "U90-31",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.25,
+    "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028432469205983232-1-LmB1.jpg"
   },
   {
@@ -5657,28 +5321,28 @@ const cardsDatabase = [
     "number": "269",
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
-    "value": 4.54,
+    "value": 3.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027742885390876672-1-PLIN.jpg"
   },
   {
     "number": "231",
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
-    "value": 1.02,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027742619237122048-1-dUU.jpg"
   },
   {
     "number": "10",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 2.77,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027742265120423936-1-Kj8E.jpg"
   },
   {
     "number": "49",
     "player": "Coby Mayo",
     "team": "Baltimore Orioles",
-    "value": 1,
+    "value": 0.95,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027741855412420608-1-ac4o.jpg"
   },
   {
@@ -5692,14 +5356,14 @@ const cardsDatabase = [
     "number": "RA-MM",
     "player": "Manny Machado",
     "team": "San Diego Padres",
-    "value": 1.6,
+    "value": 1.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027740544952467456-1-0NTY.jpg"
   },
   {
     "number": "RP-JW",
     "player": "James Wood",
     "team": "Washington Nationals",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027740206539243520-1-1Cmp.jpg"
   },
   {
@@ -5713,14 +5377,14 @@ const cardsDatabase = [
     "number": "33",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 6.99,
+    "value": 1.7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027739645752410112-1-ObMU.jpg"
   },
   {
     "number": "12",
     "player": "Mookie Betts",
     "team": "Los Angeles Dodgers",
-    "value": 2,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027739282685067264-1-KpVD.jpg"
   },
   {
@@ -5734,42 +5398,42 @@ const cardsDatabase = [
     "number": "215",
     "player": "Ryan O'Hearn",
     "team": "San Diego Padres",
-    "value": 0.99,
+    "value": 2.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027738569795993600-1-oYv5.jpg"
   },
   {
     "number": "233",
     "player": "Elly De La Cruz",
     "team": "Cincinnati Reds",
-    "value": 0.88,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027738281110437888-1-llJx.jpg"
   },
   {
     "number": "160",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 3.93,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027737885562404864-1-7FWR.jpg"
   },
   {
     "number": "TE-JCA",
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
-    "value": 2,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027737505382301696-1-uYpL.jpg"
   },
   {
     "number": "277",
     "player": "NL Champions",
     "team": "Los Angeles Dodgers",
-    "value": 0.99,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027736433393696768-1-h2UQ.jpg"
   },
   {
     "number": "7",
     "player": "2025 ERA Leaders (Tarik Skubal / Paul Skenes)",
     "team": "",
-    "value": 0.74,
+    "value": 0.91,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027735808022970368-1-TKV1.jpg"
   },
   {
@@ -5790,35 +5454,35 @@ const cardsDatabase = [
     "number": "205",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.75,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027734402218098688-1-A2Jm.jpg"
   },
   {
     "number": "SMLB-6",
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
-    "value": 0.99,
+    "value": 0.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027734012407873536-1-CWWu.jpg"
   },
   {
     "number": "BTP-11",
     "player": "Juan Soto",
     "team": "New York Mets",
-    "value": 1.49,
+    "value": 1.45,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027733666864332800-1-XLYT.jpg"
   },
   {
     "number": "TOG-8",
     "player": "Mookie Betts",
     "team": "Los Angeles Dodgers",
-    "value": 0.5,
+    "value": 0.53,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027733452107579392-1-MxKA.jpg"
   },
   {
     "number": "229",
     "player": "Jackson Merrill",
     "team": "San Diego Padres",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027733224977629184-1-6MC.jpg"
   },
   {
@@ -5846,14 +5510,14 @@ const cardsDatabase = [
     "number": "222",
     "player": "Tommy Edman",
     "team": "Los Angeles Dodgers",
-    "value": 1.5,
+    "value": 1.58,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027732205359104000-1-DAxq.jpg"
   },
   {
     "number": "SMLB-11",
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
-    "value": 0.99,
+    "value": 0.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027731954590056448-1-vEiD.jpg"
   },
   {
@@ -5867,7 +5531,7 @@ const cardsDatabase = [
     "number": "TOG-15",
     "player": "James Wood",
     "team": "Washington Nationals",
-    "value": 0.81,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027730946497478656-1-1KCM.jpg"
   },
   {
@@ -5881,28 +5545,28 @@ const cardsDatabase = [
     "number": "T91-60",
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
-    "value": 1.25,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027730405373542400-1-WZik.jpg"
   },
   {
     "number": "SMLB-8",
     "player": "Yordan Alvarez",
     "team": "Houston Astros",
-    "value": 0.74,
+    "value": 0.8,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027730002955239424-1-dxCr.jpg"
   },
   {
     "number": "250",
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
-    "value": 3.75,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027729726894538752-1-MyFP.jpg"
   },
   {
     "number": "140",
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
-    "value": 1.19,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027729269346304000-1-8hg.jpg"
   },
   {
@@ -5916,7 +5580,7 @@ const cardsDatabase = [
     "number": "SMLB-9",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 0.9,
+    "value": 0.73,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027728379499544576-1-aZNH.jpg"
   },
   {
@@ -5979,7 +5643,7 @@ const cardsDatabase = [
     "number": "306",
     "player": "Spencer Schwellenbach",
     "team": "Atlanta Braves",
-    "value": 0.9,
+    "value": 1.34,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022843574638072832-1-VKfV.jpg"
   },
   {
@@ -6007,7 +5671,7 @@ const cardsDatabase = [
     "number": "FS-20",
     "player": "Michael Harris II",
     "team": "Atlanta Braves",
-    "value": 1,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022736473713575936-1-rgIb.jpg"
   },
   {
@@ -6077,7 +5741,7 @@ const cardsDatabase = [
     "number": "300",
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
-    "value": 0.21,
+    "value": 0.17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022733908686964736-1-VQYD.jpg"
   },
   {
@@ -6112,21 +5776,21 @@ const cardsDatabase = [
     "number": "141",
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
-    "value": 1.36,
+    "value": 1.45,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022731509503133696-1-PGWK.jpg"
   },
   {
     "number": "88BC-5",
     "player": "Riley Greene",
     "team": "Detroit Tigers",
-    "value": 1.39,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022731223468378112-1-GKAy.jpg"
   },
   {
     "number": "62",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 1.29,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022731032778541056-1-lfnV.jpg"
   },
   {
@@ -6182,7 +5846,7 @@ const cardsDatabase = [
     "number": "17",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Angels",
-    "value": 1.9,
+    "value": 2.14,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022724564012533760-1-Uu55.jpg"
   },
   {
@@ -6210,7 +5874,7 @@ const cardsDatabase = [
     "number": "CT-8",
     "player": "José Ramírez",
     "team": "Cleveland Guardians",
-    "value": 0.83,
+    "value": 0.84,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022723497493301248-1-Sfzd.jpg"
   },
   {
@@ -6238,14 +5902,14 @@ const cardsDatabase = [
     "number": "7",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.06,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022721485728942080-1-eRuu.jpg"
   },
   {
     "number": "5",
     "player": "Albert Pujols",
     "team": "St. Louis Cardinals",
-    "value": 0.41,
+    "value": 0.4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022721109592147968-1-G5la.jpg"
   },
   {
@@ -6287,7 +5951,7 @@ const cardsDatabase = [
     "number": "TTY-25",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 2.5,
+    "value": 2.66,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022718937102059520-1-Pbpq.jpg"
   },
   {
@@ -6308,7 +5972,7 @@ const cardsDatabase = [
     "number": "NAP-24",
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
-    "value": 1,
+    "value": 1.95,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022715172470949888-1-zx42.jpg"
   },
   {
@@ -6322,35 +5986,35 @@ const cardsDatabase = [
     "number": "T91-23",
     "player": "Manny Machado",
     "team": "San Diego Padres",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022714508026087424-1-FCbh.jpg"
   },
   {
     "number": "SMLB-28",
     "player": "Kyle Teel",
     "team": "Chicago White Sox",
-    "value": 1.24,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022714296280844288-1-bvp5.jpg"
   },
   {
     "number": "SMLB-14",
     "player": "Corbin Carroll",
     "team": "Arizona Diamondbacks",
-    "value": 0.99,
+    "value": 0.61,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022714066818861056-1-Yv27.jpg"
   },
   {
     "number": "123",
     "player": "Francisco Lindor",
     "team": "New York Mets",
-    "value": 1.34,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022713011641026560-1-jiPw.jpg"
   },
   {
     "number": "BTP-6",
     "player": "Corbin Carroll",
     "team": "Arizona Diamondbacks",
-    "value": 1,
+    "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022712146230282240-1-l1NB.jpg"
   },
   {
@@ -6448,7 +6112,7 @@ const cardsDatabase = [
     "number": "YK-10",
     "player": "Roki Sasaki",
     "team": "Los Angeles Dodgers",
-    "value": 1.5,
+    "value": 1.3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022126642876917760-1-oLa.jpg"
   },
   {
@@ -6462,7 +6126,7 @@ const cardsDatabase = [
     "number": "1",
     "player": "Frank Thomas",
     "team": "Chicago White Sox",
-    "value": 0.99,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022125939399862272-1-5wM.jpg"
   },
   {
@@ -6581,7 +6245,7 @@ const cardsDatabase = [
     "number": "86",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 1,
+    "value": 0.83,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022119305353111552-1-Br26.jpg"
   },
   {
@@ -6644,7 +6308,7 @@ const cardsDatabase = [
     "number": "109",
     "player": "Jackson Merrill",
     "team": "San Diego Padres",
-    "value": 0.35,
+    "value": 0.4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022116122824288256-1-whxL.jpg"
   },
   {
@@ -6686,7 +6350,7 @@ const cardsDatabase = [
     "number": "105",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 0.99,
+    "value": 1.78,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022113816208746496-1-mjN0.jpg"
   },
   {
@@ -6714,7 +6378,7 @@ const cardsDatabase = [
     "number": "ICE-12",
     "player": "Dylan Crews",
     "team": "Washington Nationals",
-    "value": 1.03,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022112583628630016-1-4ZaQ.jpg"
   },
   {
@@ -6756,7 +6420,7 @@ const cardsDatabase = [
     "number": "71",
     "player": "Greg Maddux",
     "team": "Atlanta Braves",
-    "value": 1.16,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022110824336205824-1-5hRT.jpg"
   },
   {
@@ -6840,14 +6504,14 @@ const cardsDatabase = [
     "number": "184",
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
-    "value": 0.99,
+    "value": 0.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022107114256214016-1-YPYk.jpg"
   },
   {
     "number": "83",
     "player": "Corbin Carroll",
     "team": "Arizona Diamondbacks",
-    "value": 0.99,
+    "value": 1.16,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022106943539652608-1-4m5C.jpg"
   },
   {
@@ -6882,7 +6546,7 @@ const cardsDatabase = [
     "number": "95",
     "player": "Rhett Lowder",
     "team": "Cincinnati Reds",
-    "value": 0.92,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022105092970784768-1-oESR.jpg"
   },
   {
@@ -6896,7 +6560,7 @@ const cardsDatabase = [
     "number": "123",
     "player": "Francisco Alvarez",
     "team": "New York Mets",
-    "value": 1.23,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022104529675757568-1-C4IG.jpg"
   },
   {
@@ -6987,7 +6651,7 @@ const cardsDatabase = [
     "number": "86",
     "player": "Dylan Crews",
     "team": "Washington Nationals",
-    "value": 0.89,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017451810836973568-1-Ivzu.jpg"
   },
   {
@@ -7015,14 +6679,14 @@ const cardsDatabase = [
     "number": "265",
     "player": "Dodgers Duo",
     "team": "Los Angeles Dodgers",
-    "value": 1.39,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017450867647580160-1-h5mB.jpg"
   },
   {
     "number": "200",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.25,
+    "value": 0.73,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017450652957797376-1-F2AF.jpg"
   },
   {
@@ -7085,14 +6749,14 @@ const cardsDatabase = [
     "number": "SMLB-28",
     "player": "Kyle Teel",
     "team": "Chicago White Sox",
-    "value": 1.24,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017447731507762176-1-yoC.jpg"
   },
   {
     "number": "TOG-10",
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017447447100255232-1-17Gh.jpg"
   },
   {
@@ -7106,7 +6770,7 @@ const cardsDatabase = [
     "number": "60",
     "player": "Reggie Jackson",
     "team": "Oakland Athletics",
-    "value": 0.99,
+    "value": 1.29,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1009107486583707648-1-UhcE.jpg"
   },
   {
@@ -7134,7 +6798,7 @@ const cardsDatabase = [
     "number": "90",
     "player": "Connor Norby",
     "team": "Miami Marlins",
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1006211924759789568-1-wsjI.jpg"
   },
   {
@@ -7190,7 +6854,7 @@ const cardsDatabase = [
     "number": "P-19",
     "player": "Freddie Freeman",
     "team": "Los Angeles Dodgers",
-    "value": 1.5,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1006208981970729984-1-9QMv.jpg"
   },
   {
@@ -7232,7 +6896,7 @@ const cardsDatabase = [
     "number": "100",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 1.35,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1006206253917538304-1-R8aE.jpg"
   },
   {
@@ -7260,7 +6924,7 @@ const cardsDatabase = [
     "number": "TOG-14",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 0.99,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1006204305570812928-1-hTKo.jpg"
   },
   {
@@ -7288,7 +6952,7 @@ const cardsDatabase = [
     "number": "PA-JM",
     "player": "Justyn-Henry Malloy",
     "team": "Detroit Tigers",
-    "value": 8,
+    "value": 8.12,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1006201989929128960-1-kZ2T.jpg"
   },
   {
@@ -7358,14 +7022,14 @@ const cardsDatabase = [
     "number": "PRW-9",
     "player": "Jazz Chisholm Jr.",
     "team": "New York Yankees",
-    "value": 25.25,
+    "value": 15.51,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1005482891859724288-1-faPl.jpg"
   },
   {
     "number": "4",
     "player": "Ben Rice",
     "team": "New York Yankees",
-    "value": 8.5,
+    "value": 8.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1005482541358516224-1-GBjn.jpg"
   },
   {
@@ -7386,14 +7050,14 @@ const cardsDatabase = [
     "number": "PR-8",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 19.99,
+    "value": 19.98,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1005480849612340224-1-PhnJ.jpg"
   },
   {
     "number": "95C-14",
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
-    "value": 1.29,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/996003015372834816-1-SW0t.jpg"
   },
   {
@@ -7407,7 +7071,7 @@ const cardsDatabase = [
     "number": "100",
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
-    "value": 1.34,
+    "value": 1.74,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/996002358293704704-1-W2bA.jpg"
   },
   {
@@ -7421,7 +7085,7 @@ const cardsDatabase = [
     "number": "GH-3",
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
-    "value": 0.99,
+    "value": 1.07,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/994461511227428864-1-iY7D.jpg"
   },
   {
@@ -7442,7 +7106,7 @@ const cardsDatabase = [
     "number": "98",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 1.47,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/992438885534793728-1-uUyS.jpg"
   },
   {
@@ -7582,14 +7246,14 @@ const cardsDatabase = [
     "number": "132",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 3.17,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/969250108388690944-1-mS7C.jpg"
   },
   {
     "number": "BR-13",
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
-    "value": 1,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968239260589608960-1-5myR.jpg"
   },
   {
@@ -7617,14 +7281,14 @@ const cardsDatabase = [
     "number": "SMLB-72",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 0.8,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968238063947138048-1-Hpg8.jpg"
   },
   {
     "number": "US84",
     "player": "Nod and Smile",
     "team": "Los Angeles Dodgers",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968237614795603968-1-Qt7W.jpg"
   },
   {
@@ -7645,7 +7309,7 @@ const cardsDatabase = [
     "number": "U90-43",
     "player": "Mickey Mantle",
     "team": "New York Yankees",
-    "value": 1.12,
+    "value": 1.29,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968235839204410368-1-2ZzB.jpg"
   },
   {
@@ -7666,7 +7330,7 @@ const cardsDatabase = [
     "number": "149",
     "player": "Tomoyuki Sugano",
     "team": "Baltimore Orioles",
-    "value": 1.5,
+    "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/967064036566940672-1-hQRx.jpg"
   },
   {
@@ -7694,7 +7358,7 @@ const cardsDatabase = [
     "number": "230",
     "player": "Alex the Great",
     "team": "",
-    "value": 1.59,
+    "value": 1.6,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/967060386707412992-1-kL9I.jpg"
   },
   {
@@ -7729,7 +7393,7 @@ const cardsDatabase = [
     "number": "MNL-1",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 3.75,
+    "value": 3.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/953246657222513664-1-eLhP.jpg"
   },
   {
@@ -7743,63 +7407,63 @@ const cardsDatabase = [
     "number": "U90-31",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.25,
+    "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939386751344053248-1-kmm.jpg"
   },
   {
     "number": "MV-15",
     "player": "Clayton Kershaw",
     "team": "Los Angeles Dodgers",
-    "value": 1.29,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939385997307972608-1-DQmd.jpg"
   },
   {
     "number": "ASG-27",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 2,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939385562618694656-1-ih7C.jpg"
   },
   {
     "number": "US269",
     "player": "Rising Sons (Shohei Ohtani / Roki Sasaki)",
     "team": "Los Angeles Dodgers",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939385114508860416-1-8mkU.jpg"
   },
   {
     "number": "BG-6",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 3.5,
+    "value": 3.92,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939384315410062336-1-GMJ.jpg"
   },
   {
     "number": "SMLB-72",
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
-    "value": 0.8,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939378630658919424-1-w4Y.jpg"
   },
   {
     "number": "CAE-2",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 2.37,
+    "value": 2.13,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939378285274762240-1-V5.jpg"
   },
   {
     "number": "150",
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
-    "value": 1.49,
+    "value": 1.43,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939377735477005312-1-KmV7.jpg"
   },
   {
     "number": "37",
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
-    "value": 2.39,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/931196318628754432-1-hyTA.jpg"
   },
   {
@@ -7820,7 +7484,7 @@ const cardsDatabase = [
     "number": "99",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 1.34,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/931193132653245440-1-4cz.jpg"
   },
   {
@@ -7834,7 +7498,7 @@ const cardsDatabase = [
     "number": "MR-9",
     "player": "Matt Shaw",
     "team": "Chicago Cubs",
-    "value": 1.19,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/931192329376920576-1-9gq.jpg"
   },
   {
@@ -8205,7 +7869,7 @@ const cardsDatabase = [
     "number": "691",
     "player": "Jahmai Jones",
     "team": "Baltimore Orioles",
-    "value": 0.63,
+    "value": 0.96,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/912569256205775872-1-fTW.jpg"
   },
   {
@@ -8233,7 +7897,7 @@ const cardsDatabase = [
     "number": "H50",
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
-    "value": 1.1,
+    "value": 1.11,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/911804776127023104-1-Hrxk.jpg"
   },
   {
@@ -8562,14 +8226,14 @@ const cardsDatabase = [
     "number": "CAE-18",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 1.35,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-681771697-front.jpg"
   },
   {
     "number": "150",
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
-    "value": 1.1,
+    "value": 6.5,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-681771024-front.jpg"
   },
   {
@@ -8646,21 +8310,21 @@ const cardsDatabase = [
     "number": "FS-6",
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
-    "value": 1.31,
+    "value": 1.69,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680207957-front.jpg"
   },
   {
     "number": "PP-11",
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
-    "value": 1.3,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680206979-front.jpg"
   },
   {
     "number": "PP-22",
     "player": "Jacob Wilson",
     "team": "Athletics",
-    "value": 1.49,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680206159-front.jpg"
   },
   {
@@ -8674,7 +8338,7 @@ const cardsDatabase = [
     "number": "90CB-13",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 2.99,
+    "value": 2.26,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680202078-front.jpg"
   },
   {
@@ -8716,7 +8380,7 @@ const cardsDatabase = [
     "number": "DD-1",
     "player": "George Brett / Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 1.53,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-665007554-front.jpg"
   },
   {
@@ -8842,7 +8506,7 @@ const cardsDatabase = [
     "number": "SS-41",
     "player": "Roki Sasaki",
     "team": "Los Angeles Dodgers",
-    "value": 1.31,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-653192930-front.jpg"
   },
   {
@@ -8919,7 +8583,7 @@ const cardsDatabase = [
     "number": "DD-8",
     "player": "Clayton Kershaw / Sandy Koufax",
     "team": "Los Angeles Dodgers",
-    "value": 1.75,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-647409888-front.jpg"
   },
   {
@@ -8982,7 +8646,7 @@ const cardsDatabase = [
     "number": "SS-47",
     "player": "Gerrit Cole",
     "team": "New York Yankees",
-    "value": 1.07,
+    "value": 1.35,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-647403863-front.jpg"
   },
   {
@@ -9073,7 +8737,7 @@ const cardsDatabase = [
     "number": "1",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.93,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-631526900-front.jpg"
   },
   {
@@ -9087,7 +8751,7 @@ const cardsDatabase = [
     "number": "380",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 1.89,
+    "value": 1.74,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-630396256-front.jpg"
   },
   {
@@ -9164,7 +8828,7 @@ const cardsDatabase = [
     "number": "60",
     "player": "Junior Caminero",
     "team": "Tampa Bay Rays",
-    "value": 2.4,
+    "value": 2.2,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-627913320-front.jpg"
   },
   {
@@ -9220,7 +8884,7 @@ const cardsDatabase = [
     "number": "1",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 2.5,
+    "value": 2.42,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-627718406-front.jpg"
   },
   {
@@ -9276,7 +8940,7 @@ const cardsDatabase = [
     "number": "42",
     "player": "Dylan Crews",
     "team": "Washington Nationals",
-    "value": 1.12,
+    "value": 1.13,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-624333638-front.jpg"
   },
   {
@@ -9290,7 +8954,7 @@ const cardsDatabase = [
     "number": "3",
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
-    "value": 0.39,
+    "value": 0.31,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-623730530-front.jpg"
   },
   {
@@ -9318,7 +8982,7 @@ const cardsDatabase = [
     "number": "BCP-12",
     "player": "Hayden Alvarez",
     "team": "Los Angeles Angels",
-    "value": 1.5,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-623208951-front.jpg"
   },
   {
@@ -9346,7 +9010,7 @@ const cardsDatabase = [
     "number": "SMLB-15",
     "player": "Corbin Carroll",
     "team": "Arizona Diamondbacks",
-    "value": 0.5,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-616863843-front.jpg"
   },
   {
@@ -9360,7 +9024,7 @@ const cardsDatabase = [
     "number": "USC89",
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
-    "value": 2.02,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610389041-front.jpg"
   },
   {
@@ -9402,7 +9066,7 @@ const cardsDatabase = [
     "number": "200",
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610316979-front.jpg"
   },
   {
@@ -9423,7 +9087,7 @@ const cardsDatabase = [
     "number": "118",
     "player": "Justin Verlander",
     "team": "Houston Astros",
-    "value": 0.72,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610315286-front.jpg"
   },
   {
@@ -9437,7 +9101,7 @@ const cardsDatabase = [
     "number": "TG-10",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.49,
+    "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610313216-front.jpg"
   },
   {
@@ -9465,7 +9129,7 @@ const cardsDatabase = [
     "number": "SMLB-10",
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
-    "value": 1.58,
+    "value": 1.45,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-609887127-front.jpg"
   },
   {
@@ -9486,7 +9150,7 @@ const cardsDatabase = [
     "number": "SMLB-27",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 1.8,
+    "value": 1.69,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-609456022-front.jpg"
   },
   {
@@ -9647,7 +9311,7 @@ const cardsDatabase = [
     "number": "118",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 2.5,
+    "value": 3,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-607059281-front.jpg"
   },
   {
@@ -9703,7 +9367,7 @@ const cardsDatabase = [
     "number": "263",
     "player": "Randy Johnson",
     "team": "Seattle Mariners",
-    "value": 0.65,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-606866135-front.jpg"
   },
   {
@@ -9738,14 +9402,14 @@ const cardsDatabase = [
     "number": "IT-3",
     "player": "Junior Caminero",
     "team": "Tampa Bay Rays",
-    "value": 5,
+    "value": 4.95,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588206140-front.jpg"
   },
   {
     "number": "II-1",
     "player": "Shohei Ohtani / Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
-    "value": 42,
+    "value": 42.55,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588206024-front.jpg"
   },
   {
@@ -9759,7 +9423,7 @@ const cardsDatabase = [
     "number": "73",
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
-    "value": 4,
+    "value": 3.89,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588205214-front.jpg"
   },
   {
@@ -9801,7 +9465,7 @@ const cardsDatabase = [
     "number": "52",
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
-    "value": 0.3,
+    "value": 0.35,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588203389-front.jpg"
   },
   {
@@ -9815,14 +9479,14 @@ const cardsDatabase = [
     "number": "26",
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
-    "value": 1.53,
+    "value": 1.83,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588203004-front.jpg"
   },
   {
     "number": "CPA-KR",
     "player": "Kendry Rojas",
     "team": "Toronto Blue Jays",
-    "value": 9.49,
+    "value": 10.5,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588202417-front.jpg"
   },
   {
@@ -9843,7 +9507,7 @@ const cardsDatabase = [
     "number": "SMLB-2",
     "player": "Aaron Judge",
     "team": "New York Yankees",
-    "value": 1.15,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-574133573-front.jpg"
   },
   {
@@ -9864,7 +9528,7 @@ const cardsDatabase = [
     "number": "T90-32",
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
-    "value": 1.25,
+    "value": 1.47,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-574130867-front.jpg"
   },
   {
@@ -9878,7 +9542,7 @@ const cardsDatabase = [
     "number": "265",
     "player": "Anthony Santander",
     "team": "Baltimore Orioles",
-    "value": 1.35,
+    "value": 1.45,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-533015759-front.jpg"
   },
   {
@@ -9899,7 +9563,7 @@ const cardsDatabase = [
     "number": "USC57",
     "player": "Jackson Merrill",
     "team": "San Diego Padres",
-    "value": 1.99,
+    "value": 1.74,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-532197556-front.jpg"
   },
   {
@@ -9955,7 +9619,7 @@ const cardsDatabase = [
     "number": "ASGC-29",
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
-    "value": 8,
+    "value": 9.5,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-526854134-front.jpg"
   },
   {
@@ -10032,24 +9696,24 @@ const cardsDatabase = [
     "number": "SQ-14",
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
-    "value": 4.25,
+    "value": 3.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-511744507-front.jpg"
   },
   {
     "number": "PPAR-MS",
     "player": "Marcus Semien",
     "team": "Texas Rangers",
-    "value": 10,
+    "value": 12.5,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-511742182-front.jpg"
   }
 ];
 
 // Collection metadata
 const collectionInfo = {
-    totalCards: 1434,
-    totalValue: 6006.02,
+    totalCards: 1386,
+    totalValue: 5466.11,
     uniqueTeams: 38,
-    lastUpdated: "2026-07-19T13:01:20.979Z",
+    lastUpdated: "2026-07-13T18:21:29.412Z",
     dataSource: "/Users/stevenmpoole6/Desktop/masons-cards-updated.xlsx"
 };
 
