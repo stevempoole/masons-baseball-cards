@@ -34,16 +34,20 @@
         <!-- Search and Filters -->
         <div class="controls">
             <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search by player name or team..." onkeyup="filterCards()">
+                <input type="text" id="searchInput" placeholder="Search by player name, team, or year..." onkeyup="filterCards()">
             </div>
             <div class="filter-container">
                 <select id="teamFilter" onchange="filterCards()">
                     <option value="">All Teams</option>
                 </select>
+                <select id="yearFilter" onchange="filterCards()">
+                    <option value="">All Years</option>
+                </select>
                 <select id="sortSelect" onchange="sortCards()">
                     <option value="name">Sort by Name</option>
                     <option value="value">Sort by Value</option>
                     <option value="team">Sort by Team</option>
+                    <option value="year">Sort by Year</option>
                     <option value="number">Sort by Number</option>
                 </select>
             </div>
@@ -77,6 +81,7 @@
             
             updateStats();
             populateTeamFilter();
+            populateYearFilter();
             renderCards();
         }
 
@@ -102,18 +107,35 @@
             });
         }
 
+        function populateYearFilter() {
+            const yearFilter = document.getElementById('yearFilter');
+            const years = [...new Set(cardsData.map(card => card.year).filter(y => y))].sort((a, b) => b - a);
+
+            yearFilter.innerHTML = '<option value="">All Years</option>';
+
+            years.forEach(year => {
+                const option = document.createElement('option');
+                option.value = year;
+                option.textContent = year;
+                yearFilter.appendChild(option);
+            });
+        }
+
         function filterCards() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const selectedTeam = document.getElementById('teamFilter').value;
+            const selectedYear = document.getElementById('yearFilter').value;
             
             filteredCards = cardsData.filter(card => {
                 const matchesSearch = card.player.toLowerCase().includes(searchTerm) ||
                                     card.team.toLowerCase().includes(searchTerm) ||
-                                    card.number.toLowerCase().includes(searchTerm);
+                                    card.number.toLowerCase().includes(searchTerm) ||
+                                    String(card.year || '').includes(searchTerm);
                 
                 const matchesTeam = !selectedTeam || card.team === selectedTeam;
+                const matchesYear = !selectedYear || String(card.year) === selectedYear;
                 
-                return matchesSearch && matchesTeam;
+                return matchesSearch && matchesTeam && matchesYear;
             });
             
             renderCards();
@@ -130,6 +152,8 @@
                         return b.value - a.value;
                     case 'team':
                         return a.team.localeCompare(b.team);
+                    case 'year':
+                        return (b.year || 0) - (a.year || 0);
                     case 'number':
                         return a.number.localeCompare(b.number);
                     default:
@@ -159,7 +183,7 @@
                         <div class="card-value">$${card.value.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}</div>
                     </div>
                     <div class="player-name">${card.player}</div>
-                    <div class="team-name">${card.team}</div>
+                    <div class="team-name">${card.team}${card.year ? ` <span class="card-year">• ${card.year}</span>` : ''}</div>
                     <div class="card-image-container" onclick="viewCardImage('${card.imageUrl}', '${card.player}')">
                         ${card.imageUrl ? 
                             `<img src="${card.imageUrl}" alt="${card.player}" class="card-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
