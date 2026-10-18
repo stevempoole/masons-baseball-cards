@@ -1,15 +1,231 @@
 // Mason's Baseball Card Collection Data
 // Auto-generated from /Users/stevenmpoole6/Desktop/masons-cards-updated.xlsx
-// Last updated: 2026-10-11T10:15:15.097Z
-// Total cards: 1850
+// Last updated: 2026-10-18T11:22:20.482Z
+// Total cards: 1877
 
 const cardsDatabase = [
+  {
+    "number": "4",
+    "player": "Frank Thomas",
+    "team": "Chicago White Sox",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179986821988252672-1-yk6F.jpg"
+  },
+  {
+    "number": "39",
+    "player": "Samuel Basallo",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179986421256059904-1-zs8d.jpg"
+  },
+  {
+    "number": "9",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179985461473475584-1-pBFQ.jpg"
+  },
+  {
+    "number": "9",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179985057318730752-1-TfnK.jpg"
+  },
+  {
+    "number": "9",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179984747569380352-1-qTc.jpg"
+  },
+  {
+    "number": "9",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179984416965950464-1-6VHA.jpg"
+  },
+  {
+    "number": "9",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179983928228871168-1-U1tb.jpg"
+  },
+  {
+    "number": "BG-15",
+    "player": "Samuel Basallo",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 9.99,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179976032265005056-1-es2H.jpg"
+  },
+  {
+    "number": "US267",
+    "player": "Gimme An 'O'",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179975360463333376-1-DUQK.jpg"
+  },
+  {
+    "number": "US292",
+    "player": "Samuel Basallo",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179974862247127040-1-Jx9x.jpg"
+  },
+  {
+    "number": "US19",
+    "player": "Tatsuya Imai",
+    "team": "Houston Astros",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1179973834038667264-1-i3.jpg"
+  },
+  {
+    "number": "263",
+    "player": "Coby Mayo",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177746136029728768-1-A2V.jpg"
+  },
+  {
+    "number": "166",
+    "player": "Satchel Paige",
+    "team": "St. Louis Browns",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177745891334033408-1-7ox.jpg"
+  },
+  {
+    "number": "222",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 2,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177745426085056512-1-nPGH.jpg"
+  },
+  {
+    "number": "222",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177744971590275072-1-Z43d.jpg"
+  },
+  {
+    "number": "166",
+    "player": "Satchel Paige",
+    "team": "St. Louis Browns",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177744513932988416-1-ssYR.jpg"
+  },
+  {
+    "number": "N34-42",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 1.49,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177744058741952512-1-FU2E.jpg"
+  },
+  {
+    "number": "FSRB-AR",
+    "player": "Adley Rutschman",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 2.69,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177743526166007808-1-NBg8.jpg"
+  },
+  {
+    "number": "AGLC-DBE",
+    "player": "Dylan Beavers",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 27.5,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177743101878603776-1-sFU1.jpg"
+  },
+  {
+    "number": "TJR-GH",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 21.6,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177049981724135424-1-Oe5j.jpg"
+  },
+  {
+    "number": "85",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 34.5,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177049278431629312-1-TIob.jpg"
+  },
+  {
+    "number": "FMR-BT",
+    "player": "Brice Turang",
+    "team": "Milwaukee Brewers",
+    "year": 2026,
+    "value": 15,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177047998783033344-1-sKHl.jpg"
+  },
+  {
+    "number": "85",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 1.56,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177047191522119680-1-SlDi.jpg"
+  },
+  {
+    "number": "222",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1177044970327773184-1-BNOI.jpg"
+  },
+  {
+    "number": "99",
+    "player": "Pete Alonso",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 0,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1176952707183022080-1-wFwt.jpg"
+  },
+  {
+    "number": "BCP-227",
+    "player": "Pedro Gomez",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 3.25,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1176951967005806592-1-8Qu9.jpg"
+  },
+  {
+    "number": "222",
+    "player": "Gunnar Henderson",
+    "team": "Baltimore Orioles",
+    "year": 2026,
+    "value": 20,
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1176188830440010752-1-irJ2.jpg"
+  },
   {
     "number": "AS-SB",
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 204.02,
+    "value": 158.05,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1174824446179938304-1-vBjB.jpg"
   },
   {
@@ -17,7 +233,7 @@ const cardsDatabase = [
     "player": "Wehiwa Aloy",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2.42,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1173448415768036352-1-Gd0j.jpg"
   },
   {
@@ -33,7 +249,7 @@ const cardsDatabase = [
     "player": "Ariel Roque",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 0,
+    "value": 4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1173447277039666176-1-IfCH.jpg"
   },
   {
@@ -41,7 +257,7 @@ const cardsDatabase = [
     "player": "Pedro Gomez",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 0,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1170697078557932544-1-QnuR.jpg"
   },
   {
@@ -65,7 +281,7 @@ const cardsDatabase = [
     "player": "Max Clark",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 0,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1168297602679780352-1-2SF.jpg"
   },
   {
@@ -97,7 +313,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 926.1,
+    "value": 37,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1166935555505480704-1-R5yG.jpg"
   },
   {
@@ -153,7 +369,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2.9,
+    "value": 2.31,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1166189101983802368-1-lEpA.jpg"
   },
   {
@@ -161,7 +377,7 @@ const cardsDatabase = [
     "player": "Andri Hidalgo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1166188617306809344-1-ndUB.jpg"
   },
   {
@@ -185,7 +401,7 @@ const cardsDatabase = [
     "player": "Andri Hidalgo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 0.99,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1166181350599631872-1-CsS.jpg"
   },
   {
@@ -201,7 +417,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3.27,
+    "value": 2.51,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1165463455421190144-1-vbrl.jpg"
   },
   {
@@ -289,7 +505,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 0,
+    "value": 10.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164684822890436608-1-UF71.jpg"
   },
   {
@@ -337,7 +553,7 @@ const cardsDatabase = [
     "player": "Pete Alonso",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3.58,
+    "value": 4.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164676093260355584-1-DHG.jpg"
   },
   {
@@ -369,7 +585,7 @@ const cardsDatabase = [
     "player": "Sebastian Blanco",
     "team": "Colorado Rockies",
     "year": 2026,
-    "value": 15.5,
+    "value": 8,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164543151345784832-1-KEuJ.jpg"
   },
   {
@@ -385,7 +601,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2,
+    "value": 3.38,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164175734258031616-1-LjCq.jpg"
   },
   {
@@ -393,7 +609,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 17,
+    "value": 15.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164175079795612672-1-222f.jpg"
   },
   {
@@ -425,7 +641,7 @@ const cardsDatabase = [
     "player": "Andri Hidalgo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 7.5,
+    "value": 6,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164170709095963648-1-xJr.jpg"
   },
   {
@@ -433,7 +649,7 @@ const cardsDatabase = [
     "player": "Jaiden Lo Re",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 85,
+    "value": 89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164169998731860992-1-GWGm.jpg"
   },
   {
@@ -441,7 +657,7 @@ const cardsDatabase = [
     "player": "Brandon Butterworth",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 15,
+    "value": 13.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164169177193536512-1-VZse.jpg"
   },
   {
@@ -449,7 +665,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3.42,
+    "value": 3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164167475782507520-1-WcWO.jpg"
   },
   {
@@ -457,7 +673,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 5.55,
+    "value": 5.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1164166891675343872-1-GmUa.jpg"
   },
   {
@@ -473,7 +689,7 @@ const cardsDatabase = [
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 5.5,
+    "value": 6,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1163997055172386816-1-9TkR.jpg"
   },
   {
@@ -481,7 +697,7 @@ const cardsDatabase = [
     "player": "Chase DeLauter",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 2,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160329934733063168-1-wmJ0.jpg"
   },
   {
@@ -489,7 +705,7 @@ const cardsDatabase = [
     "player": "Charlie Condon",
     "team": "Colorado Rockies",
     "year": 2026,
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160329583971808256-1-nTAc.jpg"
   },
   {
@@ -513,7 +729,7 @@ const cardsDatabase = [
     "player": "Gregory Pio",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 3.37,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160328140393034752-1-j0BP.jpg"
   },
   {
@@ -521,7 +737,7 @@ const cardsDatabase = [
     "player": "Braylen Wimmer",
     "team": "Colorado Rockies",
     "year": 2026,
-    "value": 0,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160327712464974848-1-llm.jpg"
   },
   {
@@ -569,7 +785,7 @@ const cardsDatabase = [
     "player": "Ariel Roque",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 6.03,
+    "value": 5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160303336453583872-1-I4dn.jpg"
   },
   {
@@ -577,7 +793,7 @@ const cardsDatabase = [
     "player": "Brandon Butterworth",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 15,
+    "value": 13.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160302850577019904-1-usL5.jpg"
   },
   {
@@ -585,7 +801,7 @@ const cardsDatabase = [
     "player": "Brandon Butterworth",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 14.5,
+    "value": 16.87,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160302294563304448-1-JQOb.jpg"
   },
   {
@@ -601,7 +817,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2.25,
+    "value": 2.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160301514531812352-1-a95.jpg"
   },
   {
@@ -634,14 +850,14 @@ const cardsDatabase = [
     "team": "Baltimore Orioles",
     "year": 2026,
     "value": 4.99,
-    "imageUrl": "https://storage.googleapis.com/collx-product-images/1160298468787631104-1-LYF.jpg"
+    "imageUrl": "https://storage.googleapis.com/collx-product-images/1160298468787631104-1-P6EK.jpg"
   },
   {
     "number": "99",
     "player": "Pete Alonso",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 17,
+    "value": 14.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160297914552300544-1-Tk0I.jpg"
   },
   {
@@ -657,7 +873,7 @@ const cardsDatabase = [
     "player": "Pete Alonso",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 8.25,
+    "value": 8.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160297049468711936-1-NdX2.jpg"
   },
   {
@@ -665,7 +881,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160296265712677888-1-se6o.jpg"
   },
   {
@@ -673,7 +889,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3,
+    "value": 3.33,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160295610688222208-1-wD8J.jpg"
   },
   {
@@ -681,7 +897,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2.12,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160295108596478976-1-bWEI.jpg"
   },
   {
@@ -689,7 +905,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2.25,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160294575265559552-1-PLe.jpg"
   },
   {
@@ -697,7 +913,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3.01,
+    "value": 4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160292588063044608-1-9obc.jpg"
   },
   {
@@ -705,7 +921,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "",
     "year": 2026,
-    "value": 29.99,
+    "value": 28.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1160292000214561792-1-V3De.jpg"
   },
   {
@@ -753,7 +969,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.37,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1158232296657560576-1-w6CY.jpg"
   },
   {
@@ -817,7 +1033,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 5.5,
+    "value": 6.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1156930685937388544-1-RzFA.jpg"
   },
   {
@@ -825,7 +1041,7 @@ const cardsDatabase = [
     "player": "Willie Mays",
     "team": "San Francisco Giants",
     "year": 2026,
-    "value": 14.27,
+    "value": 12,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1156930365417065472-1-TwjA.jpg"
   },
   {
@@ -833,7 +1049,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 1.19,
+    "value": 1.43,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1156930028589288448-1-Sbsm.jpg"
   },
   {
@@ -857,7 +1073,7 @@ const cardsDatabase = [
     "player": "Jordan Westburg",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 9,
+    "value": 8.88,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1154672477117878272-1-DGrR.jpg"
   },
   {
@@ -897,7 +1113,7 @@ const cardsDatabase = [
     "player": "Ryan Ritter",
     "team": "Colorado Rockies",
     "year": 2026,
-    "value": 1.02,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1152431378525908992-1-1l0n.jpg"
   },
   {
@@ -905,7 +1121,7 @@ const cardsDatabase = [
     "player": "Roman Anthony",
     "team": "Boston Red Sox",
     "year": 2026,
-    "value": 4.35,
+    "value": 4.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1151705075186928640-1-W3jJ.jpg"
   },
   {
@@ -921,7 +1137,7 @@ const cardsDatabase = [
     "player": "Rickey Henderson",
     "team": "Oakland Athletics",
     "year": 2026,
-    "value": 2.99,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1151649711657586688-1-HjB4.jpg"
   },
   {
@@ -937,7 +1153,7 @@ const cardsDatabase = [
     "player": "Nick Kurtz",
     "team": "Athletics",
     "year": 2026,
-    "value": 4.22,
+    "value": 2.95,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1151648767586865152-1-CM4R.jpg"
   },
   {
@@ -953,7 +1169,7 @@ const cardsDatabase = [
     "player": "Michael King",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 2.12,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1151647787503849472-1-c2by.jpg"
   },
   {
@@ -961,7 +1177,7 @@ const cardsDatabase = [
     "player": "Fernando Tatis Jr.",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 2.36,
+    "value": 2.08,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1151647410192650240-1-oTAU.jpg"
   },
   {
@@ -977,7 +1193,7 @@ const cardsDatabase = [
     "player": "Isaac Collins",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 3.59,
+    "value": 2.29,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1151646619096584192-1-RCF8.jpg"
   },
   {
@@ -1201,7 +1417,7 @@ const cardsDatabase = [
     "player": "Cody Ponce",
     "team": "Toronto Blue Jays",
     "year": 2026,
-    "value": 28.5,
+    "value": 20,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1149427661949903872-1-GVeZ.jpg"
   },
   {
@@ -1241,7 +1457,7 @@ const cardsDatabase = [
     "player": "Chase Burns",
     "team": "Cincinnati Reds",
     "year": 2026,
-    "value": 3,
+    "value": 2.95,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1148860499406278656-1-U7zl.jpg"
   },
   {
@@ -1249,7 +1465,7 @@ const cardsDatabase = [
     "player": "Taylor Ward",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3.95,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1148860234821193728-1-WcfL.jpg"
   },
   {
@@ -1257,7 +1473,7 @@ const cardsDatabase = [
     "player": "Jackson Merrill",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 4,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1148859894721859584-1-HYKF.jpg"
   },
   {
@@ -1345,7 +1561,7 @@ const cardsDatabase = [
     "player": "Coby Mayo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 8.19,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1147367303065372672-1-6Tk9.jpg"
   },
   {
@@ -1353,7 +1569,7 @@ const cardsDatabase = [
     "player": "Chase DeLauter",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 5.11,
+    "value": 9.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1147366833051666432-1-dpe.jpg"
   },
   {
@@ -1377,7 +1593,7 @@ const cardsDatabase = [
     "player": "Kevin McGonigle",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 38.24,
+    "value": 32.09,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1147364553128675328-1-Ql5G.jpg"
   },
   {
@@ -1401,7 +1617,7 @@ const cardsDatabase = [
     "player": "Shane Baz",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.7,
+    "value": 1.35,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1147363286339815424-1-FbkF.jpg"
   },
   {
@@ -1433,7 +1649,7 @@ const cardsDatabase = [
     "player": "Drake Baldwin",
     "team": "Atlanta Braves",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1146496980086128640-1-inm.jpg"
   },
   {
@@ -1489,7 +1705,7 @@ const cardsDatabase = [
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 2.81,
+    "value": 4.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1145993797035630592-1-Rvki.jpg"
   },
   {
@@ -1561,7 +1777,7 @@ const cardsDatabase = [
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.79,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1145925432177603584-1-wOST.jpg"
   },
   {
@@ -1569,7 +1785,7 @@ const cardsDatabase = [
     "player": "Dylan Beavers",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2.27,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1145925082691417088-1-fwiq.jpg"
   },
   {
@@ -1577,7 +1793,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3.25,
+    "value": 2.3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1145924721796723712-1-ezfN.jpg"
   },
   {
@@ -1585,7 +1801,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3.99,
+    "value": 2.11,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1145924343093015552-1-5Opt.jpg"
   },
   {
@@ -1593,7 +1809,7 @@ const cardsDatabase = [
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 96,
+    "value": 95,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1145923035929785344-1-hR1R.jpg"
   },
   {
@@ -1625,7 +1841,7 @@ const cardsDatabase = [
     "player": "Dylan Beavers",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.14,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1145920589341930496-1-Rat5.jpg"
   },
   {
@@ -1633,7 +1849,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2.7,
+    "value": 2.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1145920250794488832-1-5Smc.jpg"
   },
   {
@@ -1665,7 +1881,7 @@ const cardsDatabase = [
     "player": "Jim Palmer",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1145918704589485056-1-vBGs.jpg"
   },
   {
@@ -1721,7 +1937,7 @@ const cardsDatabase = [
     "player": "Elly De La Cruz",
     "team": "Cincinnati Reds",
     "year": 2025,
-    "value": 5,
+    "value": 6,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1143735516611629056-1-4h2k.jpg"
   },
   {
@@ -1737,7 +1953,7 @@ const cardsDatabase = [
     "player": "Mason Barnett",
     "team": "Athletics",
     "year": 2026,
-    "value": 2.45,
+    "value": 2.34,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1143042925652372480-1-9naD.jpg"
   },
   {
@@ -1745,7 +1961,7 @@ const cardsDatabase = [
     "player": "Carlos Cortes",
     "team": "Athletics",
     "year": 2026,
-    "value": 4.03,
+    "value": 4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1143042183336061952-1-Hxtv.jpg"
   },
   {
@@ -1761,7 +1977,7 @@ const cardsDatabase = [
     "player": "Nick Kurtz",
     "team": "Athletics",
     "year": 2026,
-    "value": 1.41,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1143040196695583744-1-GSlS.jpg"
   },
   {
@@ -1777,7 +1993,7 @@ const cardsDatabase = [
     "player": "Denzel Clarke",
     "team": "Athletics",
     "year": 2026,
-    "value": 3.25,
+    "value": 4.62,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1143038803465235456-1-IM0o.jpg"
   },
   {
@@ -1865,7 +2081,7 @@ const cardsDatabase = [
     "player": "Justin Verlander",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1140917891916149760-1-jyK.jpg"
   },
   {
@@ -1873,7 +2089,7 @@ const cardsDatabase = [
     "player": "Kevin McGonigle",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 5.83,
+    "value": 9.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1140917570951230464-1-lf7v.jpg"
   },
   {
@@ -1889,7 +2105,7 @@ const cardsDatabase = [
     "player": "Jack Winkler",
     "team": "Miami Marlins",
     "year": 2026,
-    "value": 1.8,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1140916883068597248-1-fdfm.jpg"
   },
   {
@@ -1897,7 +2113,7 @@ const cardsDatabase = [
     "player": "Jose Corniell",
     "team": "Texas Rangers",
     "year": 2026,
-    "value": 0.99,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1140916313498891264-1-ezPM.jpg"
   },
   {
@@ -1929,7 +2145,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 3,
+    "value": 3.14,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1140914672200627200-1-aXKA.jpg"
   },
   {
@@ -2057,7 +2273,7 @@ const cardsDatabase = [
     "player": "Parker Messick",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 3.99,
+    "value": 4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1137217615490497536-1-tISu.jpg"
   },
   {
@@ -2089,7 +2305,7 @@ const cardsDatabase = [
     "player": "Chase DeLauter",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 36,
+    "value": 45,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1137215772924361728-1-rUa.jpg"
   },
   {
@@ -2097,7 +2313,7 @@ const cardsDatabase = [
     "player": "Parker Messick",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 55,
+    "value": 50,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1137215443184958464-1-U5hH.jpg"
   },
   {
@@ -2105,7 +2321,7 @@ const cardsDatabase = [
     "player": "Chase Burns",
     "team": "Cincinnati Reds",
     "year": 2026,
-    "value": 87.89,
+    "value": 85,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1137215139911613440-1-zYJd.jpg"
   },
   {
@@ -2121,7 +2337,7 @@ const cardsDatabase = [
     "player": "Jeremiah Jackson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 5.25,
+    "value": 5.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1137214415941188608-1-n4VW.jpg"
   },
   {
@@ -2209,7 +2425,7 @@ const cardsDatabase = [
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1,
+    "value": 3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1136510098246208512-1-lnan.jpg"
   },
   {
@@ -2225,7 +2441,7 @@ const cardsDatabase = [
     "player": "Ronald Acuña Jr.",
     "team": "Atlanta Braves",
     "year": 2026,
-    "value": 1.02,
+    "value": 1.13,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1136509629415296000-1-ahWO.jpg"
   },
   {
@@ -2233,7 +2449,7 @@ const cardsDatabase = [
     "player": "Kevin McGonigle",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 1.27,
+    "value": 2.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1136509027843050496-1-o9nO.jpg"
   },
   {
@@ -2257,7 +2473,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 4.75,
+    "value": 4.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1136388304994569216-1-MBUM.jpg"
   },
   {
@@ -2297,7 +2513,7 @@ const cardsDatabase = [
     "player": "Masyn Winn",
     "team": "St. Louis Cardinals",
     "year": 2025,
-    "value": 1.99,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1135793941338672128-1-AY07.jpg"
   },
   {
@@ -2321,7 +2537,7 @@ const cardsDatabase = [
     "player": "Jung Hoo Lee",
     "team": "San Francisco Giants",
     "year": 2025,
-    "value": 2.5,
+    "value": 2.26,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1135793124430859264-1-PAcC.jpg"
   },
   {
@@ -2385,7 +2601,7 @@ const cardsDatabase = [
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
     "year": 2026,
-    "value": 1.99,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1134257324639390720-1-SUl.jpg"
   },
   {
@@ -2393,7 +2609,7 @@ const cardsDatabase = [
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
     "year": 2026,
-    "value": 2.99,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1134256878851984384-1-o9KH.jpg"
   },
   {
@@ -2505,7 +2721,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2023,
-    "value": 1.5,
+    "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1132167695218266112-1-mAfR.jpg"
   },
   {
@@ -2513,7 +2729,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2023,
-    "value": 3.46,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1132167153708453888-1-NJLK.jpg"
   },
   {
@@ -2529,7 +2745,7 @@ const cardsDatabase = [
     "player": "Juan Torres",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 5.99,
+    "value": 5.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1130615115206223872-1-qNMk.jpg"
   },
   {
@@ -2553,7 +2769,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2025,
-    "value": 1.5,
+    "value": 1.01,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1130567263037809664-1-1ME.jpg"
   },
   {
@@ -2633,7 +2849,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.95,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1128426365908552704-1-cme.jpg"
   },
   {
@@ -2649,7 +2865,7 @@ const cardsDatabase = [
     "player": "Jacob Misiorowski",
     "team": "Milwaukee Brewers",
     "year": 2026,
-    "value": 1.64,
+    "value": 1.61,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1128388487307599872-1-k0ZO.jpg"
   },
   {
@@ -2681,7 +2897,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.8,
+    "value": 1.56,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1126233286032165888-1-P3nK.jpg"
   },
   {
@@ -2689,7 +2905,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 48,
+    "value": 45,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1125629913129982976-1-TnhT.jpg"
   },
   {
@@ -2697,7 +2913,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2024,
-    "value": 6,
+    "value": 5.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1125629371125242880-1-ePci.jpg"
   },
   {
@@ -2753,7 +2969,7 @@ const cardsDatabase = [
     "player": "Chase DeLauter",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 35,
+    "value": 39.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1123464095305570304-1-V6Z.jpg"
   },
   {
@@ -2777,7 +2993,7 @@ const cardsDatabase = [
     "player": "Munetaka Murakami",
     "team": "Chicago White Sox",
     "year": 2026,
-    "value": 2.75,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1122635414467251200-1-ruih.jpg"
   },
   {
@@ -2785,7 +3001,7 @@ const cardsDatabase = [
     "player": "Munetaka Murakami",
     "team": "Chicago White Sox",
     "year": 2026,
-    "value": 3.5,
+    "value": 2.41,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1122634917141549056-1-eWR.jpg"
   },
   {
@@ -2793,7 +3009,7 @@ const cardsDatabase = [
     "player": "Zack Wheeler",
     "team": "Philadelphia Phillies",
     "year": 2025,
-    "value": 1.05,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1121031073750585344-1-55F4.jpg"
   },
   {
@@ -2817,7 +3033,7 @@ const cardsDatabase = [
     "player": "Bubba Chandler",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 2.55,
+    "value": 1.3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120489263910624256-1-xfbW.jpg"
   },
   {
@@ -2825,7 +3041,7 @@ const cardsDatabase = [
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 2.49,
+    "value": 3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120488693879544832-1-pvkA.jpg"
   },
   {
@@ -2841,7 +3057,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.25,
+    "value": 1.4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120483645028047872-1-5EWy.jpg"
   },
   {
@@ -2865,7 +3081,7 @@ const cardsDatabase = [
     "player": "Bubba Chandler",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.02,
+    "value": 1.13,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120480824694152192-1-1ePi.jpg"
   },
   {
@@ -2873,7 +3089,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.44,
+    "value": 1.35,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120480396749315072-1-VArT.jpg"
   },
   {
@@ -2881,7 +3097,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 2,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120480002040142848-1-gIpd.jpg"
   },
   {
@@ -2889,7 +3105,7 @@ const cardsDatabase = [
     "player": "Cam Devanney",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 2.51,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120479354825481216-1-Z1Ti.jpg"
   },
   {
@@ -2905,7 +3121,7 @@ const cardsDatabase = [
     "player": "Rafael Flores",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 8,
+    "value": 8.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120477998521785344-1-ilby.jpg"
   },
   {
@@ -2921,7 +3137,7 @@ const cardsDatabase = [
     "player": "Nick Kurtz",
     "team": "Athletics",
     "year": 2026,
-    "value": 2.09,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120476294980049920-1-n0mI.jpg"
   },
   {
@@ -2937,7 +3153,7 @@ const cardsDatabase = [
     "player": "Carlos Cortes",
     "team": "Athletics",
     "year": 2026,
-    "value": 8.2,
+    "value": 5.11,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120473667315702784-1-WC8z.jpg"
   },
   {
@@ -2945,7 +3161,7 @@ const cardsDatabase = [
     "player": "Jack Perkins",
     "team": "Athletics",
     "year": 2026,
-    "value": 1.91,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120472853998214144-1-dpTC.jpg"
   },
   {
@@ -2953,7 +3169,7 @@ const cardsDatabase = [
     "player": "Nick Kurtz",
     "team": "Athletics",
     "year": 2026,
-    "value": 2.3,
+    "value": 2.26,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120471705371286528-1-nLl.jpg"
   },
   {
@@ -2969,7 +3185,7 @@ const cardsDatabase = [
     "player": "Nick Kurtz",
     "team": "Athletics",
     "year": 2026,
-    "value": 2.04,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120470725665758208-1-YZBq.jpg"
   },
   {
@@ -2977,7 +3193,7 @@ const cardsDatabase = [
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 3,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120469923345734656-1-OVqt.jpg"
   },
   {
@@ -3033,7 +3249,7 @@ const cardsDatabase = [
     "player": "Dylan Beavers",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 20,
+    "value": 17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120466611456187392-1-bqua.jpg"
   },
   {
@@ -3041,7 +3257,7 @@ const cardsDatabase = [
     "player": "Dylan Beavers",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 9.12,
+    "value": 9.31,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120462518536903680-1-VKS5.jpg"
   },
   {
@@ -3057,7 +3273,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.77,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120460196368881664-1-BNPk.jpg"
   },
   {
@@ -3065,7 +3281,7 @@ const cardsDatabase = [
     "player": "Pete Alonso",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.79,
+    "value": 1.56,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120459858779047936-1-kcmJ.jpg"
   },
   {
@@ -3073,7 +3289,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.06,
+    "value": 1.14,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120459359782701056-1-XXRN.jpg"
   },
   {
@@ -3089,7 +3305,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.48,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120458356480019456-1-S4Bv.jpg"
   },
   {
@@ -3105,7 +3321,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 3.01,
+    "value": 2.64,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120457487010149376-1-OAXo.jpg"
   },
   {
@@ -3137,7 +3353,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.28,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120454707393543168-1-nSsl.jpg"
   },
   {
@@ -3161,7 +3377,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.02,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1120453583237193728-1-R998.jpg"
   },
   {
@@ -3185,7 +3401,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 4.05,
+    "value": 4.23,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1119151791558833152-1-StIu.jpg"
   },
   {
@@ -3193,7 +3409,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 7.5,
+    "value": 4.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1119151210773558272-1-lJpw.jpg"
   },
   {
@@ -3217,7 +3433,7 @@ const cardsDatabase = [
     "player": "Riley Greene",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 1.74,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1119148717184332800-1-Q5X6.jpg"
   },
   {
@@ -3233,7 +3449,7 @@ const cardsDatabase = [
     "player": "Carlos Correa",
     "team": "Houston Astros",
     "year": 2026,
-    "value": 0.75,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1119146897015780352-1-9YG.jpg"
   },
   {
@@ -3241,7 +3457,7 @@ const cardsDatabase = [
     "player": "Nick Kurtz",
     "team": "Athletics",
     "year": 2026,
-    "value": 2.04,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1119146471839183872-1-Jz1C.jpg"
   },
   {
@@ -3265,7 +3481,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2025,
-    "value": 16.5,
+    "value": 16,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1118840035728914432-1-ZkYM.jpg"
   },
   {
@@ -3369,7 +3585,7 @@ const cardsDatabase = [
     "player": "Jackson Merrill",
     "team": "San Diego Padres",
     "year": 2025,
-    "value": 1.26,
+    "value": 1.22,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1113108220702414848-1-9iZD.jpg"
   },
   {
@@ -3433,7 +3649,7 @@ const cardsDatabase = [
     "player": "James Wood",
     "team": "Washington Nationals",
     "year": 2025,
-    "value": 8,
+    "value": 7.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1112497195091522560-1-1M0m.jpg"
   },
   {
@@ -3513,7 +3729,7 @@ const cardsDatabase = [
     "player": "Roman Anthony",
     "team": "Boston Red Sox",
     "year": 2026,
-    "value": 1.64,
+    "value": 1.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1112423370836440064-1-JNO.jpg"
   },
   {
@@ -3521,7 +3737,7 @@ const cardsDatabase = [
     "player": "James Wood",
     "team": "Washington Nationals",
     "year": 2025,
-    "value": 1,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1112423128883819520-1-B7so.jpg"
   },
   {
@@ -3537,7 +3753,7 @@ const cardsDatabase = [
     "player": "Francisco Lindor",
     "team": "New York Mets",
     "year": 2026,
-    "value": 0.5,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1111006018821401600-1-EFQk.jpg"
   },
   {
@@ -3569,7 +3785,7 @@ const cardsDatabase = [
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 2.75,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1110324173897073664-1-G1mh.jpg"
   },
   {
@@ -3601,7 +3817,7 @@ const cardsDatabase = [
     "player": "Dylan Beavers",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 0.79,
+    "value": 0.95,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1110322740015531008-1-dOzp.jpg"
   },
   {
@@ -3625,7 +3841,7 @@ const cardsDatabase = [
     "player": "Pete Alonso",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.43,
+    "value": 1.4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1110321653464302592-1-4YH4.jpg"
   },
   {
@@ -3657,7 +3873,7 @@ const cardsDatabase = [
     "player": "Yusei Kikuchi",
     "team": "Los Angeles Angels",
     "year": 2026,
-    "value": 11.59,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1110317064392412160-1-R9XD.jpg"
   },
   {
@@ -3673,7 +3889,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 2.09,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1110275324303640576-1-kEV5.jpg"
   },
   {
@@ -3681,7 +3897,7 @@ const cardsDatabase = [
     "player": "Munetaka Murakami",
     "team": "Chicago White Sox",
     "year": 2026,
-    "value": 1.5,
+    "value": 2.41,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1110274894882408448-1-5PFV.jpg"
   },
   {
@@ -3697,7 +3913,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Japan",
     "year": 2026,
-    "value": 14.99,
+    "value": 15.8,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1110273681344432128-1-ZQuJ.jpg"
   },
   {
@@ -3713,7 +3929,7 @@ const cardsDatabase = [
     "player": "Carson Benge",
     "team": "New York Mets",
     "year": 2026,
-    "value": 1.46,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1109579108244289536-1-M53z.jpg"
   },
   {
@@ -3721,7 +3937,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Japan",
     "year": 2026,
-    "value": 9.99,
+    "value": 9.92,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1109578735488104448-1-NSuZ.jpg"
   },
   {
@@ -3745,7 +3961,7 @@ const cardsDatabase = [
     "player": "Chayce McDermott",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 1.17,
+    "value": 1.34,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1109092576974709760-1-GwDL.jpg"
   },
   {
@@ -3769,7 +3985,7 @@ const cardsDatabase = [
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 7.03,
+    "value": 6.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1109090007292421120-1-MjD9.jpg"
   },
   {
@@ -3809,7 +4025,7 @@ const cardsDatabase = [
     "player": "Cam Schlittler",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 2.14,
+    "value": 3.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1108803320196113408-1-bLbh.jpg"
   },
   {
@@ -3825,7 +4041,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.19,
+    "value": 1.47,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1108802555616437248-1-Gi04.jpg"
   },
   {
@@ -3841,7 +4057,7 @@ const cardsDatabase = [
     "player": "Nathan Church",
     "team": "St. Louis Cardinals",
     "year": 2026,
-    "value": 8,
+    "value": 5.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1108801687152239616-1-4kxm.jpg"
   },
   {
@@ -3905,7 +4121,7 @@ const cardsDatabase = [
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
     "year": 2024,
-    "value": 3,
+    "value": 2.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1103065846712476672-1-rKCh.jpg"
   },
   {
@@ -3937,7 +4153,7 @@ const cardsDatabase = [
     "player": "Colton Cowser",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 2.43,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1102334267568084992-1-NKJM.jpg"
   },
   {
@@ -3969,7 +4185,7 @@ const cardsDatabase = [
     "player": "Jackie Robinson",
     "team": "Brooklyn Dodgers",
     "year": 2026,
-    "value": 1.1,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100995963912458240-1-0E5r.jpg"
   },
   {
@@ -3977,7 +4193,7 @@ const cardsDatabase = [
     "player": "Honus Wagner",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.32,
+    "value": 1.17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100995645262794752-1-lq8b.jpg"
   },
   {
@@ -3985,7 +4201,7 @@ const cardsDatabase = [
     "player": "Babe Ruth",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.54,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100995327393271808-1-Vlhk.jpg"
   },
   {
@@ -3993,7 +4209,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 15,
+    "value": 16,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100948540399746048-1-0gOO.jpg"
   },
   {
@@ -4017,7 +4233,7 @@ const cardsDatabase = [
     "player": "Carter Jensen",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1.69,
+    "value": 1.66,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100947392351632384-1-a1nj.jpg"
   },
   {
@@ -4041,7 +4257,7 @@ const cardsDatabase = [
     "player": "Roman Anthony",
     "team": "Boston Red Sox",
     "year": 2026,
-    "value": 1.65,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100946204113697792-1-8Mcr.jpg"
   },
   {
@@ -4065,7 +4281,7 @@ const cardsDatabase = [
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1.46,
+    "value": 1.59,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100789371612967936-1-Ebrv.jpg"
   },
   {
@@ -4097,7 +4313,7 @@ const cardsDatabase = [
     "player": "Munetaka Murakami",
     "team": "Chicago White Sox",
     "year": 2026,
-    "value": 18,
+    "value": 10,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100787312595579904-1-ATmW.jpg"
   },
   {
@@ -4137,7 +4353,7 @@ const cardsDatabase = [
     "player": "Spencer Jones",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 3.37,
+    "value": 4.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100041453582953472-1-A82M.jpg"
   },
   {
@@ -4169,7 +4385,7 @@ const cardsDatabase = [
     "player": "James Wood",
     "team": "Washington Nationals",
     "year": 2025,
-    "value": 1.6,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1100038420530736128-1-C89C.jpg"
   },
   {
@@ -4289,7 +4505,7 @@ const cardsDatabase = [
     "player": "Seong-Jun Kim",
     "team": "Texas Rangers",
     "year": 2026,
-    "value": 1.1,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1097865026436343808-1-l2fF.jpg"
   },
   {
@@ -4321,7 +4537,7 @@ const cardsDatabase = [
     "player": "Cam Smith",
     "team": "Houston Astros",
     "year": 2025,
-    "value": 1.19,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1097136553796320256-1-fCnx.jpg"
   },
   {
@@ -4345,7 +4561,7 @@ const cardsDatabase = [
     "player": "Theo Gillen",
     "team": "Tampa Bay Rays",
     "year": 2026,
-    "value": 1.99,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1097135560895511552-1-uVpo.jpg"
   },
   {
@@ -4353,7 +4569,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.99,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1097135081000025088-1-BLoV.jpg"
   },
   {
@@ -4433,7 +4649,7 @@ const cardsDatabase = [
     "player": "George Brett",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1,
+    "value": 1.16,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1096757341789648896-1-YSG2.jpg"
   },
   {
@@ -4481,7 +4697,7 @@ const cardsDatabase = [
     "player": "Ethan Holliday",
     "team": "Colorado Rockies",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.02,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095874912379783168-1-JXMM.jpg"
   },
   {
@@ -4489,7 +4705,7 @@ const cardsDatabase = [
     "player": "George Valera",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 2.99,
+    "value": 2.82,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095842505910650880-1-Bf8.jpg"
   },
   {
@@ -4505,7 +4721,7 @@ const cardsDatabase = [
     "player": "Munetaka Murakami",
     "team": "Chicago White Sox",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095841833135909888-1-nl3d.jpg"
   },
   {
@@ -4513,7 +4729,7 @@ const cardsDatabase = [
     "player": "Sal Stewart",
     "team": "Cincinnati Reds",
     "year": 2026,
-    "value": 3.4,
+    "value": 3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095841355438238720-1-xmFj.jpg"
   },
   {
@@ -4553,7 +4769,7 @@ const cardsDatabase = [
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 0.69,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1095839880496090112-1-Hb0u.jpg"
   },
   {
@@ -4777,7 +4993,7 @@ const cardsDatabase = [
     "player": "Miguel Cabrera",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 1.18,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1093132983966008320-1-kNJl.jpg"
   },
   {
@@ -4809,7 +5025,7 @@ const cardsDatabase = [
     "player": "Ronald Acuña Jr.",
     "team": "Atlanta Braves",
     "year": 2023,
-    "value": 1.35,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092367205414913024-1-aLzi.jpg"
   },
   {
@@ -4825,7 +5041,7 @@ const cardsDatabase = [
     "player": "Luis Gil",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 0.53,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092131195101990912-1-6Zdd.jpg"
   },
   {
@@ -4841,7 +5057,7 @@ const cardsDatabase = [
     "player": "Chase DeLauter",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 1,
+    "value": 1.34,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092129876932939776-1-sWt.jpg"
   },
   {
@@ -4849,7 +5065,7 @@ const cardsDatabase = [
     "player": "Bubba Chandler",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 0.94,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092129663937794048-1-nQBo.jpg"
   },
   {
@@ -4857,7 +5073,7 @@ const cardsDatabase = [
     "player": "Munetaka Murakami",
     "team": "Chicago White Sox",
     "year": 2026,
-    "value": 1.5,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092129461185138688-1-R0fS.jpg"
   },
   {
@@ -4865,7 +5081,7 @@ const cardsDatabase = [
     "player": "Cam Schlittler",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.25,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092129280855232512-1-32ip.jpg"
   },
   {
@@ -4881,7 +5097,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092128849655615488-1-SSmn.jpg"
   },
   {
@@ -4897,7 +5113,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 5.5,
+    "value": 6.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092127963097190400-1-myp.jpg"
   },
   {
@@ -4905,7 +5121,7 @@ const cardsDatabase = [
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.44,
+    "value": 1.67,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092127748290105344-1-5NGj.jpg"
   },
   {
@@ -4913,7 +5129,7 @@ const cardsDatabase = [
     "player": "Sal Stewart",
     "team": "Cincinnati Reds",
     "year": 2026,
-    "value": 3,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1092127347172037632-1-gUIW.jpg"
   },
   {
@@ -4929,7 +5145,7 @@ const cardsDatabase = [
     "player": "Cal Ripken Jr.",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.29,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1091584136466663424-1-DRaZ.jpg"
   },
   {
@@ -4993,7 +5209,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.26,
+    "value": 1.16,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1090041815279864832-1-DioS.jpg"
   },
   {
@@ -5025,7 +5241,7 @@ const cardsDatabase = [
     "player": "Dylan Beavers",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 2.1,
+    "value": 2.09,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1090039668073040896-1-nsOF.jpg"
   },
   {
@@ -5041,7 +5257,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 2.24,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1089999342599932928-1-Okr8.jpg"
   },
   {
@@ -5073,7 +5289,7 @@ const cardsDatabase = [
     "player": "Coby Mayo",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 1.39,
+    "value": 1.45,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1089997901990726656-1-9RZJ.jpg"
   },
   {
@@ -5105,7 +5321,7 @@ const cardsDatabase = [
     "player": "Jackson Holliday",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 1.39,
+    "value": 1.29,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1089994483909844992-1-VfYA.jpg"
   },
   {
@@ -5113,7 +5329,7 @@ const cardsDatabase = [
     "player": "Mason Miller",
     "team": "San Diego Padres",
     "year": 2025,
-    "value": 1.69,
+    "value": 1.15,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1089974027458764800-1-0ljO.jpg"
   },
   {
@@ -5145,7 +5361,7 @@ const cardsDatabase = [
     "player": "Chase DeLauter",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 1.25,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1089930442263506944-1-cXGk.jpg"
   },
   {
@@ -5169,7 +5385,7 @@ const cardsDatabase = [
     "player": "Roman Anthony",
     "team": "Boston Red Sox",
     "year": 2026,
-    "value": 1.74,
+    "value": 1.7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088444661806149632-1-7VMl.jpg"
   },
   {
@@ -5185,7 +5401,7 @@ const cardsDatabase = [
     "player": "Nick Kurtz",
     "team": "Athletics",
     "year": 2025,
-    "value": 1.5,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088443911940091904-1-Nibe.jpg"
   },
   {
@@ -5193,7 +5409,7 @@ const cardsDatabase = [
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
     "year": 2025,
-    "value": 1.99,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088442627694538752-1-dZk9.jpg"
   },
   {
@@ -5201,7 +5417,7 @@ const cardsDatabase = [
     "player": "James Wood",
     "team": "Washington Nationals",
     "year": 2025,
-    "value": 1.25,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088442220486340608-1-z8J.jpg"
   },
   {
@@ -5209,7 +5425,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.95,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088441985159936000-1-tthm.jpg"
   },
   {
@@ -5225,7 +5441,7 @@ const cardsDatabase = [
     "player": "Cam Schlittler",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.49,
+    "value": 1.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1088441303107385344-1-aAmx.jpg"
   },
   {
@@ -5257,7 +5473,7 @@ const cardsDatabase = [
     "player": "Manny Ramirez",
     "team": "Boston Red Sox",
     "year": 2025,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087936438241904640-1-ENa6.jpg"
   },
   {
@@ -5305,7 +5521,7 @@ const cardsDatabase = [
     "player": "Aiva Arquette",
     "team": "Miami Marlins",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087933228466882560-1-cN97.jpg"
   },
   {
@@ -5345,7 +5561,7 @@ const cardsDatabase = [
     "player": "Trey Yesavage",
     "team": "Toronto Blue Jays",
     "year": 2026,
-    "value": 2.25,
+    "value": 3,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087931642726369280-1-nUdF.jpg"
   },
   {
@@ -5353,7 +5569,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 7.5,
+    "value": 6,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1087243492587639808-1-xxwn.jpg"
   },
   {
@@ -5385,7 +5601,7 @@ const cardsDatabase = [
     "player": "Roger Clemens",
     "team": "Boston Red Sox",
     "year": 2023,
-    "value": 13,
+    "value": 14.24,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1086552474429130752-1-fZV.jpg"
   },
   {
@@ -5457,7 +5673,7 @@ const cardsDatabase = [
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.77,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084974526292822016-1-jjkO.jpg"
   },
   {
@@ -5465,7 +5681,7 @@ const cardsDatabase = [
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.13,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084974314950232064-1-Ljhe.jpg"
   },
   {
@@ -5473,7 +5689,7 @@ const cardsDatabase = [
     "player": "Ethan Holliday",
     "team": "Colorado Rockies",
     "year": 2026,
-    "value": 1.59,
+    "value": 1.81,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084908732764900352-1-XwAj.jpg"
   },
   {
@@ -5481,7 +5697,7 @@ const cardsDatabase = [
     "player": "Yorger Bautista",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 10,
+    "value": 9.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084907901353184256-1-3KUE.jpg"
   },
   {
@@ -5497,7 +5713,7 @@ const cardsDatabase = [
     "player": "Julio Rodríguez",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1.12,
+    "value": 0.97,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084907036386597888-1-XHDp.jpg"
   },
   {
@@ -5513,7 +5729,7 @@ const cardsDatabase = [
     "player": "Konnor Griffin",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.43,
+    "value": 1.37,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084905648097531904-1-pUnw.jpg"
   },
   {
@@ -5521,7 +5737,7 @@ const cardsDatabase = [
     "player": "Bubba Chandler",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084904631884781568-1-yqNY.jpg"
   },
   {
@@ -5529,7 +5745,7 @@ const cardsDatabase = [
     "player": "JJ Wetherholt",
     "team": "St. Louis Cardinals",
     "year": 2026,
-    "value": 1.75,
+    "value": 1.78,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084903999685728256-1-IQdC.jpg"
   },
   {
@@ -5537,7 +5753,7 @@ const cardsDatabase = [
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
     "year": 2023,
-    "value": 0.87,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1084193058211952640-1-DLDL.jpg"
   },
   {
@@ -5649,7 +5865,7 @@ const cardsDatabase = [
     "player": "Truitt Madonna",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 1.49,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1081993180893204480-1-orx5.jpg"
   },
   {
@@ -5697,7 +5913,7 @@ const cardsDatabase = [
     "player": "Heston Kjerstad",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.29,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1081960506141219840-1-aMzy.jpg"
   },
   {
@@ -5737,7 +5953,7 @@ const cardsDatabase = [
     "player": "Bryce Eldridge",
     "team": "San Francisco Giants",
     "year": 2026,
-    "value": 1.35,
+    "value": 1.61,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1080666665532023808-1-XkE.jpg"
   },
   {
@@ -5745,7 +5961,7 @@ const cardsDatabase = [
     "player": "Handelfry Encarnacion",
     "team": "Milwaukee Brewers",
     "year": 2026,
-    "value": 1.14,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1080666001061995520-1-2kTa.jpg"
   },
   {
@@ -5753,7 +5969,7 @@ const cardsDatabase = [
     "player": "Wehiwa Aloy",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.55,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1080665311929459712-1-IdiI.jpg"
   },
   {
@@ -5769,7 +5985,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1.55,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1079761247771450368-1-LoFt.jpg"
   },
   {
@@ -5777,7 +5993,7 @@ const cardsDatabase = [
     "player": "Gage Jump",
     "team": "Athletics",
     "year": 2026,
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1079760944674266112-1-J6L4.jpg"
   },
   {
@@ -5801,7 +6017,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1.59,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1079758826936622080-1-VnnG.jpg"
   },
   {
@@ -5833,7 +6049,7 @@ const cardsDatabase = [
     "player": "Michael Harris II",
     "team": "Atlanta Braves",
     "year": 2023,
-    "value": 1.25,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1078647549413908480-1-Di70.jpg"
   },
   {
@@ -5849,7 +6065,7 @@ const cardsDatabase = [
     "player": "Mason Miller",
     "team": "Oakland Athletics",
     "year": 2023,
-    "value": 1.25,
+    "value": 1.32,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1078647124212146176-1-t4Hu.jpg"
   },
   {
@@ -5945,7 +6161,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 2.13,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1077696939218784256-1-m9VA.jpg"
   },
   {
@@ -6113,7 +6329,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.53,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1075377348284797952-1-ZLQm.jpg"
   },
   {
@@ -6129,7 +6345,7 @@ const cardsDatabase = [
     "player": "Wyatt Sanford",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.85,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073316261998185472-1-3PaU.jpg"
   },
   {
@@ -6145,7 +6361,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 0.99,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073315634731633664-1-hF54.jpg"
   },
   {
@@ -6161,7 +6377,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.13,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073314975999413248-1-4bbA.jpg"
   },
   {
@@ -6169,7 +6385,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 5,
+    "value": 4.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1073314407419563008-1-rUEx.jpg"
   },
   {
@@ -6193,7 +6409,7 @@ const cardsDatabase = [
     "player": "Brice Turang",
     "team": "Milwaukee Brewers",
     "year": 2023,
-    "value": 1.4,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1072828674008685568-1-jjvT.jpg"
   },
   {
@@ -6281,7 +6497,7 @@ const cardsDatabase = [
     "player": "Josue De Paula",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.59,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071863503437976576-1-vhn2.jpg"
   },
   {
@@ -6305,7 +6521,7 @@ const cardsDatabase = [
     "player": "Ken Griffey Jr.",
     "team": "Seattle Mariners",
     "year": 2025,
-    "value": 0.9,
+    "value": 0.94,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071862143023862784-1-oEWh.jpg"
   },
   {
@@ -6321,7 +6537,7 @@ const cardsDatabase = [
     "player": "Ethan Holliday",
     "team": "",
     "year": 2026,
-    "value": 1.99,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071860737562924032-1-asgN.jpg"
   },
   {
@@ -6353,7 +6569,7 @@ const cardsDatabase = [
     "player": "JJ Wetherholt",
     "team": "St. Louis Cardinals",
     "year": 2026,
-    "value": 1.49,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071859114358887424-1-Ve84.jpg"
   },
   {
@@ -6361,7 +6577,7 @@ const cardsDatabase = [
     "player": "Henry Lalane",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 14,
+    "value": 9.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071858057931150336-1-JjNj.jpg"
   },
   {
@@ -6401,7 +6617,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2026,
-    "value": 1.89,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071856095089153024-1-udQ.jpg"
   },
   {
@@ -6433,7 +6649,7 @@ const cardsDatabase = [
     "player": "Freddie Freeman",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.4,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071840244654953472-1-0AxC.jpg"
   },
   {
@@ -6449,7 +6665,7 @@ const cardsDatabase = [
     "player": "Kade Anderson",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1.68,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071839155352261632-1-GmzX.jpg"
   },
   {
@@ -6457,7 +6673,7 @@ const cardsDatabase = [
     "player": "JJ Wetherholt",
     "team": "St. Louis Cardinals",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.58,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071838835544970240-1-dwp.jpg"
   },
   {
@@ -6481,7 +6697,7 @@ const cardsDatabase = [
     "player": "Edward Florentino",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1071835704178267136-1-OC4S.jpg"
   },
   {
@@ -6537,7 +6753,7 @@ const cardsDatabase = [
     "player": "Jackson Merrill",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 1.28,
+    "value": 1.27,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067576383651735552-1-Pp0U.jpg"
   },
   {
@@ -6569,7 +6785,7 @@ const cardsDatabase = [
     "player": "Junior Caminero",
     "team": "Tampa Bay Rays",
     "year": 2023,
-    "value": 2.79,
+    "value": 2.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067425209921333248-1-kERf.jpg"
   },
   {
@@ -6617,7 +6833,7 @@ const cardsDatabase = [
     "player": "Cam Schlittler",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.49,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067009295218648064-1-9Cjk.jpg"
   },
   {
@@ -6625,7 +6841,7 @@ const cardsDatabase = [
     "player": "Ethan Dorchies",
     "team": "Milwaukee Brewers",
     "year": 2026,
-    "value": 1,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067008800517268480-1-BQCi.jpg"
   },
   {
@@ -6649,7 +6865,7 @@ const cardsDatabase = [
     "player": "JR Ritchie",
     "team": "Atlanta Braves",
     "year": 2026,
-    "value": 1,
+    "value": 1.01,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067007566871798784-1-LTNG.jpg"
   },
   {
@@ -6657,7 +6873,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.99,
+    "value": 1.57,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067007218224473088-1-4vhs.jpg"
   },
   {
@@ -6665,7 +6881,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 4.88,
+    "value": 5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067006802317288448-1-cryg.jpg"
   },
   {
@@ -6689,7 +6905,7 @@ const cardsDatabase = [
     "player": "Max Clark",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067005494952731648-1-QQA4.jpg"
   },
   {
@@ -6705,7 +6921,7 @@ const cardsDatabase = [
     "player": "Liam Doyle",
     "team": "St. Louis Cardinals",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1067000348063572992-1-FuaW.jpg"
   },
   {
@@ -6713,7 +6929,7 @@ const cardsDatabase = [
     "player": "Colt Emerson",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1066999442219738112-1-aML.jpg"
   },
   {
@@ -6745,7 +6961,7 @@ const cardsDatabase = [
     "player": "JJ Wetherholt",
     "team": "St. Louis Cardinals",
     "year": 2026,
-    "value": 1.49,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1066996606022984704-1-vHTY.jpg"
   },
   {
@@ -6753,7 +6969,7 @@ const cardsDatabase = [
     "player": "Bryce Eldridge",
     "team": "San Francisco Giants",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1066996180015916032-1-6abx.jpg"
   },
   {
@@ -6761,7 +6977,7 @@ const cardsDatabase = [
     "player": "Gavin Kilen",
     "team": "San Francisco Giants",
     "year": 2026,
-    "value": 1.33,
+    "value": 1.35,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1066995834648536064-1-rR7g.jpg"
   },
   {
@@ -6777,7 +6993,7 @@ const cardsDatabase = [
     "player": "Ethan Holliday",
     "team": "Colorado Rockies",
     "year": 2026,
-    "value": 1.49,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1066994094490526720-1-t9oQ.jpg"
   },
   {
@@ -6785,7 +7001,7 @@ const cardsDatabase = [
     "player": "Chase Burns",
     "team": "Cincinnati Reds",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1065488324170352640-1-jKdt.jpg"
   },
   {
@@ -6825,7 +7041,7 @@ const cardsDatabase = [
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.29,
+    "value": 1.42,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1065486621677193216-1-79Dw.jpg"
   },
   {
@@ -6897,7 +7113,7 @@ const cardsDatabase = [
     "player": "Bryce Eldridge",
     "team": "San Francisco Giants",
     "year": 2026,
-    "value": 3.95,
+    "value": 4.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064040074589134848-1-NePp.jpg"
   },
   {
@@ -6913,7 +7129,7 @@ const cardsDatabase = [
     "player": "Anthony Volpe",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.32,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064039417610133504-1-7rnl.jpg"
   },
   {
@@ -6969,7 +7185,7 @@ const cardsDatabase = [
     "player": "Mason Miller",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 2.04,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064037097388269568-1-Ztaf.jpg"
   },
   {
@@ -7009,7 +7225,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2023,
-    "value": 4,
+    "value": 4.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064033853857488896-1-pQ2n.jpg"
   },
   {
@@ -7105,7 +7321,7 @@ const cardsDatabase = [
     "player": "Troy Melton",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 33.54,
+    "value": 30,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1064022476975661056-1-Hf3x.jpg"
   },
   {
@@ -7145,7 +7361,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2026,
-    "value": 1.49,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1057662457988292608-1-RlrZ.jpg"
   },
   {
@@ -7177,7 +7393,7 @@ const cardsDatabase = [
     "player": "Michael Busch",
     "team": "Chicago Cubs",
     "year": 2026,
-    "value": 1.15,
+    "value": 1.06,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1057661178004152320-1-Q1jx.jpg"
   },
   {
@@ -7201,7 +7417,7 @@ const cardsDatabase = [
     "player": "Cam Schlittler",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 7.77,
+    "value": 8,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1057660001124392960-1-AB0t.jpg"
   },
   {
@@ -7225,7 +7441,7 @@ const cardsDatabase = [
     "player": "Julio Rodriguez",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1057659377498497024-1-thCs.jpg"
   },
   {
@@ -7345,7 +7561,7 @@ const cardsDatabase = [
     "player": "Brenton Doyle",
     "team": "Colorado Rockies",
     "year": 2025,
-    "value": 3.91,
+    "value": 3.74,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053205383022387200-1-SW60.jpg"
   },
   {
@@ -7361,7 +7577,7 @@ const cardsDatabase = [
     "player": "Mike Schmidt",
     "team": "Philadelphia Phillies",
     "year": 2026,
-    "value": 1.71,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053204453824667648-1-EBv.jpg"
   },
   {
@@ -7401,7 +7617,7 @@ const cardsDatabase = [
     "player": "Andy Pages",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 0.55,
+    "value": 0.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053203047440982016-1-osPz.jpg"
   },
   {
@@ -7409,7 +7625,7 @@ const cardsDatabase = [
     "player": "Jackson Chourio",
     "team": "Milwaukee Brewers",
     "year": 2026,
-    "value": 1.75,
+    "value": 1.97,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1053202841173499904-1-e1KV.jpg"
   },
   {
@@ -7425,7 +7641,7 @@ const cardsDatabase = [
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048885027614498816-1-JFMT.jpg"
   },
   {
@@ -7449,7 +7665,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 0.75,
+    "value": 0.81,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048884241132167168-1-VAvA.jpg"
   },
   {
@@ -7457,7 +7673,7 @@ const cardsDatabase = [
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "year": 2026,
-    "value": 0.78,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048884060709986304-1-9acR.jpg"
   },
   {
@@ -7497,7 +7713,7 @@ const cardsDatabase = [
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
     "year": 2026,
-    "value": 0.99,
+    "value": 0.87,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048882618473390080-1-awTA.jpg"
   },
   {
@@ -7505,7 +7721,7 @@ const cardsDatabase = [
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
     "year": 2026,
-    "value": 1.34,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048882395084759040-1-wJMT.jpg"
   },
   {
@@ -7513,7 +7729,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 1.7,
+    "value": 1.8,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048882034341060608-1-dXzw.jpg"
   },
   {
@@ -7529,7 +7745,7 @@ const cardsDatabase = [
     "player": "Dodgers Duo",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048881372597329920-1-n0Ay.jpg"
   },
   {
@@ -7553,7 +7769,7 @@ const cardsDatabase = [
     "player": "Tarik Skubal",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 0.7,
+    "value": 0.54,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048880685679386624-1-ni8o.jpg"
   },
   {
@@ -7569,7 +7785,7 @@ const cardsDatabase = [
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "year": 2026,
-    "value": 1.04,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048880147961225216-1-hCWL.jpg"
   },
   {
@@ -7601,7 +7817,7 @@ const cardsDatabase = [
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
     "year": 2026,
-    "value": 0.99,
+    "value": 1.08,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048878752063299584-1-Lo8d.jpg"
   },
   {
@@ -7625,7 +7841,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 0.75,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048877784747745280-1-qGSE.jpg"
   },
   {
@@ -7657,7 +7873,7 @@ const cardsDatabase = [
     "player": "Ronald Acuña Jr.",
     "team": "Atlanta Braves",
     "year": 2026,
-    "value": 1.49,
+    "value": 1.59,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048876747169210368-1-7oCR.jpg"
   },
   {
@@ -7673,7 +7889,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048876358877323264-1-tjfN.jpg"
   },
   {
@@ -7697,7 +7913,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.93,
+    "value": 1.7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048825122128923648-1-pvKd.jpg"
   },
   {
@@ -7705,7 +7921,7 @@ const cardsDatabase = [
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1.49,
+    "value": 1.18,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048824777550072832-1-Pqz.jpg"
   },
   {
@@ -7713,7 +7929,7 @@ const cardsDatabase = [
     "player": "Mickey Mantle",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1,
+    "value": 1.57,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048824627947637760-1-8Gy.jpg"
   },
   {
@@ -7721,7 +7937,7 @@ const cardsDatabase = [
     "player": "Elly De La Cruz",
     "team": "Cincinnati Reds",
     "year": 2026,
-    "value": 1.19,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048824349663955968-1-OwzD.jpg"
   },
   {
@@ -7729,7 +7945,7 @@ const cardsDatabase = [
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 0.88,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048824158965730304-1-TcFt.jpg"
   },
   {
@@ -7737,7 +7953,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.99,
+    "value": 1.7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048823946146745344-1-9dMK.jpg"
   },
   {
@@ -7745,7 +7961,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2026,
-    "value": 1.52,
+    "value": 1.36,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048821376766446592-1-PtJr.jpg"
   },
   {
@@ -7761,7 +7977,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2026,
-    "value": 1,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048819890145725440-1-f5W1.jpg"
   },
   {
@@ -7769,7 +7985,7 @@ const cardsDatabase = [
     "player": "José Ramírez",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 1.25,
+    "value": 1.06,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048819678551477248-1-H0ke.jpg"
   },
   {
@@ -7785,7 +8001,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048819235079326720-1-zypU.jpg"
   },
   {
@@ -7793,7 +8009,7 @@ const cardsDatabase = [
     "player": "Roki Sasaki",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.25,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1048818306426866688-1-GSbi.jpg"
   },
   {
@@ -7833,7 +8049,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 15.99,
+    "value": 15.72,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1047938795707568128-1-5kIL.jpg"
   },
   {
@@ -7849,7 +8065,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Angels",
     "year": 2021,
-    "value": 10,
+    "value": 11.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1047937461994393600-1-EHfz.jpg"
   },
   {
@@ -7881,7 +8097,7 @@ const cardsDatabase = [
     "player": "Screech",
     "team": "Washington Nationals",
     "year": 2026,
-    "value": 0.98,
+    "value": 0.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046753507770918912-1-LBYD.jpg"
   },
   {
@@ -7897,7 +8113,7 @@ const cardsDatabase = [
     "player": "Stomper",
     "team": "Athletics",
     "year": 2026,
-    "value": 0.94,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046752935659464704-1-MYnq.jpg"
   },
   {
@@ -7905,7 +8121,7 @@ const cardsDatabase = [
     "player": "Phillie Phanatic",
     "team": "Philadelphia Phillies",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046752584478779392-1-MjMP.jpg"
   },
   {
@@ -7937,7 +8153,7 @@ const cardsDatabase = [
     "player": "American League Leaders HRs (Cal Raleigh / Aaron Judge / Junior Caminero)",
     "team": "",
     "year": 2026,
-    "value": 0.2,
+    "value": 0.17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046751018401163264-1-fmaD.jpg"
   },
   {
@@ -7945,7 +8161,7 @@ const cardsDatabase = [
     "player": "Derek Jeter",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046750694709946368-1-8es.jpg"
   },
   {
@@ -7961,7 +8177,7 @@ const cardsDatabase = [
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "year": 2026,
-    "value": 1.03,
+    "value": 1.05,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046749957393246208-1-wFFy.jpg"
   },
   {
@@ -7969,7 +8185,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2026,
-    "value": 1.15,
+    "value": 1.46,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046749712672385024-1-cxcc.jpg"
   },
   {
@@ -7985,7 +8201,7 @@ const cardsDatabase = [
     "player": "Jose Ramirez",
     "team": "Cleveland Guardians",
     "year": 2026,
-    "value": 0.82,
+    "value": 0.57,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046748817322698752-1-jfcP.jpg"
   },
   {
@@ -8001,7 +8217,7 @@ const cardsDatabase = [
     "player": "Jackson Chourio",
     "team": "Milwaukee Brewers",
     "year": 2026,
-    "value": 0.71,
+    "value": 0.68,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046747852053964800-1-GxHf.jpg"
   },
   {
@@ -8009,7 +8225,7 @@ const cardsDatabase = [
     "player": "Elly De La Cruz",
     "team": "Cincinnati Reds",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046747102036912128-1-u8GH.jpg"
   },
   {
@@ -8017,7 +8233,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.15,
+    "value": 1.06,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046746834037663744-1-Uf3q.jpg"
   },
   {
@@ -8033,7 +8249,7 @@ const cardsDatabase = [
     "player": "Roman Anthony",
     "team": "Boston Red Sox",
     "year": 2026,
-    "value": 1.3,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046746349780101120-1-lRae.jpg"
   },
   {
@@ -8041,7 +8257,7 @@ const cardsDatabase = [
     "player": "Ken Griffey Jr.",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1.52,
+    "value": 1.74,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046745965531523072-1-RrX.jpg"
   },
   {
@@ -8065,7 +8281,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 0.99,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046744849183959040-1-AWmF.jpg"
   },
   {
@@ -8081,7 +8297,7 @@ const cardsDatabase = [
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1.33,
+    "value": 1.13,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046744224383657984-1-N4H.jpg"
   },
   {
@@ -8121,7 +8337,7 @@ const cardsDatabase = [
     "player": "Roman Anthony",
     "team": "Boston Red Sox",
     "year": 2026,
-    "value": 1.25,
+    "value": 1.01,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046742669773268992-1-nHCM.jpg"
   },
   {
@@ -8145,7 +8361,7 @@ const cardsDatabase = [
     "player": "Nolan Ryan",
     "team": "Houston Astros",
     "year": 2026,
-    "value": 1.25,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1046741424308250624-1-xDqj.jpg"
   },
   {
@@ -8209,7 +8425,7 @@ const cardsDatabase = [
     "player": "Juan Soto",
     "team": "New York Mets",
     "year": 2026,
-    "value": 0.77,
+    "value": 0.8,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045928581455420416-1-vQ3u.jpg"
   },
   {
@@ -8225,7 +8441,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 2.25,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045927935591324672-1-TuHX.jpg"
   },
   {
@@ -8249,7 +8465,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 2,
+    "value": 2.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045926846271855616-1-h9JA.jpg"
   },
   {
@@ -8257,7 +8473,7 @@ const cardsDatabase = [
     "player": "Julio Rodriguez",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 0.99,
+    "value": 0.85,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045926456243526656-1-ZFda.jpg"
   },
   {
@@ -8297,7 +8513,7 @@ const cardsDatabase = [
     "player": "Max Fried",
     "team": "New York Yankees",
     "year": 2026,
-    "value": 1.99,
+    "value": 1.7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045924731377949696-1-1vy.jpg"
   },
   {
@@ -8313,7 +8529,7 @@ const cardsDatabase = [
     "player": "Carlos Correa",
     "team": "Houston Astros",
     "year": 2026,
-    "value": 0.57,
+    "value": 0.45,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045923993457269760-1-l2fp.jpg"
   },
   {
@@ -8329,7 +8545,7 @@ const cardsDatabase = [
     "player": "Kyle Teel",
     "team": "Chicago White Sox",
     "year": 2026,
-    "value": 1.02,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045923376760364032-1-690.jpg"
   },
   {
@@ -8345,7 +8561,7 @@ const cardsDatabase = [
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.49,
+    "value": 0.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045921243336023040-1-gQCT.jpg"
   },
   {
@@ -8353,7 +8569,7 @@ const cardsDatabase = [
     "player": "Tony Hawk",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 1.79,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045921054072249344-1-MOy.jpg"
   },
   {
@@ -8393,7 +8609,7 @@ const cardsDatabase = [
     "player": "Salvador Perez",
     "team": "Kansas City Royals",
     "year": 2025,
-    "value": 1.5,
+    "value": 1.77,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045918996220877824-1-XmTZ.jpg"
   },
   {
@@ -8457,7 +8673,7 @@ const cardsDatabase = [
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
     "year": 2025,
-    "value": 1.49,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1045172667345024000-1-CosS.jpg"
   },
   {
@@ -8521,7 +8737,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2025,
-    "value": 0.88,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042872878016236544-1-64Gt.jpg"
   },
   {
@@ -8529,7 +8745,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2025,
-    "value": 0.5,
+    "value": 0.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042872395092462592-1-htC.jpg"
   },
   {
@@ -8553,7 +8769,7 @@ const cardsDatabase = [
     "player": "Freddie Freeman",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 1.89,
+    "value": 1.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042871095478979584-1-w3WX.jpg"
   },
   {
@@ -8561,7 +8777,7 @@ const cardsDatabase = [
     "player": "Dylan Crews",
     "team": "Washington Nationals",
     "year": 2025,
-    "value": 0.94,
+    "value": 0.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042870767375354880-1-weYx.jpg"
   },
   {
@@ -8585,7 +8801,7 @@ const cardsDatabase = [
     "player": "Nick Kurtz",
     "team": "Athletics",
     "year": 2026,
-    "value": 1.48,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042823894870526976-1-adeV.jpg"
   },
   {
@@ -8609,7 +8825,7 @@ const cardsDatabase = [
     "player": "Junior Caminero",
     "team": "Tampa Bay Rays",
     "year": 2026,
-    "value": 1.53,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042822361097440256-1-PVTT.jpg"
   },
   {
@@ -8649,7 +8865,7 @@ const cardsDatabase = [
     "player": "Roki Sasaki",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 1.25,
+    "value": 2.85,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1042413721955724288-1-qBAP.jpg"
   },
   {
@@ -8657,7 +8873,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2024,
-    "value": 1.79,
+    "value": 1.17,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1041703522923967488-1-9ZGI.jpg"
   },
   {
@@ -8809,7 +9025,7 @@ const cardsDatabase = [
     "player": "Jim Palmer",
     "team": "Baltimore Orioles",
     "year": 2024,
-    "value": 0.44,
+    "value": 0.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1040258947726182400-1-hjh.jpg"
   },
   {
@@ -8825,7 +9041,7 @@ const cardsDatabase = [
     "player": "Cal Ripken Jr.",
     "team": "Baltimore Orioles",
     "year": 2024,
-    "value": 1.23,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1040257956410820608-1-X3o8.jpg"
   },
   {
@@ -8985,7 +9201,7 @@ const cardsDatabase = [
     "player": "Doug Nikhazy",
     "team": "Cleveland Guardians",
     "year": 2025,
-    "value": 4,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1039460217129282560-1-RPv.jpg"
   },
   {
@@ -9057,7 +9273,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 5,
+    "value": 4.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1038793593855230976-1-yaRS.jpg"
   },
   {
@@ -9185,7 +9401,7 @@ const cardsDatabase = [
     "player": "Bubba Chandler",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.41,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1036622380016086016-1-5uSg.jpg"
   },
   {
@@ -9249,7 +9465,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2024,
-    "value": 3.8,
+    "value": 2.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1033717338634980352-1-RGcb.jpg"
   },
   {
@@ -9257,7 +9473,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2024,
-    "value": 2.49,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1033717130748496896-1-8b2E.jpg"
   },
   {
@@ -9265,7 +9481,7 @@ const cardsDatabase = [
     "player": "James Wood",
     "team": "Washington Nationals",
     "year": 2025,
-    "value": 1.34,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1033715431644335104-1-U44.jpg"
   },
   {
@@ -9465,7 +9681,7 @@ const cardsDatabase = [
     "player": "Cole Young",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 2.49,
+    "value": 2.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1031557626907693056-1-8m7J.jpg"
   },
   {
@@ -9649,7 +9865,7 @@ const cardsDatabase = [
     "player": "Chandler Simpson",
     "team": "Tampa Bay Rays",
     "year": 2025,
-    "value": 0.59,
+    "value": 0.86,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028436353534140416-1-5dC7.jpg"
   },
   {
@@ -9657,7 +9873,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 1.34,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028436108939108352-1-2BsF.jpg"
   },
   {
@@ -9665,7 +9881,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 8,
+    "value": 7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028435821948051456-1-wTk4.jpg"
   },
   {
@@ -9705,7 +9921,7 @@ const cardsDatabase = [
     "player": "Dylan Crews",
     "team": "Washington Nationals",
     "year": 2025,
-    "value": 1.6,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028433355638579200-1-XQBC.jpg"
   },
   {
@@ -9721,7 +9937,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2025,
-    "value": 1.4,
+    "value": 1.37,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028432469205983232-1-LmB1.jpg"
   },
   {
@@ -9729,7 +9945,7 @@ const cardsDatabase = [
     "player": "Andrew McCutchen",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 0.59,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1028432233972637696-1-bEb.jpg"
   },
   {
@@ -9761,7 +9977,7 @@ const cardsDatabase = [
     "player": "2025 Batting Leaders (Aaron Judge / Trea Turner)",
     "team": "",
     "year": 2026,
-    "value": 0.75,
+    "value": 1.16,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027744412738289664-1-OZfi.jpg"
   },
   {
@@ -9769,7 +9985,7 @@ const cardsDatabase = [
     "player": "2025 Home Run Leaders (Cal Raleigh / Kyle Schwarber)",
     "team": "",
     "year": 2026,
-    "value": 0.88,
+    "value": 0.94,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027744153287032832-1-XIJ3.jpg"
   },
   {
@@ -9801,7 +10017,7 @@ const cardsDatabase = [
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027742885390876672-1-PLIN.jpg"
   },
   {
@@ -9809,7 +10025,7 @@ const cardsDatabase = [
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1.2,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027742619237122048-1-dUU.jpg"
   },
   {
@@ -9833,7 +10049,7 @@ const cardsDatabase = [
     "player": "Dave Parker",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 40,
+    "value": 29.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027740816709812224-1-ELQL.jpg"
   },
   {
@@ -9857,7 +10073,7 @@ const cardsDatabase = [
     "player": "Fernando Tatis Jr.",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 0.69,
+    "value": 0.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027739934773510144-1-TOM0.jpg"
   },
   {
@@ -9865,7 +10081,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.33,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027739645752410112-1-ObMU.jpg"
   },
   {
@@ -9873,7 +10089,7 @@ const cardsDatabase = [
     "player": "Mookie Betts",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 0.7,
+    "value": 0.67,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027739282685067264-1-KpVD.jpg"
   },
   {
@@ -9881,7 +10097,7 @@ const cardsDatabase = [
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 0.77,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027738902135865344-1-GSm8.jpg"
   },
   {
@@ -9897,7 +10113,7 @@ const cardsDatabase = [
     "player": "Elly De La Cruz",
     "team": "Cincinnati Reds",
     "year": 2026,
-    "value": 1.5,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027738281110437888-1-llJx.jpg"
   },
   {
@@ -9905,7 +10121,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1.45,
+    "value": 1.35,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027737885562404864-1-7FWR.jpg"
   },
   {
@@ -9913,7 +10129,7 @@ const cardsDatabase = [
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1.49,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027737505382301696-1-uYpL.jpg"
   },
   {
@@ -9921,7 +10137,7 @@ const cardsDatabase = [
     "player": "NL Champions",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.2,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027736433393696768-1-h2UQ.jpg"
   },
   {
@@ -9929,7 +10145,7 @@ const cardsDatabase = [
     "player": "2025 ERA Leaders (Tarik Skubal / Paul Skenes)",
     "team": "",
     "year": 2026,
-    "value": 0.99,
+    "value": 0.47,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027735808022970368-1-TKV1.jpg"
   },
   {
@@ -9961,7 +10177,7 @@ const cardsDatabase = [
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "year": 2026,
-    "value": 1.04,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027734012407873536-1-CWWu.jpg"
   },
   {
@@ -9977,7 +10193,7 @@ const cardsDatabase = [
     "player": "Mookie Betts",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 0.94,
+    "value": 0.55,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027733452107579392-1-MxKA.jpg"
   },
   {
@@ -10001,7 +10217,7 @@ const cardsDatabase = [
     "player": "Jac Caglianone",
     "team": "Kansas City Royals",
     "year": 2026,
-    "value": 1.01,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027732717668171776-1-obFw.jpg"
   },
   {
@@ -10049,7 +10265,7 @@ const cardsDatabase = [
     "player": "Oneil Cruz",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1.25,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027730683229405184-1-S94C.jpg"
   },
   {
@@ -10057,7 +10273,7 @@ const cardsDatabase = [
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
     "year": 2026,
-    "value": 1.19,
+    "value": 1.21,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027730405373542400-1-WZik.jpg"
   },
   {
@@ -10081,7 +10297,7 @@ const cardsDatabase = [
     "player": "Cal Raleigh",
     "team": "Seattle Mariners",
     "year": 2026,
-    "value": 1,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027729269346304000-1-8hg.jpg"
   },
   {
@@ -10089,7 +10305,7 @@ const cardsDatabase = [
     "player": "Andrew McCutchen",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 0.67,
+    "value": 0.78,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027728822594207744-1-2FMx.jpg"
   },
   {
@@ -10097,7 +10313,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.93,
+    "value": 1.7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1027728379499544576-1-aZNH.jpg"
   },
   {
@@ -10153,7 +10369,7 @@ const cardsDatabase = [
     "player": "Kumar Rocker",
     "team": "Texas Rangers",
     "year": 2026,
-    "value": 0.38,
+    "value": 0.45,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022843980118217728-1-C6h.jpg"
   },
   {
@@ -10169,7 +10385,7 @@ const cardsDatabase = [
     "player": "Spencer Schwellenbach",
     "team": "Atlanta Braves",
     "year": 2026,
-    "value": 0.9,
+    "value": 0.58,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022843574638072832-1-VKfV.jpg"
   },
   {
@@ -10177,7 +10393,7 @@ const cardsDatabase = [
     "player": "Fernando Tatis Jr.",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 0.75,
+    "value": 0.97,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022843371935749120-1-fJgQ.jpg"
   },
   {
@@ -10201,7 +10417,7 @@ const cardsDatabase = [
     "player": "Michael Harris II",
     "team": "Atlanta Braves",
     "year": 2023,
-    "value": 1.25,
+    "value": 1.4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022736473713575936-1-rgIb.jpg"
   },
   {
@@ -10265,7 +10481,7 @@ const cardsDatabase = [
     "player": "Jacob deGrom",
     "team": "Texas Rangers",
     "year": 2023,
-    "value": 0.28,
+    "value": 0.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022734838136342528-1-oUkj.jpg"
   },
   {
@@ -10289,7 +10505,7 @@ const cardsDatabase = [
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
     "year": 2023,
-    "value": 1.13,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022733589122942976-1-1rqB.jpg"
   },
   {
@@ -10337,7 +10553,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2023,
-    "value": 0.99,
+    "value": 0.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022731032778541056-1-lfnV.jpg"
   },
   {
@@ -10361,7 +10577,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2023,
-    "value": 1.26,
+    "value": 0.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022729097451177984-1-0dKy.jpg"
   },
   {
@@ -10401,7 +10617,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Angels",
     "year": 2023,
-    "value": 1.5,
+    "value": 1.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022724564012533760-1-Uu55.jpg"
   },
   {
@@ -10433,7 +10649,7 @@ const cardsDatabase = [
     "player": "José Ramírez",
     "team": "Cleveland Guardians",
     "year": 2023,
-    "value": 1,
+    "value": 1.44,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022723497493301248-1-Sfzd.jpg"
   },
   {
@@ -10473,7 +10689,7 @@ const cardsDatabase = [
     "player": "Albert Pujols",
     "team": "St. Louis Cardinals",
     "year": 2023,
-    "value": 0.65,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022721109592147968-1-G5la.jpg"
   },
   {
@@ -10489,7 +10705,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2023,
-    "value": 2.7,
+    "value": 2.84,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022720025498781696-1-QOmn.jpg"
   },
   {
@@ -10505,7 +10721,7 @@ const cardsDatabase = [
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
     "year": 2023,
-    "value": 0.61,
+    "value": 0.47,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022719423104452608-1-v57r.jpg"
   },
   {
@@ -10513,7 +10729,7 @@ const cardsDatabase = [
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "year": 2025,
-    "value": 1.39,
+    "value": 0.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022719223992453120-1-HZs7.jpg"
   },
   {
@@ -10521,7 +10737,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 2.99,
+    "value": 2.48,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022718937102059520-1-Pbpq.jpg"
   },
   {
@@ -10553,7 +10769,7 @@ const cardsDatabase = [
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1.49,
+    "value": 0.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022714705594583040-1-WkfL.jpg"
   },
   {
@@ -10593,7 +10809,7 @@ const cardsDatabase = [
     "player": "Corbin Carroll",
     "team": "Arizona Diamondbacks",
     "year": 2026,
-    "value": 1.08,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022712146230282240-1-l1NB.jpg"
   },
   {
@@ -10609,7 +10825,7 @@ const cardsDatabase = [
     "player": "Tarik Skubal",
     "team": "Detroit Tigers",
     "year": 2026,
-    "value": 0.7,
+    "value": 0.54,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022711769548228608-1-ygqq.jpg"
   },
   {
@@ -10657,7 +10873,7 @@ const cardsDatabase = [
     "player": "Juan Soto",
     "team": "New York Mets",
     "year": 2025,
-    "value": 0.7,
+    "value": 0.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022127967563950080-1-FfPa.jpg"
   },
   {
@@ -10681,7 +10897,7 @@ const cardsDatabase = [
     "player": "Ronald Acuña Jr.",
     "team": "Atlanta Braves",
     "year": 2025,
-    "value": 0.98,
+    "value": 0.83,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022127409167869952-1-8EYb.jpg"
   },
   {
@@ -10689,7 +10905,7 @@ const cardsDatabase = [
     "player": "Luisangel Acuña",
     "team": "New York Mets",
     "year": 2025,
-    "value": 0.88,
+    "value": 0.64,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022127216733202432-1-Ga81.jpg"
   },
   {
@@ -10721,7 +10937,7 @@ const cardsDatabase = [
     "player": "Frank Thomas",
     "team": "Chicago White Sox",
     "year": 2025,
-    "value": 0.79,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022125939399862272-1-5wM.jpg"
   },
   {
@@ -10745,7 +10961,7 @@ const cardsDatabase = [
     "player": "Zack Wheeler",
     "team": "Philadelphia Phillies",
     "year": 2025,
-    "value": 1.05,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022124036737738752-1-CTzz.jpg"
   },
   {
@@ -10753,7 +10969,7 @@ const cardsDatabase = [
     "player": "Pedro Martinez",
     "team": "Boston Red Sox",
     "year": 2025,
-    "value": 0.95,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022123832273807360-1-t2yg.jpg"
   },
   {
@@ -10801,7 +11017,7 @@ const cardsDatabase = [
     "player": "Jon Berti",
     "team": "Chicago Cubs",
     "year": 2025,
-    "value": 0.86,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022121184795568128-1-brl9.jpg"
   },
   {
@@ -10809,7 +11025,7 @@ const cardsDatabase = [
     "player": "Dylan Crews",
     "team": "Washington Nationals",
     "year": 2025,
-    "value": 0.94,
+    "value": 0.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022120710679832576-1-tZ1l.jpg"
   },
   {
@@ -10833,7 +11049,7 @@ const cardsDatabase = [
     "player": "Manny Machado",
     "team": "San Diego Padres",
     "year": 2025,
-    "value": 0.8,
+    "value": 0.89,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022119990786271232-1-5JtQ.jpg"
   },
   {
@@ -10857,7 +11073,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2025,
-    "value": 0.88,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022119305353111552-1-Br26.jpg"
   },
   {
@@ -10873,7 +11089,7 @@ const cardsDatabase = [
     "player": "Kodai Senga",
     "team": "New York Mets",
     "year": 2025,
-    "value": 0.45,
+    "value": 0.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022118576911558656-1-l1We.jpg"
   },
   {
@@ -10897,7 +11113,7 @@ const cardsDatabase = [
     "player": "Derek Jeter",
     "team": "New York Yankees",
     "year": 2025,
-    "value": 1.69,
+    "value": 1.7,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022117203360884736-1-r8S.jpg"
   },
   {
@@ -10921,7 +11137,7 @@ const cardsDatabase = [
     "player": "Honus Wagner",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 0.53,
+    "value": 0.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022116476915820544-1-dSa5.jpg"
   },
   {
@@ -10929,7 +11145,7 @@ const cardsDatabase = [
     "player": "Jackson Merrill",
     "team": "San Diego Padres",
     "year": 2025,
-    "value": 0.4,
+    "value": 0.41,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022116122824288256-1-whxL.jpg"
   },
   {
@@ -10961,7 +11177,7 @@ const cardsDatabase = [
     "player": "Andrew McCutchen",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 1.06,
+    "value": 0.87,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022114917440038912-1-3L3p.jpg"
   },
   {
@@ -10969,7 +11185,7 @@ const cardsDatabase = [
     "player": "Nolan Ryan",
     "team": "Houston Astros",
     "year": 2025,
-    "value": 0.75,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022114555027007488-1-hCDA.jpg"
   },
   {
@@ -10977,7 +11193,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022113816208746496-1-mjN0.jpg"
   },
   {
@@ -11009,7 +11225,7 @@ const cardsDatabase = [
     "player": "Dylan Crews",
     "team": "Washington Nationals",
     "year": 2025,
-    "value": 1.33,
+    "value": 1.03,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022112583628630016-1-4ZaQ.jpg"
   },
   {
@@ -11017,7 +11233,7 @@ const cardsDatabase = [
     "player": "Mark McGwire",
     "team": "St. Louis Cardinals",
     "year": 2025,
-    "value": 0.33,
+    "value": 0.44,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022112073265719296-1-F8Au.jpg"
   },
   {
@@ -11025,7 +11241,7 @@ const cardsDatabase = [
     "player": "Jackson Chourio",
     "team": "Milwaukee Brewers",
     "year": 2025,
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022111923940108288-1-olnT.jpg"
   },
   {
@@ -11049,7 +11265,7 @@ const cardsDatabase = [
     "player": "Barry Larkin",
     "team": "Cincinnati Reds",
     "year": 2025,
-    "value": 0.61,
+    "value": 0.63,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022111006939424768-1-Q3l0.jpg"
   },
   {
@@ -11057,7 +11273,7 @@ const cardsDatabase = [
     "player": "Greg Maddux",
     "team": "Atlanta Braves",
     "year": 2025,
-    "value": 0.97,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022110824336205824-1-5hRT.jpg"
   },
   {
@@ -11065,7 +11281,7 @@ const cardsDatabase = [
     "player": "Wyatt Langford",
     "team": "Texas Rangers",
     "year": 2025,
-    "value": 1,
+    "value": 1.2,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022110097605928960-1-P2Nb.jpg"
   },
   {
@@ -11097,7 +11313,7 @@ const cardsDatabase = [
     "player": "Julio Rodríguez",
     "team": "Seattle Mariners",
     "year": 2025,
-    "value": 0.9,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022109098573047808-1-NjTO.jpg"
   },
   {
@@ -11145,7 +11361,7 @@ const cardsDatabase = [
     "player": "Chris Sale",
     "team": "Atlanta Braves",
     "year": 2025,
-    "value": 1.46,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022107263749597184-1-82uo.jpg"
   },
   {
@@ -11161,7 +11377,7 @@ const cardsDatabase = [
     "player": "Corbin Carroll",
     "team": "Arizona Diamondbacks",
     "year": 2025,
-    "value": 1,
+    "value": 1.39,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022106943539652608-1-4m5C.jpg"
   },
   {
@@ -11201,7 +11417,7 @@ const cardsDatabase = [
     "player": "Rhett Lowder",
     "team": "Cincinnati Reds",
     "year": 2025,
-    "value": 0.28,
+    "value": 0.69,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022105092970784768-1-oESR.jpg"
   },
   {
@@ -11209,7 +11425,7 @@ const cardsDatabase = [
     "player": "Mookie Betts",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 0.65,
+    "value": 0.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022104945356449792-1-ZfP.jpg"
   },
   {
@@ -11265,7 +11481,7 @@ const cardsDatabase = [
     "player": "Sammy Sosa",
     "team": "Chicago Cubs",
     "year": 2025,
-    "value": 0.85,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022100791166773248-1-aIIy.jpg"
   },
   {
@@ -11289,7 +11505,7 @@ const cardsDatabase = [
     "player": "Evan Longoria",
     "team": "Tampa Bay Rays",
     "year": 2025,
-    "value": 1.01,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022099701167826944-1-rbk.jpg"
   },
   {
@@ -11305,7 +11521,7 @@ const cardsDatabase = [
     "player": "Hyeseong Kim",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 1.2,
+    "value": 1.02,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022098543380539392-1-TPf.jpg"
   },
   {
@@ -11313,7 +11529,7 @@ const cardsDatabase = [
     "player": "Ryan Howard",
     "team": "Philadelphia Phillies",
     "year": 2025,
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1022098100797581312-1-2Jrs.jpg"
   },
   {
@@ -11329,7 +11545,7 @@ const cardsDatabase = [
     "player": "Kristian Campbell",
     "team": "Boston Red Sox",
     "year": 2026,
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017451613302035456-1-sUwX.jpg"
   },
   {
@@ -11353,7 +11569,7 @@ const cardsDatabase = [
     "player": "Dodgers Duo",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017450867647580160-1-h5mB.jpg"
   },
   {
@@ -11361,7 +11577,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2026,
-    "value": 0.99,
+    "value": 1.19,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017450652957797376-1-F2AF.jpg"
   },
   {
@@ -11417,7 +11633,7 @@ const cardsDatabase = [
     "player": "Fernando Tatis Jr.",
     "team": "San Diego Padres",
     "year": 2026,
-    "value": 0.75,
+    "value": 0.97,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017448307871713280-1-cVpD.jpg"
   },
   {
@@ -11441,7 +11657,7 @@ const cardsDatabase = [
     "player": "Samuel Basallo",
     "team": "Baltimore Orioles",
     "year": 2026,
-    "value": 0.92,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1017447447100255232-1-17Gh.jpg"
   },
   {
@@ -11633,7 +11849,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2026,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1006204305570812928-1-hTKo.jpg"
   },
   {
@@ -11705,7 +11921,7 @@ const cardsDatabase = [
     "player": "José Ramírez",
     "team": "Cleveland Guardians",
     "year": 2025,
-    "value": 8.1,
+    "value": 8.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/1005485844316293120-1-grIX.jpg"
   },
   {
@@ -11833,7 +12049,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 1.25,
+    "value": 1.13,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/992438885534793728-1-uUyS.jpg"
   },
   {
@@ -11881,7 +12097,7 @@ const cardsDatabase = [
     "player": "Riley Greene",
     "team": "Detroit Tigers",
     "year": 2021,
-    "value": 1,
+    "value": 1.09,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/992433901065496576-1-YAxm.jpg"
   },
   {
@@ -11889,7 +12105,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 1.7,
+    "value": 1.09,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/992069450751934464-1-y8oQ.jpg"
   },
   {
@@ -11905,7 +12121,7 @@ const cardsDatabase = [
     "player": "Ben Rice",
     "team": "New York Yankees",
     "year": 2025,
-    "value": 8.51,
+    "value": 6.25,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/974310438135958528-1-XkXS.jpg"
   },
   {
@@ -11913,7 +12129,7 @@ const cardsDatabase = [
     "player": "Cesar Tovar",
     "team": "Minnesota Twins",
     "year": 2025,
-    "value": 1.55,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/974303074885579776-1-mIWz.jpg"
   },
   {
@@ -11985,7 +12201,7 @@ const cardsDatabase = [
     "player": "Freddie Freeman",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 0.94,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/970695419997543424-1-l81u.jpg"
   },
   {
@@ -11993,7 +12209,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 3.75,
+    "value": 2.75,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/969250108388690944-1-mS7C.jpg"
   },
   {
@@ -12017,7 +12233,7 @@ const cardsDatabase = [
     "player": "Jacob Wilson",
     "team": "Athletics",
     "year": 2025,
-    "value": 1.22,
+    "value": 1.1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968238838063812608-1-m5yE.jpg"
   },
   {
@@ -12025,7 +12241,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2025,
-    "value": 1.49,
+    "value": 2.22,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968238602184544256-1-r0Aw.jpg"
   },
   {
@@ -12033,7 +12249,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2025,
-    "value": 0.99,
+    "value": 1.23,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968238063947138048-1-Hpg8.jpg"
   },
   {
@@ -12041,7 +12257,7 @@ const cardsDatabase = [
     "player": "Nod and Smile",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 2.72,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968237614795603968-1-Qt7W.jpg"
   },
   {
@@ -12065,7 +12281,7 @@ const cardsDatabase = [
     "player": "Mickey Mantle",
     "team": "New York Yankees",
     "year": 2025,
-    "value": 1.39,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968235839204410368-1-2ZzB.jpg"
   },
   {
@@ -12073,7 +12289,7 @@ const cardsDatabase = [
     "player": "Juan Soto",
     "team": "New York Mets",
     "year": 2025,
-    "value": 0.5,
+    "value": 0.65,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/968235546458472448-1-CuXJ.jpg"
   },
   {
@@ -12161,7 +12377,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 4.74,
+    "value": 3.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/953246657222513664-1-eLhP.jpg"
   },
   {
@@ -12177,7 +12393,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2025,
-    "value": 1.4,
+    "value": 1.37,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939386751344053248-1-kmm.jpg"
   },
   {
@@ -12193,7 +12409,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 1.83,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939385562618694656-1-ih7C.jpg"
   },
   {
@@ -12201,7 +12417,7 @@ const cardsDatabase = [
     "player": "Rising Sons (Shohei Ohtani / Roki Sasaki)",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 1.25,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939385114508860416-1-8mkU.jpg"
   },
   {
@@ -12209,7 +12425,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 2.49,
+    "value": 1.79,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939384315410062336-1-GMJ.jpg"
   },
   {
@@ -12217,7 +12433,7 @@ const cardsDatabase = [
     "player": "Pete Crow-Armstrong",
     "team": "Chicago Cubs",
     "year": 2025,
-    "value": 0.99,
+    "value": 1.23,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939378630658919424-1-w4Y.jpg"
   },
   {
@@ -12225,7 +12441,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2025,
-    "value": 1.5,
+    "value": 1.54,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/939378285274762240-1-V5.jpg"
   },
   {
@@ -12241,7 +12457,7 @@ const cardsDatabase = [
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
     "year": 2025,
-    "value": 2.39,
+    "value": 1.43,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/931196318628754432-1-hyTA.jpg"
   },
   {
@@ -12265,7 +12481,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2025,
-    "value": 2.37,
+    "value": 5.4,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/931193132653245440-1-4cz.jpg"
   },
   {
@@ -12313,7 +12529,7 @@ const cardsDatabase = [
     "player": "Jordan Westburg",
     "team": "Baltimore Orioles",
     "year": 2024,
-    "value": 1.25,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913212997580098560-1-nfY8.jpg"
   },
   {
@@ -12425,7 +12641,7 @@ const cardsDatabase = [
     "player": "Adley Rutschman",
     "team": "Baltimore Orioles",
     "year": 2024,
-    "value": 2,
+    "value": 2.49,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913170109261417472-1-0eLK.jpg"
   },
   {
@@ -12577,7 +12793,7 @@ const cardsDatabase = [
     "player": "James McCann",
     "team": "Baltimore Orioles",
     "year": 2024,
-    "value": 1.78,
+    "value": 1.59,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/913143468946623488-1-GBon.jpg"
   },
   {
@@ -12761,7 +12977,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2023,
-    "value": 1.26,
+    "value": 0.5,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/911801831004194816-1-NHY7.jpg"
   },
   {
@@ -12769,7 +12985,7 @@ const cardsDatabase = [
     "player": "Gunnar Henderson",
     "team": "Baltimore Orioles",
     "year": 2024,
-    "value": 0.85,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-product-images/911800965308749824-1-3uZI.jpg"
   },
   {
@@ -13041,7 +13257,7 @@ const cardsDatabase = [
     "player": "Julio Rodriguez",
     "team": "Seattle Mariners",
     "year": 2025,
-    "value": 1,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-681891102-front.jpg"
   },
   {
@@ -13049,7 +13265,7 @@ const cardsDatabase = [
     "player": "Francisco Lindor",
     "team": "New York Mets",
     "year": 2025,
-    "value": 1.19,
+    "value": 1.4,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-681890614-front.jpg"
   },
   {
@@ -13113,7 +13329,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 1.25,
+    "value": 1.27,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-681771697-front.jpg"
   },
   {
@@ -13169,7 +13385,7 @@ const cardsDatabase = [
     "player": "Jose Ramirez",
     "team": "Cleveland Guardians",
     "year": 2025,
-    "value": 1,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680827102-front.jpg"
   },
   {
@@ -13201,7 +13417,7 @@ const cardsDatabase = [
     "player": "Brandon Lockridge",
     "team": "San Diego Padres",
     "year": 2025,
-    "value": 2,
+    "value": 2.49,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680208788-front.jpg"
   },
   {
@@ -13209,7 +13425,7 @@ const cardsDatabase = [
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 1.2,
+    "value": 1.25,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680207957-front.jpg"
   },
   {
@@ -13217,7 +13433,7 @@ const cardsDatabase = [
     "player": "Vladimir Guerrero Jr.",
     "team": "Toronto Blue Jays",
     "year": 2025,
-    "value": 1.4,
+    "value": 1.49,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680206979-front.jpg"
   },
   {
@@ -13225,7 +13441,7 @@ const cardsDatabase = [
     "player": "Jacob Wilson",
     "team": "Athletics",
     "year": 2025,
-    "value": 1.25,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680206159-front.jpg"
   },
   {
@@ -13233,7 +13449,7 @@ const cardsDatabase = [
     "player": "Ronald Acuña Jr.",
     "team": "Atlanta Braves",
     "year": 2025,
-    "value": 0.8,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680202949-front.jpg"
   },
   {
@@ -13241,7 +13457,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 2.35,
+    "value": 2.44,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-680202078-front.jpg"
   },
   {
@@ -13345,7 +13561,7 @@ const cardsDatabase = [
     "player": "Jim Palmer",
     "team": "Baltimore Orioles",
     "year": 1982,
-    "value": 1.59,
+    "value": 1.5,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-656801433-front.jpg"
   },
   {
@@ -13353,7 +13569,7 @@ const cardsDatabase = [
     "player": "Seiya Suzuki",
     "team": "Chicago Cubs",
     "year": 2025,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-655635211-front.jpg"
   },
   {
@@ -13417,7 +13633,7 @@ const cardsDatabase = [
     "player": "Cal Ripken Jr.",
     "team": "Baltimore Orioles",
     "year": 2025,
-    "value": 1.99,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-653194886-front.jpg"
   },
   {
@@ -13473,7 +13689,7 @@ const cardsDatabase = [
     "player": "Manny Machado",
     "team": "San Diego Padres",
     "year": 2025,
-    "value": 1,
+    "value": 1.29,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-647412917-front.jpg"
   },
   {
@@ -13593,7 +13809,7 @@ const cardsDatabase = [
     "player": "Gerrit Cole",
     "team": "New York Yankees",
     "year": 2025,
-    "value": 1.06,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-647403863-front.jpg"
   },
   {
@@ -13601,7 +13817,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 1.18,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-647391108-front.jpg"
   },
   {
@@ -13633,7 +13849,7 @@ const cardsDatabase = [
     "player": "Juan Soto",
     "team": "New York Mets",
     "year": 2025,
-    "value": 1.4,
+    "value": 1.34,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-646349724-front.jpg"
   },
   {
@@ -13697,7 +13913,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 1.91,
+    "value": 2,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-631526900-front.jpg"
   },
   {
@@ -13809,7 +14025,7 @@ const cardsDatabase = [
     "player": "Josue De Paula",
     "team": "Los Angeles Dodgers",
     "year": 2024,
-    "value": 25,
+    "value": 25.5,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-627912880-front.jpg"
   },
   {
@@ -13865,7 +14081,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2024,
-    "value": 1.5,
+    "value": 1.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-627718406-front.jpg"
   },
   {
@@ -13905,7 +14121,7 @@ const cardsDatabase = [
     "player": "AL Home Run Leaders (Juan Soto / Anthony Santander / Aaron Judge)",
     "team": "",
     "year": 2025,
-    "value": 0.5,
+    "value": 0.25,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-624334031-front.jpg"
   },
   {
@@ -13921,7 +14137,7 @@ const cardsDatabase = [
     "player": "Travis Bazzana",
     "team": "Cleveland Guardians",
     "year": 2025,
-    "value": 0.99,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-624333820-front.jpg"
   },
   {
@@ -13945,7 +14161,7 @@ const cardsDatabase = [
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
     "year": 2025,
-    "value": 1.1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-623730530-front.jpg"
   },
   {
@@ -13977,7 +14193,7 @@ const cardsDatabase = [
     "player": "Hayden Alvarez",
     "team": "Los Angeles Angels",
     "year": 2025,
-    "value": 2.49,
+    "value": 1.75,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-623208951-front.jpg"
   },
   {
@@ -14081,7 +14297,7 @@ const cardsDatabase = [
     "player": "Christian Yelich",
     "team": "Milwaukee Brewers",
     "year": 2025,
-    "value": 0.74,
+    "value": 0.67,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610316608-front.jpg"
   },
   {
@@ -14097,7 +14313,7 @@ const cardsDatabase = [
     "player": "Justin Verlander",
     "team": "Houston Astros",
     "year": 2025,
-    "value": 0.73,
+    "value": 1.3,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610315286-front.jpg"
   },
   {
@@ -14113,7 +14329,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani",
     "team": "Los Angeles Dodgers",
     "year": 2025,
-    "value": 1.5,
+    "value": 1.34,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610313216-front.jpg"
   },
   {
@@ -14121,7 +14337,7 @@ const cardsDatabase = [
     "player": "Mike Trout",
     "team": "Los Angeles Angels",
     "year": 2025,
-    "value": 0.5,
+    "value": 0.67,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610312753-front.jpg"
   },
   {
@@ -14129,7 +14345,7 @@ const cardsDatabase = [
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
     "year": 2025,
-    "value": 0.84,
+    "value": 0.95,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-610246164-front.jpg"
   },
   {
@@ -14169,7 +14385,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2025,
-    "value": 1.07,
+    "value": 1,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-609456022-front.jpg"
   },
   {
@@ -14177,7 +14393,7 @@ const cardsDatabase = [
     "player": "Jackson Merrill",
     "team": "San Diego Padres",
     "year": 2024,
-    "value": 1.99,
+    "value": 1.46,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-608427410-front.jpg"
   },
   {
@@ -14417,7 +14633,7 @@ const cardsDatabase = [
     "player": "Randy Johnson",
     "team": "Seattle Mariners",
     "year": 2024,
-    "value": 0.36,
+    "value": 0.65,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-606866135-front.jpg"
   },
   {
@@ -14449,7 +14665,7 @@ const cardsDatabase = [
     "player": "Anthony Volpe",
     "team": "New York Yankees",
     "year": 2024,
-    "value": 2.5,
+    "value": 2.25,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588206284-front.jpg"
   },
   {
@@ -14457,7 +14673,7 @@ const cardsDatabase = [
     "player": "Junior Caminero",
     "team": "Tampa Bay Rays",
     "year": 2024,
-    "value": 4.99,
+    "value": 4.94,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588206140-front.jpg"
   },
   {
@@ -14465,7 +14681,7 @@ const cardsDatabase = [
     "player": "Shohei Ohtani / Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
     "year": 2024,
-    "value": 39.64,
+    "value": 39,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588206024-front.jpg"
   },
   {
@@ -14481,7 +14697,7 @@ const cardsDatabase = [
     "player": "Yoshinobu Yamamoto",
     "team": "Los Angeles Dodgers",
     "year": 2024,
-    "value": 2.5,
+    "value": 2.75,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588205214-front.jpg"
   },
   {
@@ -14505,7 +14721,7 @@ const cardsDatabase = [
     "player": "Bryce Harper",
     "team": "Philadelphia Phillies",
     "year": 2024,
-    "value": 1,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588204688-front.jpg"
   },
   {
@@ -14513,7 +14729,7 @@ const cardsDatabase = [
     "player": "Max Clark",
     "team": "Detroit Tigers",
     "year": 2024,
-    "value": 8,
+    "value": 7.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588204230-front.jpg"
   },
   {
@@ -14553,7 +14769,7 @@ const cardsDatabase = [
     "player": "Kendry Rojas",
     "team": "Toronto Blue Jays",
     "year": 2024,
-    "value": 10,
+    "value": 9.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-588202417-front.jpg"
   },
   {
@@ -14577,7 +14793,7 @@ const cardsDatabase = [
     "player": "Aaron Judge",
     "team": "New York Yankees",
     "year": 2025,
-    "value": 1.31,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-574133573-front.jpg"
   },
   {
@@ -14593,7 +14809,7 @@ const cardsDatabase = [
     "player": "Bobby Witt Jr.",
     "team": "Kansas City Royals",
     "year": 2025,
-    "value": 0.63,
+    "value": 0.99,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-574131979-front.jpg"
   },
   {
@@ -14641,7 +14857,7 @@ const cardsDatabase = [
     "player": "Jackson Merrill",
     "team": "San Diego Padres",
     "year": 2024,
-    "value": 1.69,
+    "value": 1.74,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-532197556-front.jpg"
   },
   {
@@ -14705,7 +14921,7 @@ const cardsDatabase = [
     "player": "Paul Skenes",
     "team": "Pittsburgh Pirates",
     "year": 2024,
-    "value": 6.99,
+    "value": 6,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-526854134-front.jpg"
   },
   {
@@ -14761,7 +14977,7 @@ const cardsDatabase = [
     "player": "Fernando Tatis Jr.",
     "team": "San Diego Padres",
     "year": 2022,
-    "value": 0.75,
+    "value": 0.84,
     "imageUrl": "https://storage.googleapis.com/collx-user-cards/2550762-514427599-front.jpg"
   },
   {
@@ -14808,10 +15024,10 @@ const cardsDatabase = [
 
 // Collection metadata
 const collectionInfo = {
-    totalCards: 1850,
-    totalValue: 13161.16,
+    totalCards: 1877,
+    totalValue: 12304.64,
     uniqueTeams: 40,
-    lastUpdated: "2026-10-11T10:15:15.098Z",
+    lastUpdated: "2026-10-18T11:22:20.483Z",
     dataSource: "/Users/stevenmpoole6/Desktop/masons-cards-updated.xlsx"
 };
 
