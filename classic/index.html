@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mason's Baseball Cards - Login</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #1a4c3a 0%, #2d7a2d 50%, #1a4c3a 100%);
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .login {
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        input, button {
+            padding: 15px;
+            font-size: 18px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+        }
+        button {
+            background: #DF4601;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h1>⚾ Mason's Baseball Card Collection</h1>
+        <p>Enter password to view the collection:</p>
+        <input type="password" id="pwd" placeholder="Password">
+        <br>
+        <button onclick="login()">Enter Collection</button>
+
+    </div>
+
+    <script>
+        function login() {
+            const pwd = document.getElementById('pwd').value;
+            if (pwd === 'mason') {
+                window.location.href = 'cards.html';
+            } else {
+                alert('Incorrect password. Please try again.');
+            }
+        }
+        
+        document.getElementById('pwd').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                login();
+            }
+        });
+    </script>
+</body>
+</html>
