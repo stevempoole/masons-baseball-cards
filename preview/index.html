@@ -1,0 +1,148 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Mason's Cards: Preview</title>
+<style>
+:root{--o:#df4601;--b:#111}
+body{margin:0;font-family:-apple-system,Segoe UI,Roboto,sans-serif;background:#f3f3f5;color:#222}
+#gate{max-width:340px;margin:15vh auto;background:#fff;padding:28px;border-radius:14px;text-align:center;box-shadow:0 4px 18px #0002}
+#gate input{padding:10px;width:80%;border:1px solid #ccc;border-radius:8px;font-size:16px}
+button{cursor:pointer}.btn{background:var(--o);color:#fff;border:0;border-radius:8px;padding:9px 16px;font-size:15px}
+header{background:var(--b);color:#fff;padding:14px 18px;border-bottom:4px solid var(--o)}header h1{margin:0;font-size:22px}
+.banner{background:#fff3cd;padding:8px 18px;font-size:13px}
+.wrap{max-width:1300px;margin:auto;padding:14px}
+.stats{display:flex;flex-wrap:wrap;gap:10px}.stat{background:#fff;border-radius:10px;padding:10px 14px;box-shadow:0 1px 4px #0001;min-width:140px}
+.stat .l{font-size:12px;color:#666}.stat .v{font-size:20px;font-weight:700}
+.tabs{margin:14px 0;display:flex;gap:6px;flex-wrap:wrap}.tabs button{border:0;background:#ddd;padding:8px 14px;border-radius:20px;font-size:14px}.tabs button.on{background:var(--o);color:#fff}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:#fff;padding:10px;border-radius:10px;margin-bottom:12px}
+.filters input[type=text],.filters select{padding:7px;border:1px solid #ccc;border-radius:7px;font-size:14px;max-width:220px}
+.chk{font-size:13px;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+.card{background:#fff;border-radius:10px;box-shadow:0 1px 5px #0002;overflow:hidden;display:flex;flex-direction:column}
+.flipbox{perspective:900px;cursor:pointer;height:230px;background:#fafafa}
+.inner{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d}
+.flipbox.flip .inner{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;align-items:center;justify-content:center}
+.face img{max-width:100%;max-height:100%;object-fit:contain}.back{transform:rotateY(180deg);color:#999;font-size:13px}
+.info{padding:8px 10px;font-size:13px;flex:1;display:flex;flex-direction:column;gap:3px}.info b{font-size:14px}
+.sub{color:#555}.par{color:var(--o);font-weight:600}
+.badges span{display:inline-block;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;margin:1px 2px 1px 0;color:#fff;background:#555}
+.b-AU{background:#7b2cbf!important}.b-MEM{background:#2a9d8f!important}.b-RC{background:#e63946!important}.b-HOF{background:#b8860b!important}.b-SN{background:#111!important}.b-GR{background:#1d4ed8!important}.b-NEW{background:var(--o)!important}
+.price{margin-top:auto;font-size:16px;font-weight:700}.src{font-size:11px;font-weight:400;color:#666;display:block}.src a{color:#666}
+.more{display:block;margin:16px auto}
+.rb{background:#fff;border-radius:10px;padding:10px 12px;margin-bottom:10px;box-shadow:0 1px 4px #0001;font-size:14px}
+.rb .strip{display:flex;gap:8px;overflow-x:auto;padding:6px 0}.rb .strip div{flex:0 0 auto;width:92px;text-align:center;font-size:11px}
+.rb .strip img{height:110px;border-radius:4px}.rb .miss{color:#999;font-size:12px;margin-top:4px}
+.chart{background:#fff;border-radius:10px;padding:12px}
+.mv{display:grid;grid-template-columns:1fr 1fr;gap:12px}.mv table{width:100%;background:#fff;border-radius:10px;font-size:13px;border-collapse:collapse}
+.mv td,.mv th{padding:5px 8px;border-bottom:1px solid #eee;text-align:left}.up{color:#0a7d32;font-weight:600}.dn{color:#c0262d;font-weight:600}
+@media(max-width:600px){.grid{grid-template-columns:repeat(2,1fr)}.flipbox{height:190px}.mv{grid-template-columns:1fr}}
+</style></head><body>
+<div id="gate"><h2>⚾ Mason's Cards</h2><p>New site preview</p><input type="password" id="pwd" placeholder="Password" onkeydown="if(event.key==='Enter')login()"><br><br><button class="btn" onclick="login()">Enter</button></div>
+<div id="app" style="display:none">
+<header><h1>⚾ Mason's Baseball Card Collection</h1><div style="font-size:13px;opacity:.8">Preview of the new site · <span id="upd"></span></div></header>
+<div class="banner" id="banner"></div>
+<div class="wrap">
+<div class="stats" id="stats"></div>
+<div class="tabs" id="tabs"><button data-t="all" class="on">All cards</button><button data-t="new">New this week</button><button data-t="rb">Rainbows</button><button data-t="hist">Value history &amp; movers</button></div>
+<div id="sec-all">
+<div class="filters">
+<input type="text" id="q" placeholder="Search player, set, card #" oninput="go()">
+<select id="fTeam" onchange="go()"><option value="">All teams</option></select>
+<select id="fYear" onchange="go()"><option value="">All years</option></select>
+<select id="fSet" onchange="go()"><option value="">All sets</option></select>
+<label class="chk"><input type="checkbox" data-f="AU" onchange="go()"> Autos</label>
+<label class="chk"><input type="checkbox" data-f="MEM" onchange="go()"> Relics</label>
+<label class="chk"><input type="checkbox" data-f="RC" onchange="go()"> Rookies</label>
+<label class="chk"><input type="checkbox" data-f="HOF" onchange="go()"> Hall of Fame</label>
+<label class="chk"><input type="checkbox" data-f="NUM" onchange="go()"> Numbered</label>
+<label class="chk"><input type="checkbox" data-f="GR" onchange="go()"> Graded</label>
+<label class="chk"><input type="checkbox" data-f="HCI" onchange="go()"> HCI-priced</label>
+<select id="sort" onchange="go()"><option value="p">Value: high to low</option><option value="new">Newest first</option><option value="n">Player A to Z</option><option value="sn">Lowest serial #</option></select>
+<span id="count" style="font-size:13px;color:#666"></span>
+</div>
+<div class="grid" id="grid"></div><button class="btn more" id="moreBtn" onclick="more()">Show more</button>
+</div>
+<div id="sec-new" hidden><p id="newIntro"></p><div class="grid" id="gridNew"></div></div>
+<div id="sec-rb" hidden><p id="rbIntro"></p><div id="rbList"></div></div>
+<div id="sec-hist" hidden><div class="chart" id="chart"></div><h3>Biggest movers this week</h3><div id="movers"></div></div>
+</div></div>
+<script src="data.js"></script>
+<script>
+var PW="mason";var C=window.CARDS||[],M=window.META||{},H=window.HISTORY||[],RB=window.RAINBOW||{};
+var shown=0,list=[],PAGE=120,rbDone=false;
+function $(id){return document.getElementById(id);}
+function money(v){return v==null?'—':'$'+Number(v).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+function sum(a){return a.reduce(function(s,c){return s+(c.p||0);},0);}
+function uniq(a){return Array.from(new Set(a.filter(function(x){return x!=null&&x!=='';})));}
+function login(){if($('pwd').value===PW){sessionStorage.setItem('mbcPrev','1');openApp();}else alert('Incorrect password.');}
+function openApp(){$('gate').style.display='none';$('app').style.display='block';init();}
+function fill(id,vals){var s=$(id);vals.forEach(function(v){var o=document.createElement('option');o.value=v;o.textContent=v;s.appendChild(o);});}
+function init(){
+ var latest=C.reduce(function(m,c){return c.added&&c.added>m?c.added:m;},'');
+ var cut=new Date(latest+'T12:00:00');cut.setDate(cut.getDate()-6);var cutS=cut.toISOString().slice(0,10);
+ C.forEach(function(c){c.isNew=!!c.added&&c.added>=cutS;c.gr=!!c.cond&&c.cond!=='RAW';});
+ fill('fTeam',uniq(C.map(function(c){return c.t;})).sort());
+ fill('fYear',uniq(C.map(function(c){return c.y;})).sort(function(a,b){return b-a;}));
+ fill('fSet',uniq(C.map(function(c){return c.set;})).sort());
+ $('upd').textContent='CollX export '+(M.exportDate||'')+' · built '+new Date(M.generatedAt).toLocaleString();
+ var hci=C.filter(function(c){return c.src==='HCI';}),cx=C.filter(function(c){return c.src==='CollX';}),none=C.filter(function(c){return c.p==null;});
+ var top=C.filter(function(c){return c.p!=null;}).sort(function(a,b){return b.p-a.p;})[0];
+ var nw=C.filter(function(c){return c.isNew;});
+ $('banner').innerHTML='Prices: Hobby Card Index (HCI) when the exact parallel has '+M.minVol+'+ recent sales, otherwise CollX. '+(M.hciChecked<C.length?'<b>HCI check in progress: '+M.hciChecked+' of '+C.length+' cards checked so far.</b>':'All '+C.length+' cards checked against HCI.');
+ var st=[['Collection value',money(sum(C))],['Cards',C.length.toLocaleString()],['Priced by HCI',hci.length+' cards · '+money(sum(hci))],['Priced by CollX',cx.length+' cards · '+money(sum(cx))],['No price yet',none.length],['Top card',top?money(top.p)+' · '+esc(top.n):'—'],['New this week',nw.length+' cards']];
+ $('stats').innerHTML=st.map(function(s){return '<div class="stat"><div class="l">'+s[0]+'</div><div class="v">'+s[1]+'</div></div>';}).join('');
+ $('newIntro').textContent=nw.length+' cards added since '+cutS+' · '+money(sum(nw));
+ $('gridNew').innerHTML=nw.sort(function(a,b){return (b.added||'').localeCompare(a.added||'')||(b.p||0)-(a.p||0);}).map(cardHtml).join('');
+ document.querySelectorAll('#tabs button').forEach(function(b){b.onclick=function(){document.querySelectorAll('#tabs button').forEach(function(x){x.classList.remove('on');});b.classList.add('on');['all','new','rb','hist'].forEach(function(t){$('sec-'+t).hidden=(t!==b.dataset.t);});if(b.dataset.t==='rb')rainbows();if(b.dataset.t==='hist')history_();};});
+ go();
+}
+function cardHtml(c){
+ var bd='';(c.tags||[]).forEach(function(t){bd+='<span class="b-'+esc(t)+'">'+esc(t==='MEM'?'RELIC':t==='AU'?'AUTO':t)+'</span>';});
+ if(c.sn)bd+='<span class="b-SN">/'+c.sn+'</span>';if(c.gr)bd+='<span class="b-GR">'+esc(c.cond)+'</span>';if(c.isNew)bd+='<span class="b-NEW">NEW</span>';
+ var src=c.src==='HCI'?'HCI · '+c.hv+' sales':(c.src==='CollX'?'CollX':'No price yet');
+ if(c.src==='HCI'&&c.hu)src='<a href="'+esc(c.hu)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">'+src+'</a>';
+ return '<div class="card"><div class="flipbox" onclick="flip(this)" data-b="'+esc(c.b)+'"><div class="inner"><div class="face front"><img loading="lazy" src="'+esc(c.f)+'" alt=""></div><div class="face back">Loading back...</div></div></div>'+
+ '<div class="info"><b>'+esc(c.n)+'</b><div class="sub">'+esc(c.set)+' #'+esc(c.num)+'</div>'+(c.par?'<div class="par">'+esc(c.par)+'</div>':'')+'<div class="badges">'+bd+'</div>'+
+ '<div class="price">'+(c.p!=null?money(c.p):'No value')+'<span class="src">'+src+'</span></div></div></div>';
+}
+function flip(el){if(!el.dataset.loaded){var back=el.querySelector('.back');back.textContent='';if(el.dataset.b){var i=document.createElement('img');i.src=el.dataset.b;back.appendChild(i);}else back.textContent='No back photo';el.dataset.loaded='1';}el.classList.toggle('flip');}
+function go(){
+ var q=$('q').value.toLowerCase().trim(),t=$('fTeam').value,y=$('fYear').value,s=$('fSet').value;
+ var fl=[].slice.call(document.querySelectorAll('.filters input[type=checkbox]:checked')).map(function(x){return x.dataset.f;});
+ list=C.filter(function(c){
+  if(t&&c.t!==t)return false;if(y&&String(c.y)!==y)return false;if(s&&c.set!==s)return false;
+  if(q&&(c.n+' '+c.set+' '+c.par+' '+c.num+' '+c.t).toLowerCase().indexOf(q)<0)return false;
+  for(var i=0;i<fl.length;i++){var f=fl[i];if(f==='NUM'){if(!c.sn)return false;}else if(f==='GR'){if(!c.gr)return false;}else if(f==='HCI'){if(c.src!=='HCI')return false;}else if((c.tags||[]).indexOf(f)<0)return false;}
+  return true;});
+ var so=$('sort').value;
+ list.sort(function(a,b){if(so==='new')return (b.added||'').localeCompare(a.added||'');if(so==='n')return a.n.localeCompare(b.n);if(so==='sn'){if(!a.sn)return 1;if(!b.sn)return -1;return a.sn-b.sn;}if(a.p==null)return 1;if(b.p==null)return -1;return b.p-a.p;});
+ shown=0;$('grid').innerHTML='';more();$('count').textContent=list.length.toLocaleString()+' cards · '+money(sum(list));
+}
+function more(){$('grid').insertAdjacentHTML('beforeend',list.slice(shown,shown+PAGE).map(cardHtml).join(''));shown+=PAGE;$('moreBtn').style.display=shown<list.length?'block':'none';}
+function rainbows(){
+ if(rbDone)return;rbDone=true;var g={};
+ C.forEach(function(c){var k=c.y+'|'+c.set+'|'+c.num+'|'+c.n;(g[k]=g[k]||[]).push(c);});
+ var groups=Object.keys(g).map(function(k){return {k:k,a:g[k]};}).filter(function(x){return x.a.length>=2;}).sort(function(x,y){return y.a.length-x.a.length||sum(y.a)-sum(x.a);});
+ $('rbIntro').textContent=groups.length+' cards where Mason owns 2 or more versions (parallels). Missing parallels are listed where HCI has the full checklist.';
+ $('rbList').innerHTML=groups.map(function(x){var a=x.a.slice().sort(function(p,q){if(!p.sn&&!q.sn)return 0;if(!p.sn)return -1;if(!q.sn)return 1;return q.sn-p.sn;});var c=a[0];
+  var miss=RB[x.k]&&RB[x.k].length?'<div class="miss">Still missing ('+(RB[x.k].length>=40?'40+':RB[x.k].length)+'): '+RB[x.k].map(esc).join(', ')+'</div>':'';
+  return '<div class="rb"><b>'+esc(c.n)+'</b> · '+esc(c.set)+' #'+esc(c.num)+' · <b>'+a.length+' versions</b> · '+money(sum(a))+'<div class="strip">'+a.map(function(v){return '<div><img loading="lazy" src="'+esc(v.f)+'" alt=""><br>'+esc(v.par||'Base')+(v.sn?' /'+v.sn:'')+'<br>'+(v.p!=null?money(v.p):'—')+'</div>';}).join('')+'</div>'+miss+'</div>';}).join('');
+}
+function history_(){
+ if(H.length<2){$('chart').textContent='Not enough history yet.';}else{
+  var W=900,Ht=260,pad=50,mx=Math.max.apply(null,H.map(function(h){return h.total;})),mn=Math.min.apply(null,H.map(function(h){return h.total;}));
+  var X=function(i){return pad+i*(W-2*pad)/(H.length-1);},Y=function(v){return Ht-pad+ -(v-mn)/((mx-mn)||1)*(Ht-2*pad);};
+  var pts=H.map(function(h,i){return X(i).toFixed(1)+','+Y(h.total).toFixed(1);}).join(' ');
+  var dots=H.map(function(h,i){return '<circle cx="'+X(i).toFixed(1)+'" cy="'+Y(h.total).toFixed(1)+'" r="4" fill="#df4601"><title>'+h.d+': '+money(h.total)+' ('+h.count+' cards)</title></circle>';}).join('');
+  $('chart').innerHTML='<b>Collection value over time</b> <span style="font-size:12px;color:#666">(CollX values the site showed each week; tap a dot)</span>'+
+  '<svg viewBox="0 0 '+W+' '+Ht+'" style="width:100%;height:auto"><polyline fill="none" stroke="#df4601" stroke-width="3" points="'+pts+'"/>'+dots+
+  '<text x="'+pad+'" y="'+(Ht-15)+'" font-size="13">'+H[0].d+'</text><text x="'+(W-pad)+'" y="'+(Ht-15)+'" font-size="13" text-anchor="end">'+H[H.length-1].d+'</text>'+
+  '<text x="5" y="'+(Y(mx)+5)+'" font-size="12">'+money(mx)+'</text><text x="5" y="'+(Y(mn)+5)+'" font-size="12">'+money(mn)+'</text></svg>'+
+  '<div style="font-size:13px">With the new HCI pricing, today\'s value is <b>'+money(sum(C))+'</b>.</div>';}
+ var mv=M.movers;
+ if(!mv){$('movers').innerHTML='<p>Biggest movers start after next week\'s update. Every card now has a permanent CollX ID, so each week the site can compare each card\'s price to the week before.</p>';return;}
+ var row=function(m){return '<tr><td>'+esc(m.n)+'<br><small>'+esc(m.set)+(m.par?' · '+esc(m.par):'')+'</small></td><td>'+money(m.from)+' → '+money(m.to)+'</td><td class="'+(m.d>=0?'up':'dn')+'">'+(m.d>=0?'+':'')+money(m.d).replace('$-','-$')+'</td></tr>';};
+ $('movers').innerHTML='<p style="font-size:13px">Compared with '+esc(M.priorDate)+'</p><div class="mv"><table><tr><th colspan="3">Biggest gains</th></tr>'+mv.up.map(row).join('')+'</table><table><tr><th colspan="3">Biggest drops</th></tr>'+mv.down.map(row).join('')+'</table></div>';
+}
+if(sessionStorage.getItem('mbcPrev')==='1')openApp();
+</script></body></html>
