@@ -140,7 +140,7 @@ function init(){
 function cardHtml(c){
  var bd='';(c.tags||[]).forEach(function(t){bd+='<span class="b-'+esc(t)+'">'+esc(t==='MEM'?'RELIC':t==='AU'?'AUTO':t)+'</span>';});
  if(c.sn)bd+='<span class="b-SN">/'+c.sn+'</span>';if(c.gr)bd+='<span class="b-GR">'+esc(c.cond)+'</span>';if(c.isNew)bd+='<span class="b-NEW">NEW</span>';
- var src=c.src==='HCI'?'HCI · '+c.hv+' sales'+(c.stale?' (last seen '+c.stale+')':''):(c.src==='CollX'?(c.p>100?'CollX · unverified':'CollX'):'No price yet');
+ var src=c.src==='HCI'?'HCI · '+c.hv+(c.hv==1?' sale':' sales')+(c.stale?' (last seen '+c.stale+')':''):(c.src==='CollX'?(c.p>100?'CollX · unverified':'CollX'):c.src==='Placeholder'?'Placeholder value':c.src==='Web'?'Web estimate'+(c.note?' · '+c.note:''):'No price yet');
  if(c.hold!=null)src+=' · last week\'s price (new '+money(c.hold)+' being checked)';
  if(c.src==='HCI'&&c.hu)src='<a href="'+esc(c.hu)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">'+src+'</a>';
  var tier=(c.sn&&c.sn<=10)?' t-ssp':((c.sn&&c.sn<=50)||(c.tags||[]).indexOf('AU')>=0)?' t-rare':'';
